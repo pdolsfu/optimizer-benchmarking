@@ -1,0 +1,512 @@
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:22:52 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:22:52: quiet- JEGA Front End: Random seed = 1
+14:22:52: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:22:52: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:23:17 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:23:17: quiet- JEGA Front End: Random seed = 1
+14:23:17: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:23:17: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:23:23: quiet- duplicate_free: 1 generation so far.
+14:23:23: quiet- duplicate_free: 50 evaluations so far.
+14:23:27: quiet- duplicate_free: 2 generations so far.
+14:23:27: quiet- duplicate_free: 88 evaluations so far.
+14:23:31: quiet- duplicate_free: 3 generations so far.
+14:23:31: quiet- duplicate_free: 122 evaluations so far.
+14:23:35: quiet- duplicate_free: 4 generations so far.
+14:23:35: quiet- duplicate_free: 154 evaluations so far.
+14:23:38: quiet- duplicate_free: 5 generations so far.
+14:23:38: quiet- duplicate_free: 181 evaluations so far.
+14:23:41: quiet- duplicate_free: 6 generations so far.
+14:23:41: quiet- duplicate_free: 204 evaluations so far.
+14:23:43: quiet- duplicate_free: 7 generations so far.
+14:23:43: quiet- duplicate_free: 227 evaluations so far.
+14:23:46: quiet- duplicate_free: 8 generations so far.
+14:23:46: quiet- duplicate_free: 246 evaluations so far.
+14:23:46: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:23:46: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.252724 0.125095 0.00161748 0.0801111 0.806238 0.0587176 0.336406 0.115604 0.553209 0.0142521
+0.252724 0.125095 0.00161748 0.181097 0.806238 0.852626 0.336406 0.115604 0.398602 0.0142521
+0.252724 0.125095 0.0310678 0.225562 0.154881 0.852626 0.152654 0.115604 0.398602 0.0142521
+0.274972 0.144475 0.00161748 0.568743 0.154881 0.852626 0.0559099 0.272897 0.553209 0.0237434
+0.274972 0.144475 0.0310678 0.0610065 0.154881 0.2537 0.152654 0.272897 0.171789 0.0505081
+0.274972 0.144475 0.0310678 0.568743 0.154881 0.852626 0.721915 0.115604 0.425153 0.0142521
+0.274972 0.385235 0.00161748 0.225562 0.154881 0.160192 0.152654 0.115604 0.171789 0.0505081
+0.274972 0.385235 0.0310678 0.225562 0.154881 0.908261 0.0559099 0.272897 0.425153 0.0237434
+0.398694 0.385235 0.0310678 0.0610065 0.402417 0.2537 0.13654 0.272897 0.12302 0.0505081
+0.545091 0.125095 0.14481 0.298746 0.109592 0.394513 0.336406 0.323038 0.398602 0.0142521
+0.545091 0.385235 0.00161748 0.298746 0.109592 0.392438 0.336406 0.323038 0.398602 0.0237434
+
+14:23:46: quiet- duplicate_free: encountered and flushed 11 ill-conditioned designs after evaluation of children.
+14:23:46: quiet- duplicate_free: 9 generations so far.
+14:23:46: quiet- duplicate_free: 250 evaluations so far.
+14:23:46: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:23:46: quiet- NO_METHOD_ID: Final population size = 4
+14:23:46: quiet- JEGA Front End: NO_METHOD_ID execution took 28.992 seconds.
+14:23:46: quiet- JEGA Front End: Execution took 28.992 seconds.
+14:23:46: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:23:46 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:23:46: quiet- JEGA Front End: Random seed = 2
+14:23:46: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:23:46: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:23:52: quiet- duplicate_free: 1 generation so far.
+14:23:52: quiet- duplicate_free: 50 evaluations so far.
+14:23:56: quiet- duplicate_free: 2 generations so far.
+14:23:56: quiet- duplicate_free: 89 evaluations so far.
+14:24:00: quiet- duplicate_free: 3 generations so far.
+14:24:00: quiet- duplicate_free: 120 evaluations so far.
+14:24:04: quiet- duplicate_free: 4 generations so far.
+14:24:04: quiet- duplicate_free: 152 evaluations so far.
+14:24:07: quiet- duplicate_free: 5 generations so far.
+14:24:07: quiet- duplicate_free: 178 evaluations so far.
+14:24:09: quiet- duplicate_free: 6 generations so far.
+14:24:09: quiet- duplicate_free: 201 evaluations so far.
+14:24:12: quiet- duplicate_free: 7 generations so far.
+14:24:12: quiet- duplicate_free: 221 evaluations so far.
+14:24:14: quiet- duplicate_free: 8 generations so far.
+14:24:14: quiet- duplicate_free: 241 evaluations so far.
+14:24:15: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:24:15: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.0836818 0.101627 0.475875 0.0520035 0.203711 0.108493 0.162542 0.677877 0.465285 0.148015
+0.0836818 0.126591 0.475875 0.900998 0.00375378 0.594928 0.354198 0.0628071 0.143986 0.223273
+0.0836818 0.126591 0.475875 0.900998 0.203711 0.594928 0.727378 0.0628071 0.143986 0.101291
+0.0836818 0.126591 0.475875 0.900998 0.203711 0.594928 0.727378 0.677877 0.143986 0.101291
+0.0836818 0.492111 0.475875 0.900998 0.137455 0.594928 0.217566 0.0628071 0.143986 0.148015
+0.557482 0.101627 0.398358 0.00790429 0.436964 0.108493 0.167486 0.19895 0.0450758 0.148015
+0.955412 0.055269 0.475875 0.0569475 0.203711 0.108493 0.167486 0.19895 0.465285 0.10651
+
+14:24:15: quiet- duplicate_free: encountered and flushed 7 ill-conditioned designs after evaluation of children.
+14:24:15: quiet- duplicate_free: 9 generations so far.
+14:24:15: quiet- duplicate_free: 250 evaluations so far.
+14:24:15: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:24:15: quiet- NO_METHOD_ID: Final population size = 5
+14:24:15: quiet- JEGA Front End: NO_METHOD_ID execution took 28.906 seconds.
+14:24:15: quiet- JEGA Front End: Execution took 28.906 seconds.
+14:24:15: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:24:15 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:24:15: quiet- JEGA Front End: Random seed = 3
+14:24:15: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:24:15: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:24:21: quiet- duplicate_free: 1 generation so far.
+14:24:21: quiet- duplicate_free: 50 evaluations so far.
+14:24:25: quiet- duplicate_free: 2 generations so far.
+14:24:25: quiet- duplicate_free: 89 evaluations so far.
+14:24:29: quiet- duplicate_free: 3 generations so far.
+14:24:29: quiet- duplicate_free: 123 evaluations so far.
+14:24:33: quiet- duplicate_free: 4 generations so far.
+14:24:33: quiet- duplicate_free: 153 evaluations so far.
+14:24:36: quiet- duplicate_free: 5 generations so far.
+14:24:36: quiet- duplicate_free: 178 evaluations so far.
+14:24:38: quiet- duplicate_free: 6 generations so far.
+14:24:38: quiet- duplicate_free: 202 evaluations so far.
+14:24:41: quiet- duplicate_free: 7 generations so far.
+14:24:41: quiet- duplicate_free: 225 evaluations so far.
+14:24:43: quiet- duplicate_free: 8 generations so far.
+14:24:43: quiet- duplicate_free: 245 evaluations so far.
+14:24:44: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:24:44: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.0845363 0.0919523 0.0496231 0.336406 0.072512 0.155309 0.0514542 0.295083 0.471145 0.373424
+0.0845363 0.0919523 0.140477 0.120792 0.0279244 0.243355 0.206214 0.295083 0.471145 0.373424
+0.0845363 0.143895 0.642933 0.120792 0.0279244 0.0187078 0.113926 0.967925 0.177313 0.131474
+0.0845363 0.15482 0.140477 0.336406 0.0279244 0.155309 0.0514542 0.295083 0.471145 0.0916776
+0.0845363 0.191382 0.0496231 0.101352 0.124516 0.3726 0.0514542 0.817255 0.202094 0.232887
+0.0845363 0.860561 0.388012 0.120792 0.0279244 0.967284 0.0514542 0.282266 0.177313 0.33607
+0.0960112 0.0776391 0.0992462 0.101352 0.0279244 0.0187078 0.113926 0.295083 0.177313 0.0916776
+0.0960112 0.0776391 0.642933 0.101352 0.0279244 0.3726 0.113926 0.282266 0.590289 0.0916776
+0.0960112 0.143895 0.388012 0.101352 0.0279244 0.967284 0.031312 0.295083 0.26841 0.33607
+0.0960112 0.143895 0.642933 0.120792 0.0279244 0.3726 0.113926 0.282266 0.590289 0.131474
+0.0960112 0.348338 0.140477 0.120792 0.0279244 0.155309 0.113926 0.295083 0.177313 0.0916776
+0.280404 0.143895 0.388012 0.120792 0.0279244 0.243355 0.113926 0.295083 0.177313 0.486129
+0.330515 0.0776391 0.0992462 0.101352 0.0279244 0.0187078 0.113926 0.967925 0.177313 0.0916776
+
+14:24:44: quiet- duplicate_free: encountered and flushed 13 ill-conditioned designs after evaluation of children.
+14:24:44: quiet- duplicate_free: 9 generations so far.
+14:24:44: quiet- duplicate_free: 250 evaluations so far.
+14:24:44: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:24:44: quiet- NO_METHOD_ID: Final population size = 1
+14:24:44: quiet- JEGA Front End: NO_METHOD_ID execution took 28.766 seconds.
+14:24:44: quiet- JEGA Front End: Execution took 28.766 seconds.
+14:24:44: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:24:44 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:24:44: quiet- JEGA Front End: Random seed = 4
+14:24:44: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:24:44: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:24:50: quiet- duplicate_free: 1 generation so far.
+14:24:50: quiet- duplicate_free: 50 evaluations so far.
+14:24:54: quiet- duplicate_free: 2 generations so far.
+14:24:54: quiet- duplicate_free: 87 evaluations so far.
+14:24:58: quiet- duplicate_free: 3 generations so far.
+14:24:58: quiet- duplicate_free: 121 evaluations so far.
+14:25:02: quiet- duplicate_free: 4 generations so far.
+14:25:02: quiet- duplicate_free: 153 evaluations so far.
+14:25:05: quiet- duplicate_free: 5 generations so far.
+14:25:05: quiet- duplicate_free: 179 evaluations so far.
+14:25:07: quiet- duplicate_free: 6 generations so far.
+14:25:07: quiet- duplicate_free: 202 evaluations so far.
+14:25:10: quiet- duplicate_free: 7 generations so far.
+14:25:10: quiet- duplicate_free: 224 evaluations so far.
+14:25:12: quiet- duplicate_free: 8 generations so far.
+14:25:12: quiet- duplicate_free: 244 evaluations so far.
+14:25:13: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:25:13: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.0645161 0.48851 0.627125 0.464278 0.0176702 0.174352 0.0821253 0.101901 0.00592059 0.236305
+0.0645161 0.48851 0.627125 0.464278 0.0176702 0.174352 0.0863979 0.552538 0.147069 0.0472427
+0.0928678 0.263802 0.510971 0.379101 0.0730918 0.262947 0.58034 0.290231 0.48912 0.312754
+0.0928678 0.48851 0.0206305 0.379101 0.0730918 0.312754 0.0863979 0.552538 0.48912 0.496689
+0.0928678 0.48851 0.0206305 0.464278 0.0730918 0.262947 0.0863979 0.552538 0.48912 0.239418
+0.0928678 0.48851 0.172338 0.145787 0.0730918 0.262947 0.0863979 0.590503 0.48912 0.0472427
+0.0928678 0.48851 0.510971 0.292184 0.204016 0.312754 0.0863979 0.290231 0.48912 0.0472427
+0.0928678 0.48851 0.627125 0.464278 0.0730918 0.262947 0.0863979 0.590503 0.480148 0.0472427
+0.420118 0.183447 0.0789514 0.202857 0.0112003 0.0621052 0.0863979 0.124882 0.036195 0.236305
+0.420118 0.183447 0.862941 0.202857 0.0176702 0.174352 0.0821253 0.101901 0.147069 0.0472427
+0.420118 0.207984 0.862941 0.283914 0.0112003 0.0621052 0.0306711 0.124882 0.036195 0.236305
+
+14:25:13: quiet- duplicate_free: encountered and flushed 11 ill-conditioned designs after evaluation of children.
+14:25:13: quiet- duplicate_free: 9 generations so far.
+14:25:13: quiet- duplicate_free: 250 evaluations so far.
+14:25:13: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:25:13: quiet- NO_METHOD_ID: Final population size = 3
+14:25:13: quiet- JEGA Front End: NO_METHOD_ID execution took 28.893 seconds.
+14:25:13: quiet- JEGA Front End: Execution took 28.893 seconds.
+14:25:13: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:25:13 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:25:13: quiet- JEGA Front End: Random seed = 5
+14:25:13: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:25:13: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:25:19: quiet- duplicate_free: 1 generation so far.
+14:25:19: quiet- duplicate_free: 50 evaluations so far.
+14:25:23: quiet- duplicate_free: 2 generations so far.
+14:25:23: quiet- duplicate_free: 87 evaluations so far.
+14:25:27: quiet- duplicate_free: 3 generations so far.
+14:25:27: quiet- duplicate_free: 121 evaluations so far.
+14:25:30: quiet- duplicate_free: 4 generations so far.
+14:25:30: quiet- duplicate_free: 153 evaluations so far.
+14:25:33: quiet- duplicate_free: 5 generations so far.
+14:25:33: quiet- duplicate_free: 179 evaluations so far.
+14:25:36: quiet- duplicate_free: 6 generations so far.
+14:25:36: quiet- duplicate_free: 201 evaluations so far.
+14:25:39: quiet- duplicate_free: 7 generations so far.
+14:25:39: quiet- duplicate_free: 225 evaluations so far.
+14:25:42: quiet- duplicate_free: 8 generations so far.
+14:25:42: quiet- duplicate_free: 249 evaluations so far.
+14:25:42: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:25:42: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.0788903 0.268746 0.052797 0.177435 0.345836 0.0868557 0.0859706 0.0790124 0.0534684 0.0375683
+0.0788903 0.268746 0.21131 0.533341 0.0130009 0.644795 0.0342418 0.40965 0.0788293 0.543901
+0.0894803 0.268746 0.21131 0.144292 0.470779 0.582232 0.0859706 0.40965 0.103824 0.601489
+0.270333 0.202277 0.21131 0.200415 0.24839 0.0868557 0.0859706 0.163823 0.0534684 0.601489
+0.270333 0.254097 0.21131 0.314859 0.470779 0.000915555 0.0155034 0.129521 0.0113834 0.0955535
+0.270333 0.268746 0.0839564 0.144292 0.470779 0.582232 0.0155034 0.40965 0.0788293 0.601489
+0.270333 0.335459 0.052797 0.177435 0.470779 0.000915555 0.0155034 0.129521 0.0113834 0.0955535
+0.270333 0.615925 0.0839564 0.533341 0.0130009 0.552873 0.0155034 0.0317698 0.0788293 0.0375683
+0.270333 0.615925 0.0839564 0.533341 0.470779 0.552873 0.0342418 0.0317698 0.0788293 0.601489
+0.270333 0.864315 0.0839564 0.533341 0.0130009 0.0902127 0.0155034 0.0317698 0.0788293 0.0375683
+0.270333 0.864315 0.0839564 0.533341 0.0130009 0.502029 0.0342418 0.40965 0.0788293 0.0375683
+0.382 0.254097 0.052797 0.137852 0.470779 0.000915555 0.0155034 0.0317698 0.0113834 0.0955535
+0.382 0.254097 0.311777 0.177435 0.470779 0.000915555 0.0155034 0.0317698 0.0113834 0.0955535
+0.59151 0.268746 0.21131 0.144292 0.470779 0.0868557 0.116611 0.40965 0.0788293 0.543901
+0.59151 0.268746 0.453108 0.0281381 0.0130009 0.0868557 0.116611 0.310617 0.103824 0.601489
+0.689444 0.254097 0.21131 0.533341 0.470779 0.582232 0.0155034 0.40965 0.0113834 0.0955535
+0.689444 0.268746 0.21131 0.533341 0.0130009 0.284371 0.0155034 0.129521 0.0113834 0.0955535
+0.870876 0.254097 0.052797 0.177435 0.470779 0.000915555 0.0155034 0.382794 0.0534684 0.0955535
+0.870876 0.254097 0.052797 0.389172 0.470779 0.000915555 0.0155034 0.129521 0.0113834 0.400769
+0.870876 0.254097 0.052797 0.455794 0.345836 0.0868557 0.0859706 0.455306 0.0534684 0.0955535
+0.870876 0.254097 0.052797 0.533341 0.470779 0.284371 0.0155034 0.0317698 0.0113834 0.0955535
+0.870876 0.615925 0.052797 0.177435 0.470779 0.552873 0.0155034 0.129521 0.0113834 0.0955535
+
+14:25:42: quiet- duplicate_free: encountered and flushed 22 ill-conditioned designs after evaluation of children.
+14:25:42: quiet- duplicate_free: 9 generations so far.
+14:25:42: quiet- duplicate_free: 250 evaluations so far.
+14:25:42: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:25:42: quiet- NO_METHOD_ID: Final population size = 4
+14:25:42: quiet- JEGA Front End: NO_METHOD_ID execution took 29.377 seconds.
+14:25:42: quiet- JEGA Front End: Execution took 29.377 seconds.
+14:25:42: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:25:42 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:25:42: quiet- JEGA Front End: Random seed = 6
+14:25:42: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:25:42: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:25:48: quiet- duplicate_free: 1 generation so far.
+14:25:48: quiet- duplicate_free: 50 evaluations so far.
+14:25:53: quiet- duplicate_free: 2 generations so far.
+14:25:53: quiet- duplicate_free: 89 evaluations so far.
+14:25:56: quiet- duplicate_free: 3 generations so far.
+14:25:56: quiet- duplicate_free: 123 evaluations so far.
+14:26:00: quiet- duplicate_free: 4 generations so far.
+14:26:00: quiet- duplicate_free: 152 evaluations so far.
+14:26:03: quiet- duplicate_free: 5 generations so far.
+14:26:03: quiet- duplicate_free: 179 evaluations so far.
+14:26:06: quiet- duplicate_free: 6 generations so far.
+14:26:06: quiet- duplicate_free: 201 evaluations so far.
+14:26:08: quiet- duplicate_free: 7 generations so far.
+14:26:08: quiet- duplicate_free: 224 evaluations so far.
+14:26:10: quiet- duplicate_free: 8 generations so far.
+14:26:10: quiet- duplicate_free: 244 evaluations so far.
+14:26:11: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:26:11: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.0773949 0.980865 0.0446486 0.627186 0.427412 0.0557878 0.0241707 0.0109867 0.0895108 0.24012
+0.0773949 0.980865 0.127171 0.627186 0.427412 0.76339 0.0241707 0.0109867 0.0895108 0.24012
+0.0773949 0.980865 0.165044 0.0103763 0.427412 0.0557878 0.0241707 0.0109867 0.572039 0.10538
+0.229408 0.079165 0.165044 0.0103763 0.112339 0.0685141 0.893368 0.0109867 0.205878 0.24012
+0.229408 0.200323 0.0446486 0.0886563 0.18131 0.468215 0.893368 0.0109867 0.205878 0.24012
+0.229408 0.980865 0.165044 0.0672323 0.397748 0.0685141 0.517014 0.0109867 0.0895108 0.24012
+0.229408 0.980865 0.165044 0.0886563 0.18131 0.0557878 0.0241707 0.0851466 0.205878 0.10538
+0.246895 0.079165 0.165044 0.0103763 0.112339 0.0685141 0.517014 0.0109867 0.572039 0.24012
+0.246895 0.079165 0.165044 0.0103763 0.427412 0.55208 0.517014 0.0109867 0.108524 0.371197
+0.246895 0.980865 0.165044 0.0103763 0.427412 0.0557878 0.517014 0.100009 0.108524 0.10538
+0.268899 0.079165 0.0700705 0.0103763 0.592059 0.717948 0.517014 0.209449 0.613941 0.10538
+0.268899 0.110385 0.0446486 0.0103763 0.592059 0.717948 0.11243 0.209449 0.613941 0.10538
+
+14:26:11: quiet- duplicate_free: encountered and flushed 12 ill-conditioned designs after evaluation of children.
+14:26:11: quiet- duplicate_free: 9 generations so far.
+14:26:11: quiet- duplicate_free: 250 evaluations so far.
+14:26:11: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:26:11: quiet- NO_METHOD_ID: Final population size = 1
+14:26:11: quiet- JEGA Front End: NO_METHOD_ID execution took 28.989 seconds.
+14:26:11: quiet- JEGA Front End: Execution took 28.989 seconds.
+14:26:11: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:26:11 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:26:11: quiet- JEGA Front End: Random seed = 7
+14:26:11: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:26:11: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:26:17: quiet- duplicate_free: 1 generation so far.
+14:26:17: quiet- duplicate_free: 50 evaluations so far.
+14:26:22: quiet- duplicate_free: 2 generations so far.
+14:26:22: quiet- duplicate_free: 89 evaluations so far.
+14:26:25: quiet- duplicate_free: 3 generations so far.
+14:26:25: quiet- duplicate_free: 122 evaluations so far.
+14:26:29: quiet- duplicate_free: 4 generations so far.
+14:26:29: quiet- duplicate_free: 151 evaluations so far.
+14:26:32: quiet- duplicate_free: 5 generations so far.
+14:26:32: quiet- duplicate_free: 178 evaluations so far.
+14:26:35: quiet- duplicate_free: 6 generations so far.
+14:26:35: quiet- duplicate_free: 203 evaluations so far.
+14:26:37: quiet- duplicate_free: 7 generations so far.
+14:26:37: quiet- duplicate_free: 226 evaluations so far.
+14:26:40: quiet- duplicate_free: 8 generations so far.
+14:26:40: quiet- duplicate_free: 245 evaluations so far.
+14:26:40: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:26:40: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.0819117 0.0125126 0.269143 0.00784326 0.437422 0.243812 0.0994293 0.151189 0.033784 0.0963775
+0.0819117 0.0125126 0.269143 0.00784326 0.437422 0.243812 0.32899 0.151189 0.033784 0.0191961
+0.0819117 0.280313 0.001648 0.289071 0.0969268 0.352977 0.433393 0.0390027 0.431532 0.184301
+0.0819117 0.280313 0.001648 0.289071 0.0969268 0.576983 0.32899 0.655538 0.431532 0.184301
+0.0819117 0.280313 0.269143 0.1742 0.462233 0.576983 0.32899 0.0390027 0.033784 0.184301
+0.0819117 0.367565 0.269143 0.00784326 0.303507 0.576983 0.32899 0.151189 0.033784 0.184301
+0.0819117 0.367565 0.269143 0.00784326 0.437422 0.897671 0.0994293 0.0390027 0.033784 0.0191961
+0.581622 0.0125126 0.809259 0.00784326 0.599292 0.376202 0.032136 0.151189 0.033784 0.184301
+0.581622 0.0125126 0.809656 0.289071 0.303507 0.410535 0.32899 0.655538 0.033784 0.0963775
+0.581622 0.183935 0.809656 0.289071 0.303507 0.352977 0.032136 0.655538 0.033784 0.494888
+0.581622 0.367565 0.269143 0.00784326 0.00497452 0.376202 0.287759 0.151189 0.033784 0.612079
+
+14:26:40: quiet- duplicate_free: encountered and flushed 11 ill-conditioned designs after evaluation of children.
+14:26:40: quiet- duplicate_free: 9 generations so far.
+14:26:40: quiet- duplicate_free: 250 evaluations so far.
+14:26:40: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:26:40: quiet- NO_METHOD_ID: Final population size = 1
+14:26:40: quiet- JEGA Front End: NO_METHOD_ID execution took 28.995 seconds.
+14:26:40: quiet- JEGA Front End: Execution took 28.995 seconds.
+14:26:40: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:26:40 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:26:40: quiet- JEGA Front End: Random seed = 8
+14:26:40: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:26:40: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:26:46: quiet- duplicate_free: 1 generation so far.
+14:26:46: quiet- duplicate_free: 50 evaluations so far.
+14:26:51: quiet- duplicate_free: 2 generations so far.
+14:26:51: quiet- duplicate_free: 89 evaluations so far.
+14:26:55: quiet- duplicate_free: 3 generations so far.
+14:26:55: quiet- duplicate_free: 123 evaluations so far.
+14:26:58: quiet- duplicate_free: 4 generations so far.
+14:26:58: quiet- duplicate_free: 151 evaluations so far.
+14:27:01: quiet- duplicate_free: 5 generations so far.
+14:27:01: quiet- duplicate_free: 178 evaluations so far.
+14:27:04: quiet- duplicate_free: 6 generations so far.
+14:27:04: quiet- duplicate_free: 202 evaluations so far.
+14:27:06: quiet- duplicate_free: 7 generations so far.
+14:27:06: quiet- duplicate_free: 223 evaluations so far.
+14:27:08: quiet- duplicate_free: 8 generations so far.
+14:27:08: quiet- duplicate_free: 241 evaluations so far.
+14:27:09: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:27:09: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.0791345 0.467696 0.144658 0.154759 0.695486 0.216224 0.0243843 0.0697653 0.320719 0.14835
+0.0791345 0.467696 0.144658 0.237556 0.0260323 0.0215461 0.375103 0.610858 0.222968 0.14835
+0.0791345 0.554033 0.200568 0.154759 0.0260323 0.0215461 0.496048 0.610858 0.222968 0.0303659
+0.0791345 0.554033 0.279763 0.237556 0.0260323 0.216224 0.375103 0.610858 0.222968 0.142003
+0.275094 0.28959 0.215644 0.237556 0.0260323 0.216224 0.0682089 0.0697653 0.222968 0.142003
+0.275094 0.28959 0.215644 0.237556 0.0260323 0.216224 0.0682089 0.0697653 0.491775 0.14835
+0.519944 0.194403 0.215644 0.348064 0.0260323 0.216224 0.0682089 0.0697653 0.222968 0.142003
+0.781182 0.554033 0.279763 0.154759 0.0260323 0.0215461 0.375103 0.610858 0.222968 0.0303659
+
+14:27:09: quiet- duplicate_free: encountered and flushed 8 ill-conditioned designs after evaluation of children.
+14:27:09: quiet- duplicate_free: 9 generations so far.
+14:27:09: quiet- duplicate_free: 250 evaluations so far.
+14:27:09: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:27:09: quiet- NO_METHOD_ID: Final population size = 4
+14:27:09: quiet- JEGA Front End: NO_METHOD_ID execution took 29.015 seconds.
+14:27:09: quiet- JEGA Front End: Execution took 29.015 seconds.
+14:27:09: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:27:09 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:27:09: quiet- JEGA Front End: Random seed = 9
+14:27:09: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:27:09: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:27:15: quiet- duplicate_free: 1 generation so far.
+14:27:15: quiet- duplicate_free: 50 evaluations so far.
+14:27:20: quiet- duplicate_free: 2 generations so far.
+14:27:20: quiet- duplicate_free: 89 evaluations so far.
+14:27:24: quiet- duplicate_free: 3 generations so far.
+14:27:24: quiet- duplicate_free: 123 evaluations so far.
+14:27:27: quiet- duplicate_free: 4 generations so far.
+14:27:27: quiet- duplicate_free: 155 evaluations so far.
+14:27:30: quiet- duplicate_free: 5 generations so far.
+14:27:30: quiet- duplicate_free: 182 evaluations so far.
+14:27:33: quiet- duplicate_free: 6 generations so far.
+14:27:33: quiet- duplicate_free: 207 evaluations so far.
+14:27:36: quiet- duplicate_free: 7 generations so far.
+14:27:36: quiet- duplicate_free: 228 evaluations so far.
+14:27:38: quiet- duplicate_free: 8 generations so far.
+14:27:38: quiet- duplicate_free: 245 evaluations so far.
+14:27:38: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:27:38: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.0803247 0.109409 0.0858486 0.290201 0.449019 0.205878 0.123386 0.547533 0.105686 0.577319
+0.0803247 0.109409 0.0858486 0.449446 0.385662 0.339274 0.123386 0.145299 0.355876 0.260384
+0.0803247 0.136143 0.0858486 0.383526 0.312601 0.205878 0.209296 0.329691 0.0414441 0.342082
+0.0965911 0.45027 0.0858486 0.290201 0.103214 0.205878 0.285195 0.786309 0.484237 0.245582
+0.716056 0.109409 0.0858486 0.290201 0.385662 0.205878 0.123386 0.145299 0.105686 0.342082
+0.716056 0.109409 0.0858486 0.419965 0.385662 0.205878 0.123386 0.145299 0.190832 0.342082
+0.898892 0.109409 0.0858486 0.290201 0.385662 0.339274 0.123386 0.145299 0.0414441 0.577319
+0.898892 0.109409 0.0858486 0.449446 0.449019 0.0854213 0.123386 0.117527 0.355876 0.342082
+0.898892 0.109409 0.0858486 0.449446 0.449019 0.0854213 0.123386 0.145299 0.0414441 0.260384
+0.898892 0.109409 0.568163 0.290201 0.312601 0.205878 0.209296 0.145299 0.190832 0.577319
+
+14:27:38: quiet- duplicate_free: encountered and flushed 10 ill-conditioned designs after evaluation of children.
+14:27:38: quiet- duplicate_free: 9 generations so far.
+14:27:38: quiet- duplicate_free: 250 evaluations so far.
+14:27:38: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:27:38: quiet- NO_METHOD_ID: Final population size = 3
+14:27:38: quiet- JEGA Front End: NO_METHOD_ID execution took 28.844 seconds.
+14:27:38: quiet- JEGA Front End: Execution took 28.844 seconds.
+14:27:38: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 14:27:38 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+14:27:38: quiet- JEGA Front End: Random seed = 10
+14:27:38: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+14:27:38: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+14:27:44: quiet- duplicate_free: 1 generation so far.
+14:27:44: quiet- duplicate_free: 50 evaluations so far.
+14:27:48: quiet- duplicate_free: 2 generations so far.
+14:27:48: quiet- duplicate_free: 89 evaluations so far.
+14:27:52: quiet- duplicate_free: 3 generations so far.
+14:27:52: quiet- duplicate_free: 118 evaluations so far.
+14:27:55: quiet- duplicate_free: 4 generations so far.
+14:27:55: quiet- duplicate_free: 146 evaluations so far.
+14:27:58: quiet- duplicate_free: 5 generations so far.
+14:27:58: quiet- duplicate_free: 171 evaluations so far.
+14:28:01: quiet- duplicate_free: 6 generations so far.
+14:28:01: quiet- duplicate_free: 198 evaluations so far.
+14:28:04: quiet- duplicate_free: 7 generations so far.
+14:28:04: quiet- duplicate_free: 223 evaluations so far.
+14:28:07: quiet- duplicate_free: 8 generations so far.
+14:28:07: quiet- duplicate_free: 248 evaluations so far.
+14:28:07: quiet- duplicate_free: Errors were encountered while evaluating the offspring designs
+14:28:07: quiet- NO_METHOD_ID: Design Variable Values for Ill-conditioned Designs:
+0.0849635 0.0435499 0.103702 0.306711 0.0197455 0.879421 0.917814 0.303415 0.259224 0.107761
+0.0849635 0.0435499 0.243019 0.235145 0.0197455 0.033845 0.542924 0.303415 0.126896 0.206091
+0.0849635 0.0435499 0.375835 0.11887 0.0197455 0.879421 0.917814 0.036317 0.341441 0.189917
+0.0849635 0.0435499 0.375835 0.306711 0.118778 0.879421 0.917814 0.036317 0.259224 0.189917
+0.0849635 0.11417 0.243019 0.235145 0.0197455 0.033845 0.542924 0.762627 0.341441 0.206091
+0.0849635 0.383007 0.243019 0.306711 0.0197455 0.133152 0.384228 0.036317 0.259224 0.132725
+0.0849635 0.383007 0.917447 0.453291 0.0197455 0.879421 0.917814 0.301492 0.341441 0.132725
+0.0849635 0.462752 0.375835 0.306711 0.0197455 0.879421 0.356456 0.036317 0.259224 0.206091
+0.0953398 0.11417 0.103702 0.11887 0.118778 0.033845 0.397656 0.303415 0.421003 0.107761
+0.0953398 0.11417 0.103702 0.11887 0.118778 0.033845 0.542924 0.303415 0.341441 0.107761
+0.0953398 0.462752 0.11536 0.306711 0.97528 0.1807 0.0744957 0.303415 0.341441 0.132725
+0.115024 0.462752 0.11536 0.11887 0.97528 0.1807 0.397656 0.303415 0.341441 0.107761
+0.410932 0.11417 0.103702 0.633839 0.0197455 0.033845 0.356456 0.303415 0.126896 0.189917
+0.410932 0.11417 0.103702 0.633839 0.0197455 0.033845 0.917814 0.303415 0.341441 0.189917
+0.60918 0.11417 0.103702 0.11887 0.118778 0.1807 0.397656 0.303415 0.421003 0.107761
+0.753868 0.11417 0.103702 0.0652181 0.118778 0.463698 0.347942 0.427747 0.126896 0.189917
+0.90463 0.11417 0.103702 0.235145 0.118778 0.033845 0.356456 0.303415 0.126896 0.189917
+0.90463 0.11417 0.103702 0.633839 0.118778 0.033845 0.476547 0.303415 0.126896 0.189917
+
+14:28:07: quiet- duplicate_free: encountered and flushed 18 ill-conditioned designs after evaluation of children.
+14:28:07: quiet- duplicate_free: 9 generations so far.
+14:28:07: quiet- duplicate_free: 250 evaluations so far.
+14:28:07: quiet- NO_METHOD_ID: Ran 9 total generations.
+14:28:07: quiet- NO_METHOD_ID: Final population size = 2
+14:28:07: quiet- JEGA Front End: NO_METHOD_ID execution took 29.178 seconds.
+14:28:07: quiet- JEGA Front End: Execution took 29.178 seconds.
+14:28:07: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
