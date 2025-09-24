@@ -1,0 +1,28 @@
+# This .in file optimizes the michalewicz10 problem with genie_opt_darts
+
+environment
+    tabular_data
+tabular_data_file  =  'results_genie_opt_darts10.dat'
+
+method 
+  genie_opt_darts       max_function_evaluations = 1000                          # genie_opt_darts
+seed  =  10
+	
+model
+   single
+
+variables  # modify variables if needed
+  continuous_design = 10
+    upper_bounds     10*3.141593
+    lower_bounds     10*0
+
+interface
+   analysis_drivers = 'python michalewicz_driver.py' #MICHALEWICZ
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses
+   objective_functions = 1
+   no_gradients
+   no_hessians
