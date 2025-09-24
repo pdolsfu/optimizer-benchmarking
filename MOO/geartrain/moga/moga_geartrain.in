@@ -1,0 +1,24 @@
+# optimizes geartrain with moga
+
+environment
+  tabular_data
+    tabular_data_file = 'results_moga10.dat'
+
+method
+  moga max_function_evaluations = 1000 # MOGA
+    seed  =  10
+
+variables # adjust number of variables
+  discrete_design_range = 4
+    lower_bounds = 4*12
+    upper_bounds = 4*60
+
+interface
+  fork
+    analysis_driver = 'python geartrain_driver.py'
+ 
+
+responses
+  num_objective_functions = 2
+  no_gradients
+  no_hessians
