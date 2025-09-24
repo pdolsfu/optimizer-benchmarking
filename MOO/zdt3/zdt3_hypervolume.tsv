@@ -1,0 +1,8 @@
+solver	hypervolume
+MOEAD	3.0432
+NSGA2	3.0218
+OMADS	4.865
+SPEA2	2.9867
+OASIS	4.9303
+ea	4.0371
+moga	2.9164
