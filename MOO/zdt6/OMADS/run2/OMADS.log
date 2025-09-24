@@ -1,0 +1,196 @@
+Preprocess the search step...
+---------------- Preprocess the SEARCH step ----------------
+- Reading the input dictionaries
+- Set the SEARCH configurations
+Preprocess the MADS algorithim...
+---------------- Preprocess the POLL step ----------------
+- Reading the input dictionaries
+- Set the POLL configurations
+------- Iteration # 1: Run the search step -------
+ Run completed in 0.0216 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  1, bbeval=  11, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [1.0, 0.0]
+------- Iteration # 1: Run the poll step -------
+"iteration=  1, bbeval=  28, psize=  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], hmin =  1e-30, status:  FEASIBLE , fmin =  [1.0, 0.0]
+ Run completed in 0.0513 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  1, bbeval=  28, psize=  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], hmin =  1e-30, status:  FEASIBLE , fmin =  [1.0, 0.0]
+------- Iteration # 2: Run the search step -------
+ Run completed in 0.0158 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  2, bbeval=  13, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [1.0, 0.0]
+------- Iteration # 2: Run the poll step -------
+"iteration=  2, bbeval=  13, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [1.0, 0.0]
+ Run completed in 0.0285 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  2, bbeval=  13, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [1.0, 0.0]
+------- Iteration # 3: Run the search step -------
+ Run completed in 0.0258 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  3, bbeval=  21, psize=  [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.948613031925568]
+------- Iteration # 3: Run the poll step -------
+"iteration=  3, bbeval=  79, psize=  [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.812447286398521]
+ Run completed in 0.0845 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  3, bbeval=  79, psize=  [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.812447286398521]
+------- Iteration # 4: Run the search step -------
+ Run completed in 0.0128 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  4, bbeval=  24, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.812447286398521]
+------- Iteration # 4: Run the poll step -------
+"iteration=  4, bbeval=  128, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.666127663710513]
+ Run completed in 0.0832 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  4, bbeval=  128, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.666127663710513]
+------- Iteration # 5: Run the search step -------
+ Run completed in 0.0092 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  5, bbeval=  25, psize=  [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.666127663710513]
+------- Iteration # 5: Run the poll step -------
+"iteration=  5, bbeval=  176, psize=  [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.50769390609871]
+ Run completed in 0.1307 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  5, bbeval=  176, psize=  [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.50769390609871]
+------- Iteration # 6: Run the search step -------
+ Run completed in 0.0082 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  5, bbeval=  176, psize=  [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.50769390609871]
+------- Iteration # 6: Run the poll step -------
+"iteration=  6, bbeval=  223, psize=  [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.423147071556281]
+ Run completed in 0.0809 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  6, bbeval=  223, psize=  [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.423147071556281]
+------- Iteration # 7: Run the search step -------
+ Run completed in 0.0079 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  6, bbeval=  223, psize=  [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.423147071556281]
+------- Iteration # 7: Run the poll step -------
+"iteration=  7, bbeval=  249, psize=  [8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.334516941208699]
+ Run completed in 0.0620 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  7, bbeval=  249, psize=  [8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0], hmin =  1e-30, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.334516941208699]
+
+--------------- Termination of MADS  ---------------
+Termination criterion hit: Evaluation budget is exhausted.
+----------------------------------------------------
+
+ --- MADS Run Summary--- 
+ Run completed in 0.7069 seconds
+ # of successful search steps = 0
+ # of successful poll steps = 0
+ Run completed in 0.7069 seconds
+ Random numbers generator's seed 2
+ xmin = [0.25, 0.0, 0.0, 0.0, 0.25, 0.25, 0.0, 0.25, 0.25, 0.25, 0.25, 0.25, 0.0, 0.25, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0.25, 0.0, 0.25, 0.0, 0.0, 0.25, 0.25, 0.0, 0.25, 0.25] 
+ hmin = 1e-30 
+ fmin [0.6321205588285577, 6.334516941208699]
+ Search step # BB evals =  25 
+ Poll step # BB evals =  250 
+ Total # BB evals =  275 
+ #iterations =  7 
+ psize = [16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0] 
+ psize_success = [16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0]
+ Hypervolume metric = 2.3303385524228903
+###################################################### 
+
+################# OMADS ver. 2401 #################### 
+
+############### 2025-08-11, 16:21:18 ################# 
+
+Preprocess the search step...
+---------------- Preprocess the SEARCH step ----------------
+- Reading the input dictionaries
+- Set the SEARCH configurations
+Preprocess the MADS algorithim...
+---------------- Preprocess the POLL step ----------------
+- Reading the input dictionaries
+- Set the POLL configurations
+------- Iteration # 1: Run the search step -------
+ Run completed in 0.0647 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  1, bbeval=  11, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [1.0, 0.0]
+------- Iteration # 1: Run the poll step -------
+"iteration=  1, bbeval=  28, psize=  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], hmin =  1e-15, status:  FEASIBLE , fmin =  [1.0, 0.0]
+ Run completed in 0.2124 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  1, bbeval=  28, psize=  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], hmin =  1e-15, status:  FEASIBLE , fmin =  [1.0, 0.0]
+------- Iteration # 2: Run the search step -------
+ Run completed in 0.0530 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  2, bbeval=  13, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [1.0, 0.0]
+------- Iteration # 2: Run the poll step -------
+"iteration=  2, bbeval=  13, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [1.0, 0.0]
+ Run completed in 0.0878 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  2, bbeval=  13, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [1.0, 0.0]
+------- Iteration # 3: Run the search step -------
+ Run completed in 0.1205 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  3, bbeval=  21, psize=  [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.948613031925568]
+------- Iteration # 3: Run the poll step -------
+"iteration=  3, bbeval=  79, psize=  [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.812447286398521]
+ Run completed in 0.2599 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  3, bbeval=  79, psize=  [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.812447286398521]
+------- Iteration # 4: Run the search step -------
+ Run completed in 0.0350 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  4, bbeval=  24, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.812447286398521]
+------- Iteration # 4: Run the poll step -------
+"iteration=  4, bbeval=  128, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.666127663710513]
+ Run completed in 0.2289 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  4, bbeval=  128, psize=  [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.666127663710513]
+------- Iteration # 5: Run the search step -------
+ Run completed in 0.0310 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  5, bbeval=  25, psize=  [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.666127663710513]
+------- Iteration # 5: Run the poll step -------
+"iteration=  5, bbeval=  176, psize=  [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.50769390609871]
+ Run completed in 0.2308 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  5, bbeval=  176, psize=  [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.50769390609871]
+------- Iteration # 6: Run the search step -------
+ Run completed in 0.0236 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  5, bbeval=  176, psize=  [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.50769390609871]
+------- Iteration # 6: Run the poll step -------
+"iteration=  6, bbeval=  223, psize=  [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.423147071556281]
+ Run completed in 0.2146 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  6, bbeval=  223, psize=  [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.423147071556281]
+------- Iteration # 7: Run the search step -------
+ Run completed in 0.0369 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  6, bbeval=  223, psize=  [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.423147071556281]
+------- Iteration # 7: Run the poll step -------
+"iteration=  7, bbeval=  249, psize=  [8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.334516941208699]
+ Run completed in 0.2000 seconds
+ Success status: SUCCESS_TYPES.US
+"iteration=  7, bbeval=  249, psize=  [8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0], hmin =  1e-15, status:  FEASIBLE , fmin =  [0.6321205588285577, 6.334516941208699]
+
+--------------- Termination of MADS  ---------------
+Termination criterion hit: Evaluation budget is exhausted.
+----------------------------------------------------
+
+ --- MADS Run Summary--- 
+ Run completed in 2.2023 seconds
+ # of successful search steps = 0
+ # of successful poll steps = 0
+ Run completed in 2.2023 seconds
+ Random numbers generator's seed 2
+ xmin = [0.25, 0.0, 0.0, 0.0, 0.25, 0.25, 0.0, 0.25, 0.25, 0.25, 0.25, 0.25, 0.0, 0.25, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0.25, 0.0, 0.25, 0.0, 0.0, 0.25, 0.25, 0.0, 0.25, 0.25] 
+ hmin = 1e-15 
+ fmin [0.6321205588285577, 6.334516941208699]
+ Search step # BB evals =  25 
+ Poll step # BB evals =  250 
+ Total # BB evals =  275 
+ #iterations =  7 
+ psize = [16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0] 
+ psize_success = [16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0]
+ Hypervolume metric = 2.3303385524228903
+###################################################### 
+
+################# OMADS ver. 2401 #################### 
+
+############### 2025-08-20, 16:32:05 ################# 
+
