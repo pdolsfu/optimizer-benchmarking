@@ -1,0 +1,28 @@
+# TEMPLATE for driver file, optimizes the rosenbrock10 problem with GENIE
+
+environment
+    tabular_data
+tabular_data_file  =  'results_GENIE10.dat'
+
+method 
+  genie_direct          max_function_evaluations = 1000                          # GENIE
+seed  =  10
+	
+model
+   single
+
+variables  # modify variables if needed
+  continuous_design = 10
+    upper_bounds     10*10
+    lower_bounds     10*-10
+
+interface
+   analysis_drivers = 'python rosenbrock_driver.py' #ROSEN
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses
+   objective_functions = 1
+   no_gradients
+   no_hessians

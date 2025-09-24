@@ -1,0 +1,29 @@
+# TEMPLATE for driver file, optimizes the rosenbrock10 problem with coliny_ea
+
+environment
+    tabular_data
+tabular_data_file  =  'results_ea10.dat'
+
+method 
+  coliny_ea             population_size  =  50 max_function_evaluations = 1000   # ea (coliny)
+seed  =  10
+	
+
+model
+   single
+
+variables  # modify variables if needed
+  continuous_design = 10
+    upper_bounds     10*10
+    lower_bounds     10*-10
+
+interface
+   analysis_drivers = 'python rosenbrock_driver.py' #ROSEN
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses
+   objective_functions = 1
+   no_gradients
+   no_hessians
