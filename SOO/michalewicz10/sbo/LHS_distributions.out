@@ -1,0 +1,36 @@
+1
+
+                                             * * * * * * * * *  L H S  * * * * * * * * *
+
+                                             LATIN HYPERCUBE AND RANDOM SAMPLING PROGRAM
+
+                                             * * * * * * * * * * * * * * * * * * * * * *
+
+
+    Run on  8/ 2/25 at  4:40:38.27 with LHS Version: 2.30 Release 1, Compiled May 31, 2001        
+
+
+0    Pecos::LHSDriver
+
+    Random Seed =          10
+
+    Number of Variables =  10
+
+    Number of Observations =  100
+0   The sample was written to the file: LHS_samples.out
+0   Input was read from the file: 
+1
+
+    Pecos::LHSDriver                                                                                                             
+
+    VARIABLE  DISTRIBUTION          RANGE            LABEL
+0       1        UNIFORM     0.00     TO   3.14                                                        
+0       2        UNIFORM     0.00     TO   3.14                                                        
+0       3        UNIFORM     0.00     TO   3.14                                                        
+0       4        UNIFORM     0.00     TO   3.14                                                        
+0       5        UNIFORM     0.00     TO   3.14                                                        
+0       6        UNIFORM     0.00     TO   3.14                                                        
+0       7        UNIFORM     0.00     TO   3.14                                                        
+0       8        UNIFORM     0.00     TO   3.14                                                        
+0       9        UNIFORM     0.00     TO   3.14                                                        
+0      10        UNIFORM     0.00     TO   3.14                                                        
