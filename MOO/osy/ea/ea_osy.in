@@ -1,0 +1,24 @@
+# optimizes osy with ea
+
+environment
+  tabular_data
+    tabular_data_file = 'results_ea10.dat'
+
+method
+  coliny_ea max_function_evaluations = 500 # ea
+    seed  =  10
+
+variables # adjust number of variables
+  continuous_design = 6
+    lower_bounds = 0 0 1 0 1 0
+    upper_bounds = 10 10 5 6 5 10
+
+interface
+  fork
+    analysis_driver = 'python osy_driver.py'
+ 
+responses
+   num_objective_functions = 2
+   nonlinear_inequality_constraints = 6
+   no_gradients
+   no_hessians

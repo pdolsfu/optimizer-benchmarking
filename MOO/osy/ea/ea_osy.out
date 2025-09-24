@@ -1,0 +1,400 @@
+Dakota version 6.21 released Nov. 14 2024.
+Repository revision ab97f19b0 (2024-11-11) built Nov 11 2024 19:31:35.
+Running serial Dakota executable in serial mode.
+Start time: Tue Aug 12 13:48:27 2025
+
+-----------------------
+Begin DAKOTA input file
+ea_osy.in
+-----------------------
+# optimizes osy with ea
+
+environment
+  tabular_data
+    tabular_data_file = 'results_ea1.dat'
+
+method
+  coliny_ea max_function_evaluations = 500 # ea
+    seed  =  1
+
+variables # adjust number of variables
+  continuous_design = 6
+    lower_bounds = 0 0 1 0 1 0
+    upper_bounds = 10 10 5 6 5 10
+
+interface
+  fork
+    analysis_driver = 'python osy_driver.py'
+ 
+responses
+   num_objective_functions = 2
+   nonlinear_inequality_constraints = 6
+   no_gradients
+   no_hessians
+---------------------
+End DAKOTA input file
+---------------------
+
+Using Dakota input file 'ea_osy.in'
+Writing new restart file 'dakota.rst'.
+
+Seed (user-specified) = 1
+
+>>>>> Executing environment.
+
+>>>>> Running coliny_ea iterator.
+
+---------------------
+Begin Evaluation    1
+---------------------
+Parameters for evaluation 1:
+                      5.0000000000e+00 cdv_1
+                      5.0000000000e+00 cdv_2
+                      3.0000000000e+00 cdv_3
+                      3.0000000000e+00 cdv_4
+                      3.0000000000e+00 cdv_5
+                      5.0000000000e+00 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_93a1bd9c C:\Users\cca465\AppData\Local\Temp\dakota_results_b58fb080
+
+Active response data for evaluation 1:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -2.4300000000e+02 obj_fn_1
+                      1.0200000000e+02 obj_fn_2
+                     -8.0000000000e+00 nln_ineq_con_1
+                      4.0000000000e+00 nln_ineq_con_2
+                     -2.0000000000e+00 nln_ineq_con_3
+                     -1.2000000000e+01 nln_ineq_con_4
+                     -1.0000000000e+00 nln_ineq_con_5
+                     -1.0000000000e+00 nln_ineq_con_6
+
+
+-2.4300000000e+02
+1.0200000000e+02
+-8.0000000000e+00
+4.0000000000e+00
+-2.0000000000e+00
+-1.2000000000e+01
+-1.0000000000e+00
+-1.0000000000e+00
+
+---------------------
+Begin Evaluation    2
+---------------------
+Parameters for evaluation 2:
+                      7.8263692594e-05 cdv_1
+                      1.3153778814e+00 cdv_2
+                      4.0224212888e+00 cdv_3
+                      2.7519007915e+00 cdv_4
+                      3.1310689496e+00 cdv_5
+                      2.1895918633e+00 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_64549a5b C:\Users\cca465\AppData\Local\Temp\dakota_results_a84f7c57
+
+Active response data for evaluation 2:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -1.1569511800e+02 obj_fn_1
+                      4.0080955000e+01 obj_fn_2
+                      6.8454400000e-01 nln_ineq_con_1
+                     -4.6845440000e+00 nln_ineq_con_2
+                     -6.8470000000e-01 nln_ineq_con_3
+                     -5.9460550000e+00 nln_ineq_con_4
+                     -2.0275400000e-01 nln_ineq_con_5
+                      1.7932290000e+00 nln_ineq_con_6
+
+
+-1.1569511800e+02
+4.0080955000e+01
+6.8454400000e-01
+-4.6845440000e+00
+-6.8470000000e-01
+-5.9460550000e+00
+-2.0275400000e-01
+1.7932290000e+00
+
+---------------------
+Begin Evaluation    3
+---------------------
+Parameters for evaluation 3:
+                      4.7044616214e-01 cdv_1
+                      6.7886471687e+00 cdv_2
+                      3.7171856233e+00 cdv_3
+                      5.6081573756e+00 cdv_4
+                      2.5340083100e+00 cdv_5
+                      5.1941637207e+00 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_9e484ff0 C:\Users\cca465\AppData\Local\Temp\dakota_results_69d42917
+
+Active response data for evaluation 3:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -9.3741965000e+01 obj_fn_1
+                      1.2497648300e+02 obj_fn_2
+                     -5.2590930000e+00 nln_ineq_con_1
+                      1.2590930000e+00 nln_ineq_con_2
+                      4.3182010000e+00 nln_ineq_con_3
+                     -2.1895495000e+01 nln_ineq_con_4
+                      2.1225130000e+00 nln_ineq_con_5
+                     -1.4113120000e+00 nln_ineq_con_6
+
+
+-9.3741965000e+01
+1.2497648300e+02
+-5.2590930000e+00
+1.2590930000e+00
+4.3182010000e+00
+-2.1895495000e+01
+2.1225130000e+00
+-1.4113120000e+00
+
+---------------------
+Begin Evaluation    4
+---------------------
+Parameters for evaluation 4:
+                      8.3096534611e+00 cdv_1
+                      3.4572110527e-01 cdv_2
+                      1.2138465402e+00 cdv_3
+                      3.1782011600e+00 cdv_4
+                      3.6845975363e+00 cdv_5
+                      7.6981862111e-02 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_15204200 C:\Users\cca465\AppData\Local\Temp\dakota_results_cd9eb0b1
+
+Active response data for evaluation 4:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -1.0059579560e+03 obj_fn_1
+                      9.4326435000e+01 obj_fn_2
+                     -6.6553750000e+00 nln_ineq_con_1
+                      2.6553750000e+00 nln_ineq_con_2
+                     -9.9639320000e+00 nln_ineq_con_3
+                      5.2724900000e+00 nln_ineq_con_4
+                      2.3685450000e+00 nln_ineq_con_5
+                      3.4543440000e+00 nln_ineq_con_6
+
+
+-1.0059579560e+03
+9.4326435000e+01
+-6.6553750000e+00
+2.6553750000e+00
+-9.9639320000e+00
+5.2724900000e+00
+2.3685450000e+00
+3.4543440000e+00
+
+---------------------
+Begin Evaluation    5
+---------------------
+Parameters for evaluation 5:
+                      3.8341565075e+00 cdv_1
+                      6.6842237519e-01 cdv_2
+                      2.6699438978e+00 cdv_3
+                      4.1206362742e+00 cdv_4
+                      3.3559065714e+00 cdv_5
+                      9.3043649473e+00 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_2934a682 C:\Users\cca465\AppData\Local\Temp\dakota_results_8c7a8123
+
+Active response data for evaluation 5:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -9.4229913000e+01 obj_fn_1
+                      1.3708910400e+02 obj_fn_2
+                     -2.5025790000e+00 nln_ineq_con_1
+                     -1.4974210000e+00 nln_ineq_con_2
+                     -5.1657340000e+00 nln_ineq_con_3
+                     -1.7111100000e-01 nln_ineq_con_4
+                      2.2957300000e-01 nln_ineq_con_5
+                     -5.4310340000e+00 nln_ineq_con_6
+
+
+-9.4229913000e+01
+1.3708910400e+02
+-2.5025790000e+00
+-1.4974210000e+00
+-5.1657340000e+00
+-1.7111100000e-01
+2.2957300000e-01
+-5.4310340000e+00
+
+---------------------
+Begin Evaluation    6
+---------------------
+Parameters for evaluation 6:
+                      8.4616689051e+00 cdv_1
+                      5.2692877759e+00 cdv_2
+                      1.3678595630e+00 cdv_3
+                      3.9235137738e+00 cdv_4
+                      2.6639974274e+00 cdv_5
+                      7.0119059444e+00 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_4cc51f8a C:\Users\cca465\AppData\Local\Temp\dakota_results_c7d4c916
+
+Active response data for evaluation 6:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -1.0574274270e+03 obj_fn_1
+                      1.7289394200e+02 obj_fn_2
+                     -1.1730957000e+01 nln_ineq_con_1
+                      7.7309570000e+00 nln_ineq_con_2
+                     -5.1923810000e+00 nln_ineq_con_3
+                     -9.3461940000e+00 nln_ineq_con_4
+                      2.5873960000e+00 nln_ineq_con_5
+                     -3.1248040000e+00 nln_ineq_con_6
+
+
+-1.0574274270e+03
+1.7289394200e+02
+-1.1730957000e+01
+7.7309570000e+00
+-5.1923810000e+00
+-9.3461940000e+00
+2.5873960000e+00
+-3.1248040000e+00
+
+---------------------
+Begin Evaluation    7
+---------------------
+Parameters for evaluation 7:
+                      9.1032083049e+00 cdv_1
+                      7.6219803969e+00 cdv_2
+                      2.0498119747e+00 cdv_3
+                      2.8478708225e-01 cdv_4
+                      3.9443275383e+00 cdv_5
+                      3.2823422613e+00 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_46befb06 C:\Users\cca465\AppData\Local\Temp\dakota_results_4c9902dd
+
+Active response data for evaluation 7:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -1.3165698460e+03 obj_fn_1
+                      1.7157731000e+02 obj_fn_2
+                     -1.4725189000e+01 nln_ineq_con_1
+                      1.0725189000e+01 nln_ineq_con_2
+                     -3.4812280000e+00 nln_ineq_con_3
+                     -1.5762733000e+01 nln_ineq_con_4
+                     -2.8123560000e+00 nln_ineq_con_5
+                     -1.7409700000e-01 nln_ineq_con_6
+
+
+-1.3165698460e+03
+1.7157731000e+02
+-1.4725189000e+01
+1.0725189000e+01
+-3.4812280000e+00
+-1.5762733000e+01
+-2.8123560000e+00
+-1.7409700000e-01
+
+---------------------
+Begin Evaluation    8
+---------------------
+Parameters for evaluation 8:
+                      6.3263856789e+00 cdv_1
+                      7.5641048595e+00 cdv_2
+                      4.9641495421e+00 cdv_3
+                      2.1920320244e+00 cdv_4
+                      1.9881555424e+00 cdv_5
+                      9.8255028621e+00 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_a1522b28 C:\Users\cca465\AppData\Local\Temp\dakota_results_a73f8986
+
+Active response data for evaluation 8:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -5.1885927000e+02 obj_fn_1
+                      2.2717989200e+02 obj_fn_2
+                     -1.1890491000e+01 nln_ineq_con_1
+                      7.8904910000e+00 nln_ineq_con_2
+                     -7.6228100000e-01 nln_ineq_con_3
+                     -1.8365929000e+01 nln_ineq_con_4
+                      2.0499150000e+00 nln_ineq_con_5
+                     -6.8493320000e+00 nln_ineq_con_6
+
+
+-5.1885927000e+02
+2.2717989200e+02
+-1.1890491000e+01
+7.8904910000e+00
+-7.6228100000e-01
+-1.8365929000e+01
+2.0499150000e+00
+-6.8493320000e+00
+
+---------------------
+Begin Evaluation    9
+---------------------
+Parameters for evaluation 9:
+                      7.2266040078e+00 cdv_1
+                      7.5335583498e+00 cdv_2
+                      3.6060742990e+00 cdv_3
+                      4.3611529769e-01 cdv_4
+                      3.5265388724e+00 cdv_5
+                      8.8470712858e+00 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_cbae41d2 C:\Users\cca465\AppData\Local\Temp\dakota_results_17ed60e6
+
+Active response data for evaluation 9:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -7.3943130000e+02 obj_fn_1
+                      2.1287942200e+02 obj_fn_2
+                     -1.2760162000e+01 nln_ineq_con_1
+                      8.7601620000e+00 nln_ineq_con_2
+                     -1.6930460000e+00 nln_ineq_con_3
+                     -1.7374071000e+01 nln_ineq_con_4
+                     -3.1965590000e+00 nln_ineq_con_5
+                     -5.1243140000e+00 nln_ineq_con_6
+
+
+-7.3943130000e+02
+2.1287942200e+02
+-1.2760162000e+01
+8.7601620000e+00
+-1.6930460000e+00
+-1.7374071000e+01
+-3.1965590000e+00
+-5.1243140000e+00
+
+---------------------
+Begin Evaluation   10
+---------------------
+Parameters for evaluation 10:
+                      2.7270996676e+00 cdv_1
+                      4.3641140565e+00 cdv_2
+                      4.0659791115e+00 cdv_3
+                      2.8663905900e+00 cdv_4
+                      1.9510977347e+00 cdv_5
+                      2.7490684030e+00 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_01b52d82 C:\Users\cca465\AppData\Local\Temp\dakota_results_9c7cf86c
+
+Active response data for evaluation 10:
+Active set vector = { 1 1 1 1 1 1 1 1 }
+                     -3.0395769000e+01 obj_fn_1
+                      6.2595105000e+01 obj_fn_2
+                     -5.0912140000e+00 nln_ineq_con_1
+                      1.0912140000e+00 nln_ineq_con_2
+                     -3.6298600000e-01 nln_ineq_con_3
+                     -1.2365243000e+01 nln_ineq_con_4
+                      2.7020000000e-03 nln_ineq_con_5
+                      1.5073600000e-01 nln_ineq_con_6
+
+
+-3.0395769000e+01
+6.2595105000e+01
+-5.0912140000e+00
+1.0912140000e+00
+-3.6298600000e-01
+-1.2365243000e+01
+2.7020000000e-03
+1.5073600000e-01
+
+---------------------
+Begin Evaluation   11
+---------------------
+Parameters for evaluation 11:
+                      3.5926497931e+00 cdv_1
+                      1.6650720042e+00 cdv_2
+                      2.9460695320e+00 cdv_3
+                      5.3859377193e+00 cdv_4
+                      4.6368324066e+00 cdv_5
+                      6.0564327548e-01 cdv_6
+
+blocking fork: python osy_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_3de1bb24 C:\Users\cca465\AppData\Local\Temp\dakota_results_aada981d
+
+Dakota caught signal 2
