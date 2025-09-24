@@ -1,0 +1,780 @@
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:10:56 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:10:56: quiet- JEGA Front End: Random seed = 1
+05:10:56: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:10:56: quiet- : Assigning missing weights to 1.
+05:10:56: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:10:56: quiet- merit_function: Assigning missing weights to 1.
+05:11:02: verbose- merit_function: maximum encountered fitness = 2.5378.
+05:11:02: quiet- duplicate_free: 1 generation so far.
+05:11:02: quiet- duplicate_free: 50 evaluations so far.
+05:11:06: verbose- merit_function: maximum encountered fitness = 2.5378.
+05:11:06: quiet- duplicate_free: 2 generations so far.
+05:11:06: quiet- duplicate_free: 93 evaluations so far.
+05:11:11: verbose- merit_function: maximum encountered fitness = 3.29089.
+05:11:11: quiet- duplicate_free: 3 generations so far.
+05:11:11: quiet- duplicate_free: 136 evaluations so far.
+05:11:16: verbose- merit_function: maximum encountered fitness = 3.3017.
+05:11:16: quiet- duplicate_free: 4 generations so far.
+05:11:16: quiet- duplicate_free: 179 evaluations so far.
+05:11:20: verbose- merit_function: maximum encountered fitness = 3.97346.
+05:11:20: quiet- duplicate_free: 5 generations so far.
+05:11:20: quiet- duplicate_free: 222 evaluations so far.
+05:11:25: verbose- merit_function: maximum encountered fitness = 4.05238.
+05:11:25: quiet- duplicate_free: 6 generations so far.
+05:11:25: quiet- duplicate_free: 265 evaluations so far.
+05:11:30: verbose- merit_function: maximum encountered fitness = 4.7059.
+05:11:30: quiet- duplicate_free: 7 generations so far.
+05:11:30: quiet- duplicate_free: 306 evaluations so far.
+05:11:34: verbose- merit_function: maximum encountered fitness = 4.9237.
+05:11:34: quiet- duplicate_free: 8 generations so far.
+05:11:34: quiet- duplicate_free: 347 evaluations so far.
+05:11:38: verbose- merit_function: maximum encountered fitness = 5.15446.
+05:11:38: quiet- duplicate_free: 9 generations so far.
+05:11:38: quiet- duplicate_free: 386 evaluations so far.
+05:11:43: verbose- merit_function: maximum encountered fitness = 5.57266.
+05:11:43: quiet- duplicate_free: 10 generations so far.
+05:11:43: quiet- duplicate_free: 429 evaluations so far.
+05:11:47: verbose- merit_function: maximum encountered fitness = 5.75904.
+05:11:47: quiet- duplicate_free: 11 generations so far.
+05:11:47: quiet- duplicate_free: 472 evaluations so far.
+05:11:52: verbose- merit_function: maximum encountered fitness = 6.02077.
+05:11:52: quiet- duplicate_free: 12 generations so far.
+05:11:52: quiet- duplicate_free: 515 evaluations so far.
+05:11:57: verbose- merit_function: maximum encountered fitness = 6.79235.
+05:11:57: quiet- duplicate_free: 13 generations so far.
+05:11:57: quiet- duplicate_free: 558 evaluations so far.
+05:12:01: verbose- merit_function: maximum encountered fitness = 6.79235.
+05:12:01: quiet- duplicate_free: 14 generations so far.
+05:12:01: quiet- duplicate_free: 601 evaluations so far.
+05:12:06: verbose- merit_function: maximum encountered fitness = 6.79235.
+05:12:06: quiet- duplicate_free: 15 generations so far.
+05:12:06: quiet- duplicate_free: 644 evaluations so far.
+05:12:11: verbose- merit_function: maximum encountered fitness = 6.90555.
+05:12:11: quiet- duplicate_free: 16 generations so far.
+05:12:11: quiet- duplicate_free: 687 evaluations so far.
+05:12:15: verbose- merit_function: maximum encountered fitness = 7.03223.
+05:12:15: quiet- duplicate_free: 17 generations so far.
+05:12:15: quiet- duplicate_free: 728 evaluations so far.
+05:12:20: verbose- merit_function: maximum encountered fitness = 7.03223.
+05:12:20: quiet- duplicate_free: 18 generations so far.
+05:12:20: quiet- duplicate_free: 769 evaluations so far.
+05:12:24: verbose- merit_function: maximum encountered fitness = 7.03223.
+05:12:24: quiet- duplicate_free: 19 generations so far.
+05:12:24: quiet- duplicate_free: 812 evaluations so far.
+05:12:29: verbose- merit_function: maximum encountered fitness = 7.03223.
+05:12:29: quiet- duplicate_free: 20 generations so far.
+05:12:29: quiet- duplicate_free: 855 evaluations so far.
+05:12:29: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:12:29: quiet- NO_METHOD_ID: Final population size = 2
+05:12:29: quiet- JEGA Front End: NO_METHOD_ID execution took 92.505 seconds.
+05:12:29: quiet- JEGA Front End: Execution took 92.505 seconds.
+05:12:29: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:12:29 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:12:29: quiet- JEGA Front End: Random seed = 2
+05:12:29: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:12:29: quiet- : Assigning missing weights to 1.
+05:12:29: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:12:29: quiet- merit_function: Assigning missing weights to 1.
+05:12:34: verbose- merit_function: maximum encountered fitness = 3.31682.
+05:12:34: quiet- duplicate_free: 1 generation so far.
+05:12:34: quiet- duplicate_free: 50 evaluations so far.
+05:12:39: verbose- merit_function: maximum encountered fitness = 3.31682.
+05:12:39: quiet- duplicate_free: 2 generations so far.
+05:12:39: quiet- duplicate_free: 93 evaluations so far.
+05:12:43: verbose- merit_function: maximum encountered fitness = 3.31682.
+05:12:43: quiet- duplicate_free: 3 generations so far.
+05:12:43: quiet- duplicate_free: 134 evaluations so far.
+05:12:48: verbose- merit_function: maximum encountered fitness = 3.76205.
+05:12:48: quiet- duplicate_free: 4 generations so far.
+05:12:48: quiet- duplicate_free: 177 evaluations so far.
+05:12:53: verbose- merit_function: maximum encountered fitness = 4.54219.
+05:12:53: quiet- duplicate_free: 5 generations so far.
+05:12:53: quiet- duplicate_free: 220 evaluations so far.
+05:12:57: verbose- merit_function: maximum encountered fitness = 4.58874.
+05:12:57: quiet- duplicate_free: 6 generations so far.
+05:12:57: quiet- duplicate_free: 261 evaluations so far.
+05:13:02: verbose- merit_function: maximum encountered fitness = 5.39536.
+05:13:02: quiet- duplicate_free: 7 generations so far.
+05:13:02: quiet- duplicate_free: 304 evaluations so far.
+05:13:07: verbose- merit_function: maximum encountered fitness = 5.39536.
+05:13:07: quiet- duplicate_free: 8 generations so far.
+05:13:07: quiet- duplicate_free: 347 evaluations so far.
+05:13:11: verbose- merit_function: maximum encountered fitness = 5.39536.
+05:13:11: quiet- duplicate_free: 9 generations so far.
+05:13:11: quiet- duplicate_free: 390 evaluations so far.
+05:13:16: verbose- merit_function: maximum encountered fitness = 5.39536.
+05:13:16: quiet- duplicate_free: 10 generations so far.
+05:13:16: quiet- duplicate_free: 433 evaluations so far.
+05:13:20: verbose- merit_function: maximum encountered fitness = 6.12364.
+05:13:20: quiet- duplicate_free: 11 generations so far.
+05:13:20: quiet- duplicate_free: 474 evaluations so far.
+05:13:25: verbose- merit_function: maximum encountered fitness = 6.34215.
+05:13:25: quiet- duplicate_free: 12 generations so far.
+05:13:25: quiet- duplicate_free: 517 evaluations so far.
+05:13:30: verbose- merit_function: maximum encountered fitness = 6.83436.
+05:13:30: quiet- duplicate_free: 13 generations so far.
+05:13:30: quiet- duplicate_free: 558 evaluations so far.
+05:13:34: verbose- merit_function: maximum encountered fitness = 7.13137.
+05:13:34: quiet- duplicate_free: 14 generations so far.
+05:13:34: quiet- duplicate_free: 601 evaluations so far.
+05:13:39: verbose- merit_function: maximum encountered fitness = 7.29256.
+05:13:39: quiet- duplicate_free: 15 generations so far.
+05:13:39: quiet- duplicate_free: 642 evaluations so far.
+05:13:43: verbose- merit_function: maximum encountered fitness = 7.68606.
+05:13:43: quiet- duplicate_free: 16 generations so far.
+05:13:43: quiet- duplicate_free: 685 evaluations so far.
+05:13:48: verbose- merit_function: maximum encountered fitness = 7.70679.
+05:13:48: quiet- duplicate_free: 17 generations so far.
+05:13:48: quiet- duplicate_free: 726 evaluations so far.
+05:13:52: verbose- merit_function: maximum encountered fitness = 7.70679.
+05:13:52: quiet- duplicate_free: 18 generations so far.
+05:13:52: quiet- duplicate_free: 769 evaluations so far.
+05:13:57: verbose- merit_function: maximum encountered fitness = 8.42951.
+05:13:57: quiet- duplicate_free: 19 generations so far.
+05:13:57: quiet- duplicate_free: 812 evaluations so far.
+05:14:02: verbose- merit_function: maximum encountered fitness = 8.42951.
+05:14:02: quiet- duplicate_free: 20 generations so far.
+05:14:02: quiet- duplicate_free: 853 evaluations so far.
+05:14:02: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:14:02: quiet- NO_METHOD_ID: Final population size = 4
+05:14:02: quiet- JEGA Front End: NO_METHOD_ID execution took 92.709 seconds.
+05:14:02: quiet- JEGA Front End: Execution took 92.709 seconds.
+05:14:02: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:14:02 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:14:02: quiet- JEGA Front End: Random seed = 3
+05:14:02: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:14:02: quiet- : Assigning missing weights to 1.
+05:14:02: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:14:02: quiet- merit_function: Assigning missing weights to 1.
+05:14:07: verbose- merit_function: maximum encountered fitness = 2.65107.
+05:14:07: quiet- duplicate_free: 1 generation so far.
+05:14:07: quiet- duplicate_free: 50 evaluations so far.
+05:14:11: verbose- merit_function: maximum encountered fitness = 2.65107.
+05:14:11: quiet- duplicate_free: 2 generations so far.
+05:14:11: quiet- duplicate_free: 89 evaluations so far.
+05:14:16: verbose- merit_function: maximum encountered fitness = 2.65107.
+05:14:16: quiet- duplicate_free: 3 generations so far.
+05:14:16: quiet- duplicate_free: 132 evaluations so far.
+05:14:21: verbose- merit_function: maximum encountered fitness = 3.93333.
+05:14:21: quiet- duplicate_free: 4 generations so far.
+05:14:21: quiet- duplicate_free: 173 evaluations so far.
+05:14:25: verbose- merit_function: maximum encountered fitness = 4.11177.
+05:14:25: quiet- duplicate_free: 5 generations so far.
+05:14:25: quiet- duplicate_free: 216 evaluations so far.
+05:14:30: verbose- merit_function: maximum encountered fitness = 4.78423.
+05:14:30: quiet- duplicate_free: 6 generations so far.
+05:14:30: quiet- duplicate_free: 259 evaluations so far.
+05:14:34: verbose- merit_function: maximum encountered fitness = 4.78423.
+05:14:34: quiet- duplicate_free: 7 generations so far.
+05:14:34: quiet- duplicate_free: 302 evaluations so far.
+05:14:39: verbose- merit_function: maximum encountered fitness = 4.78423.
+05:14:39: quiet- duplicate_free: 8 generations so far.
+05:14:39: quiet- duplicate_free: 343 evaluations so far.
+05:14:44: verbose- merit_function: maximum encountered fitness = 5.16538.
+05:14:44: quiet- duplicate_free: 9 generations so far.
+05:14:44: quiet- duplicate_free: 386 evaluations so far.
+05:14:48: verbose- merit_function: maximum encountered fitness = 5.22434.
+05:14:48: quiet- duplicate_free: 10 generations so far.
+05:14:48: quiet- duplicate_free: 429 evaluations so far.
+05:14:53: verbose- merit_function: maximum encountered fitness = 5.56501.
+05:14:53: quiet- duplicate_free: 11 generations so far.
+05:14:53: quiet- duplicate_free: 468 evaluations so far.
+05:14:58: verbose- merit_function: maximum encountered fitness = 6.47922.
+05:14:58: quiet- duplicate_free: 12 generations so far.
+05:14:58: quiet- duplicate_free: 511 evaluations so far.
+05:15:02: verbose- merit_function: maximum encountered fitness = 6.47922.
+05:15:02: quiet- duplicate_free: 13 generations so far.
+05:15:02: quiet- duplicate_free: 554 evaluations so far.
+05:15:07: verbose- merit_function: maximum encountered fitness = 6.47922.
+05:15:07: quiet- duplicate_free: 14 generations so far.
+05:15:07: quiet- duplicate_free: 597 evaluations so far.
+05:15:11: verbose- merit_function: maximum encountered fitness = 7.02438.
+05:15:11: quiet- duplicate_free: 15 generations so far.
+05:15:11: quiet- duplicate_free: 638 evaluations so far.
+05:15:16: verbose- merit_function: maximum encountered fitness = 7.02438.
+05:15:16: quiet- duplicate_free: 16 generations so far.
+05:15:16: quiet- duplicate_free: 681 evaluations so far.
+05:15:21: verbose- merit_function: maximum encountered fitness = 7.02438.
+05:15:21: quiet- duplicate_free: 17 generations so far.
+05:15:21: quiet- duplicate_free: 724 evaluations so far.
+05:15:25: verbose- merit_function: maximum encountered fitness = 7.19016.
+05:15:25: quiet- duplicate_free: 18 generations so far.
+05:15:25: quiet- duplicate_free: 765 evaluations so far.
+05:15:30: verbose- merit_function: maximum encountered fitness = 7.19016.
+05:15:30: quiet- duplicate_free: 19 generations so far.
+05:15:30: quiet- duplicate_free: 808 evaluations so far.
+05:15:34: verbose- merit_function: maximum encountered fitness = 7.43718.
+05:15:34: quiet- duplicate_free: 20 generations so far.
+05:15:34: quiet- duplicate_free: 849 evaluations so far.
+05:15:34: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:15:34: quiet- NO_METHOD_ID: Final population size = 1
+05:15:34: quiet- JEGA Front End: NO_METHOD_ID execution took 92.446 seconds.
+05:15:34: quiet- JEGA Front End: Execution took 92.446 seconds.
+05:15:34: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:15:34 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:15:34: quiet- JEGA Front End: Random seed = 4
+05:15:34: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:15:34: quiet- : Assigning missing weights to 1.
+05:15:34: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:15:34: quiet- merit_function: Assigning missing weights to 1.
+05:15:40: verbose- merit_function: maximum encountered fitness = 3.01284.
+05:15:40: quiet- duplicate_free: 1 generation so far.
+05:15:40: quiet- duplicate_free: 50 evaluations so far.
+05:15:44: verbose- merit_function: maximum encountered fitness = 3.01284.
+05:15:44: quiet- duplicate_free: 2 generations so far.
+05:15:44: quiet- duplicate_free: 93 evaluations so far.
+05:15:49: verbose- merit_function: maximum encountered fitness = 3.70825.
+05:15:49: quiet- duplicate_free: 3 generations so far.
+05:15:49: quiet- duplicate_free: 136 evaluations so far.
+05:15:53: verbose- merit_function: maximum encountered fitness = 3.70825.
+05:15:53: quiet- duplicate_free: 4 generations so far.
+05:15:53: quiet- duplicate_free: 177 evaluations so far.
+05:15:58: verbose- merit_function: maximum encountered fitness = 3.98232.
+05:15:58: quiet- duplicate_free: 5 generations so far.
+05:15:58: quiet- duplicate_free: 220 evaluations so far.
+05:16:03: verbose- merit_function: maximum encountered fitness = 4.39159.
+05:16:03: quiet- duplicate_free: 6 generations so far.
+05:16:03: quiet- duplicate_free: 261 evaluations so far.
+05:16:07: verbose- merit_function: maximum encountered fitness = 4.89762.
+05:16:07: quiet- duplicate_free: 7 generations so far.
+05:16:07: quiet- duplicate_free: 304 evaluations so far.
+05:16:12: verbose- merit_function: maximum encountered fitness = 5.19324.
+05:16:12: quiet- duplicate_free: 8 generations so far.
+05:16:12: quiet- duplicate_free: 347 evaluations so far.
+05:16:16: verbose- merit_function: maximum encountered fitness = 5.89874.
+05:16:16: quiet- duplicate_free: 9 generations so far.
+05:16:16: quiet- duplicate_free: 386 evaluations so far.
+05:16:21: verbose- merit_function: maximum encountered fitness = 6.16627.
+05:16:21: quiet- duplicate_free: 10 generations so far.
+05:16:21: quiet- duplicate_free: 429 evaluations so far.
+05:16:25: verbose- merit_function: maximum encountered fitness = 6.6886.
+05:16:25: quiet- duplicate_free: 11 generations so far.
+05:16:25: quiet- duplicate_free: 470 evaluations so far.
+05:16:29: verbose- merit_function: maximum encountered fitness = 6.83012.
+05:16:29: quiet- duplicate_free: 12 generations so far.
+05:16:29: quiet- duplicate_free: 509 evaluations so far.
+05:16:34: verbose- merit_function: maximum encountered fitness = 6.83012.
+05:16:34: quiet- duplicate_free: 13 generations so far.
+05:16:34: quiet- duplicate_free: 550 evaluations so far.
+05:16:38: verbose- merit_function: maximum encountered fitness = 6.88006.
+05:16:38: quiet- duplicate_free: 14 generations so far.
+05:16:38: quiet- duplicate_free: 593 evaluations so far.
+05:16:43: verbose- merit_function: maximum encountered fitness = 7.72789.
+05:16:43: quiet- duplicate_free: 15 generations so far.
+05:16:43: quiet- duplicate_free: 636 evaluations so far.
+05:16:48: verbose- merit_function: maximum encountered fitness = 7.72789.
+05:16:48: quiet- duplicate_free: 16 generations so far.
+05:16:48: quiet- duplicate_free: 677 evaluations so far.
+05:16:52: verbose- merit_function: maximum encountered fitness = 7.72789.
+05:16:52: quiet- duplicate_free: 17 generations so far.
+05:16:52: quiet- duplicate_free: 718 evaluations so far.
+05:16:56: verbose- merit_function: maximum encountered fitness = 7.72789.
+05:16:56: quiet- duplicate_free: 18 generations so far.
+05:16:56: quiet- duplicate_free: 759 evaluations so far.
+05:17:01: verbose- merit_function: maximum encountered fitness = 7.72789.
+05:17:01: quiet- duplicate_free: 19 generations so far.
+05:17:01: quiet- duplicate_free: 802 evaluations so far.
+05:17:06: verbose- merit_function: maximum encountered fitness = 7.9558.
+05:17:06: quiet- duplicate_free: 20 generations so far.
+05:17:06: quiet- duplicate_free: 845 evaluations so far.
+05:17:06: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:17:06: quiet- NO_METHOD_ID: Final population size = 1
+05:17:06: quiet- JEGA Front End: NO_METHOD_ID execution took 91.56 seconds.
+05:17:06: quiet- JEGA Front End: Execution took 91.56 seconds.
+05:17:06: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:17:06 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:17:06: quiet- JEGA Front End: Random seed = 5
+05:17:06: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:17:06: quiet- : Assigning missing weights to 1.
+05:17:06: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:17:06: quiet- merit_function: Assigning missing weights to 1.
+05:17:11: verbose- merit_function: maximum encountered fitness = 2.90765.
+05:17:11: quiet- duplicate_free: 1 generation so far.
+05:17:11: quiet- duplicate_free: 50 evaluations so far.
+05:17:16: verbose- merit_function: maximum encountered fitness = 2.90765.
+05:17:16: quiet- duplicate_free: 2 generations so far.
+05:17:16: quiet- duplicate_free: 91 evaluations so far.
+05:17:20: verbose- merit_function: maximum encountered fitness = 3.54542.
+05:17:20: quiet- duplicate_free: 3 generations so far.
+05:17:20: quiet- duplicate_free: 132 evaluations so far.
+05:17:25: verbose- merit_function: maximum encountered fitness = 4.34994.
+05:17:25: quiet- duplicate_free: 4 generations so far.
+05:17:25: quiet- duplicate_free: 173 evaluations so far.
+05:17:29: verbose- merit_function: maximum encountered fitness = 5.01365.
+05:17:29: quiet- duplicate_free: 5 generations so far.
+05:17:29: quiet- duplicate_free: 214 evaluations so far.
+05:17:34: verbose- merit_function: maximum encountered fitness = 5.3698.
+05:17:34: quiet- duplicate_free: 6 generations so far.
+05:17:34: quiet- duplicate_free: 257 evaluations so far.
+05:17:38: verbose- merit_function: maximum encountered fitness = 6.46511.
+05:17:38: quiet- duplicate_free: 7 generations so far.
+05:17:38: quiet- duplicate_free: 300 evaluations so far.
+05:17:43: verbose- merit_function: maximum encountered fitness = 6.46511.
+05:17:43: quiet- duplicate_free: 8 generations so far.
+05:17:43: quiet- duplicate_free: 343 evaluations so far.
+05:17:48: verbose- merit_function: maximum encountered fitness = 6.46511.
+05:17:48: quiet- duplicate_free: 9 generations so far.
+05:17:48: quiet- duplicate_free: 384 evaluations so far.
+05:17:52: verbose- merit_function: maximum encountered fitness = 6.5836.
+05:17:52: quiet- duplicate_free: 10 generations so far.
+05:17:52: quiet- duplicate_free: 427 evaluations so far.
+05:17:57: verbose- merit_function: maximum encountered fitness = 6.77468.
+05:17:57: quiet- duplicate_free: 11 generations so far.
+05:17:57: quiet- duplicate_free: 468 evaluations so far.
+05:18:02: verbose- merit_function: maximum encountered fitness = 7.07717.
+05:18:02: quiet- duplicate_free: 12 generations so far.
+05:18:02: quiet- duplicate_free: 511 evaluations so far.
+05:18:06: verbose- merit_function: maximum encountered fitness = 7.38923.
+05:18:06: quiet- duplicate_free: 13 generations so far.
+05:18:06: quiet- duplicate_free: 554 evaluations so far.
+05:18:11: verbose- merit_function: maximum encountered fitness = 7.62159.
+05:18:11: quiet- duplicate_free: 14 generations so far.
+05:18:11: quiet- duplicate_free: 595 evaluations so far.
+05:18:15: verbose- merit_function: maximum encountered fitness = 7.67086.
+05:18:15: quiet- duplicate_free: 15 generations so far.
+05:18:15: quiet- duplicate_free: 638 evaluations so far.
+05:18:20: verbose- merit_function: maximum encountered fitness = 7.67086.
+05:18:20: quiet- duplicate_free: 16 generations so far.
+05:18:20: quiet- duplicate_free: 681 evaluations so far.
+05:18:25: verbose- merit_function: maximum encountered fitness = 7.67086.
+05:18:25: quiet- duplicate_free: 17 generations so far.
+05:18:25: quiet- duplicate_free: 724 evaluations so far.
+05:18:29: verbose- merit_function: maximum encountered fitness = 7.81865.
+05:18:29: quiet- duplicate_free: 18 generations so far.
+05:18:29: quiet- duplicate_free: 765 evaluations so far.
+05:18:34: verbose- merit_function: maximum encountered fitness = 7.81865.
+05:18:34: quiet- duplicate_free: 19 generations so far.
+05:18:34: quiet- duplicate_free: 806 evaluations so far.
+05:18:38: verbose- merit_function: maximum encountered fitness = 7.81865.
+05:18:38: quiet- duplicate_free: 20 generations so far.
+05:18:38: quiet- duplicate_free: 843 evaluations so far.
+05:18:38: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:18:38: quiet- NO_METHOD_ID: Final population size = 2
+05:18:38: quiet- JEGA Front End: NO_METHOD_ID execution took 91.868 seconds.
+05:18:38: quiet- JEGA Front End: Execution took 91.868 seconds.
+05:18:38: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:18:38 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:18:38: quiet- JEGA Front End: Random seed = 6
+05:18:38: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:18:38: quiet- : Assigning missing weights to 1.
+05:18:38: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:18:38: quiet- merit_function: Assigning missing weights to 1.
+05:18:43: verbose- merit_function: maximum encountered fitness = 2.65418.
+05:18:43: quiet- duplicate_free: 1 generation so far.
+05:18:43: quiet- duplicate_free: 50 evaluations so far.
+05:18:47: verbose- merit_function: maximum encountered fitness = 3.00798.
+05:18:47: quiet- duplicate_free: 2 generations so far.
+05:18:47: quiet- duplicate_free: 89 evaluations so far.
+05:18:52: verbose- merit_function: maximum encountered fitness = 3.34226.
+05:18:52: quiet- duplicate_free: 3 generations so far.
+05:18:52: quiet- duplicate_free: 132 evaluations so far.
+05:18:57: verbose- merit_function: maximum encountered fitness = 3.34226.
+05:18:57: quiet- duplicate_free: 4 generations so far.
+05:18:57: quiet- duplicate_free: 173 evaluations so far.
+05:19:01: verbose- merit_function: maximum encountered fitness = 4.14291.
+05:19:01: quiet- duplicate_free: 5 generations so far.
+05:19:01: quiet- duplicate_free: 216 evaluations so far.
+05:19:06: verbose- merit_function: maximum encountered fitness = 4.81888.
+05:19:06: quiet- duplicate_free: 6 generations so far.
+05:19:06: quiet- duplicate_free: 259 evaluations so far.
+05:19:11: verbose- merit_function: maximum encountered fitness = 5.88318.
+05:19:11: quiet- duplicate_free: 7 generations so far.
+05:19:11: quiet- duplicate_free: 302 evaluations so far.
+05:19:15: verbose- merit_function: maximum encountered fitness = 5.88318.
+05:19:15: quiet- duplicate_free: 8 generations so far.
+05:19:15: quiet- duplicate_free: 341 evaluations so far.
+05:19:19: verbose- merit_function: maximum encountered fitness = 5.88318.
+05:19:19: quiet- duplicate_free: 9 generations so far.
+05:19:19: quiet- duplicate_free: 384 evaluations so far.
+05:19:24: verbose- merit_function: maximum encountered fitness = 6.79375.
+05:19:24: quiet- duplicate_free: 10 generations so far.
+05:19:24: quiet- duplicate_free: 427 evaluations so far.
+05:19:28: verbose- merit_function: maximum encountered fitness = 6.93411.
+05:19:28: quiet- duplicate_free: 11 generations so far.
+05:19:28: quiet- duplicate_free: 468 evaluations so far.
+05:19:33: verbose- merit_function: maximum encountered fitness = 7.18029.
+05:19:33: quiet- duplicate_free: 12 generations so far.
+05:19:33: quiet- duplicate_free: 511 evaluations so far.
+05:19:37: verbose- merit_function: maximum encountered fitness = 7.18029.
+05:19:37: quiet- duplicate_free: 13 generations so far.
+05:19:37: quiet- duplicate_free: 552 evaluations so far.
+05:19:42: verbose- merit_function: maximum encountered fitness = 7.18029.
+05:19:42: quiet- duplicate_free: 14 generations so far.
+05:19:42: quiet- duplicate_free: 595 evaluations so far.
+05:19:47: verbose- merit_function: maximum encountered fitness = 7.18029.
+05:19:47: quiet- duplicate_free: 15 generations so far.
+05:19:47: quiet- duplicate_free: 638 evaluations so far.
+05:19:51: verbose- merit_function: maximum encountered fitness = 7.68892.
+05:19:51: quiet- duplicate_free: 16 generations so far.
+05:19:51: quiet- duplicate_free: 681 evaluations so far.
+05:19:56: verbose- merit_function: maximum encountered fitness = 7.70363.
+05:19:56: quiet- duplicate_free: 17 generations so far.
+05:19:56: quiet- duplicate_free: 722 evaluations so far.
+05:20:00: verbose- merit_function: maximum encountered fitness = 7.71475.
+05:20:00: quiet- duplicate_free: 18 generations so far.
+05:20:00: quiet- duplicate_free: 763 evaluations so far.
+05:20:05: verbose- merit_function: maximum encountered fitness = 7.71475.
+05:20:05: quiet- duplicate_free: 19 generations so far.
+05:20:05: quiet- duplicate_free: 806 evaluations so far.
+05:20:10: verbose- merit_function: maximum encountered fitness = 7.71475.
+05:20:10: quiet- duplicate_free: 20 generations so far.
+05:20:10: quiet- duplicate_free: 849 evaluations so far.
+05:20:10: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:20:10: quiet- NO_METHOD_ID: Final population size = 7
+05:20:10: quiet- JEGA Front End: NO_METHOD_ID execution took 92.003 seconds.
+05:20:10: quiet- JEGA Front End: Execution took 92.003 seconds.
+05:20:10: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:20:10 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:20:10: quiet- JEGA Front End: Random seed = 7
+05:20:10: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:20:10: quiet- : Assigning missing weights to 1.
+05:20:10: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:20:10: quiet- merit_function: Assigning missing weights to 1.
+05:20:15: verbose- merit_function: maximum encountered fitness = 3.01942.
+05:20:15: quiet- duplicate_free: 1 generation so far.
+05:20:15: quiet- duplicate_free: 50 evaluations so far.
+05:20:20: verbose- merit_function: maximum encountered fitness = 3.01942.
+05:20:20: quiet- duplicate_free: 2 generations so far.
+05:20:20: quiet- duplicate_free: 91 evaluations so far.
+05:20:24: verbose- merit_function: maximum encountered fitness = 3.17307.
+05:20:24: quiet- duplicate_free: 3 generations so far.
+05:20:24: quiet- duplicate_free: 134 evaluations so far.
+05:20:29: verbose- merit_function: maximum encountered fitness = 3.29638.
+05:20:29: quiet- duplicate_free: 4 generations so far.
+05:20:29: quiet- duplicate_free: 177 evaluations so far.
+05:20:33: verbose- merit_function: maximum encountered fitness = 3.73756.
+05:20:33: quiet- duplicate_free: 5 generations so far.
+05:20:33: quiet- duplicate_free: 220 evaluations so far.
+05:20:38: verbose- merit_function: maximum encountered fitness = 4.15531.
+05:20:38: quiet- duplicate_free: 6 generations so far.
+05:20:38: quiet- duplicate_free: 259 evaluations so far.
+05:20:42: verbose- merit_function: maximum encountered fitness = 4.15531.
+05:20:42: quiet- duplicate_free: 7 generations so far.
+05:20:42: quiet- duplicate_free: 300 evaluations so far.
+05:20:47: verbose- merit_function: maximum encountered fitness = 4.55438.
+05:20:47: quiet- duplicate_free: 8 generations so far.
+05:20:47: quiet- duplicate_free: 343 evaluations so far.
+05:20:51: verbose- merit_function: maximum encountered fitness = 5.1125.
+05:20:51: quiet- duplicate_free: 9 generations so far.
+05:20:51: quiet- duplicate_free: 384 evaluations so far.
+05:20:56: verbose- merit_function: maximum encountered fitness = 5.1125.
+05:20:56: quiet- duplicate_free: 10 generations so far.
+05:20:56: quiet- duplicate_free: 427 evaluations so far.
+05:21:00: verbose- merit_function: maximum encountered fitness = 5.48433.
+05:21:00: quiet- duplicate_free: 11 generations so far.
+05:21:00: quiet- duplicate_free: 468 evaluations so far.
+05:21:05: verbose- merit_function: maximum encountered fitness = 5.59946.
+05:21:05: quiet- duplicate_free: 12 generations so far.
+05:21:05: quiet- duplicate_free: 511 evaluations so far.
+05:21:10: verbose- merit_function: maximum encountered fitness = 5.68456.
+05:21:10: quiet- duplicate_free: 13 generations so far.
+05:21:10: quiet- duplicate_free: 554 evaluations so far.
+05:21:14: verbose- merit_function: maximum encountered fitness = 6.09937.
+05:21:14: quiet- duplicate_free: 14 generations so far.
+05:21:14: quiet- duplicate_free: 593 evaluations so far.
+05:21:18: verbose- merit_function: maximum encountered fitness = 6.15202.
+05:21:18: quiet- duplicate_free: 15 generations so far.
+05:21:18: quiet- duplicate_free: 634 evaluations so far.
+05:21:23: verbose- merit_function: maximum encountered fitness = 6.31377.
+05:21:23: quiet- duplicate_free: 16 generations so far.
+05:21:23: quiet- duplicate_free: 677 evaluations so far.
+05:21:27: verbose- merit_function: maximum encountered fitness = 6.5218.
+05:21:27: quiet- duplicate_free: 17 generations so far.
+05:21:27: quiet- duplicate_free: 720 evaluations so far.
+05:21:32: verbose- merit_function: maximum encountered fitness = 6.5218.
+05:21:32: quiet- duplicate_free: 18 generations so far.
+05:21:32: quiet- duplicate_free: 763 evaluations so far.
+05:21:37: verbose- merit_function: maximum encountered fitness = 6.5218.
+05:21:37: quiet- duplicate_free: 19 generations so far.
+05:21:37: quiet- duplicate_free: 806 evaluations so far.
+05:21:41: verbose- merit_function: maximum encountered fitness = 6.65382.
+05:21:41: quiet- duplicate_free: 20 generations so far.
+05:21:41: quiet- duplicate_free: 847 evaluations so far.
+05:21:41: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:21:41: quiet- NO_METHOD_ID: Final population size = 1
+05:21:41: quiet- JEGA Front End: NO_METHOD_ID execution took 91.469 seconds.
+05:21:41: quiet- JEGA Front End: Execution took 91.469 seconds.
+05:21:41: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:21:41 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:21:41: quiet- JEGA Front End: Random seed = 8
+05:21:41: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:21:41: quiet- : Assigning missing weights to 1.
+05:21:41: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:21:41: quiet- merit_function: Assigning missing weights to 1.
+05:21:47: verbose- merit_function: maximum encountered fitness = 2.42176.
+05:21:47: quiet- duplicate_free: 1 generation so far.
+05:21:47: quiet- duplicate_free: 50 evaluations so far.
+05:21:51: verbose- merit_function: maximum encountered fitness = 2.80753.
+05:21:51: quiet- duplicate_free: 2 generations so far.
+05:21:51: quiet- duplicate_free: 91 evaluations so far.
+05:21:55: verbose- merit_function: maximum encountered fitness = 4.06178.
+05:21:55: quiet- duplicate_free: 3 generations so far.
+05:21:55: quiet- duplicate_free: 132 evaluations so far.
+05:22:00: verbose- merit_function: maximum encountered fitness = 4.06178.
+05:22:00: quiet- duplicate_free: 4 generations so far.
+05:22:00: quiet- duplicate_free: 173 evaluations so far.
+05:22:05: verbose- merit_function: maximum encountered fitness = 4.06178.
+05:22:05: quiet- duplicate_free: 5 generations so far.
+05:22:05: quiet- duplicate_free: 216 evaluations so far.
+05:22:09: verbose- merit_function: maximum encountered fitness = 4.06178.
+05:22:09: quiet- duplicate_free: 6 generations so far.
+05:22:09: quiet- duplicate_free: 256 evaluations so far.
+05:22:13: verbose- merit_function: maximum encountered fitness = 4.07625.
+05:22:13: quiet- duplicate_free: 7 generations so far.
+05:22:13: quiet- duplicate_free: 297 evaluations so far.
+05:22:18: verbose- merit_function: maximum encountered fitness = 5.69235.
+05:22:18: quiet- duplicate_free: 8 generations so far.
+05:22:18: quiet- duplicate_free: 340 evaluations so far.
+05:22:22: verbose- merit_function: maximum encountered fitness = 5.75794.
+05:22:22: quiet- duplicate_free: 9 generations so far.
+05:22:22: quiet- duplicate_free: 381 evaluations so far.
+05:22:27: verbose- merit_function: maximum encountered fitness = 5.75794.
+05:22:27: quiet- duplicate_free: 10 generations so far.
+05:22:27: quiet- duplicate_free: 424 evaluations so far.
+05:22:32: verbose- merit_function: maximum encountered fitness = 5.97832.
+05:22:32: quiet- duplicate_free: 11 generations so far.
+05:22:32: quiet- duplicate_free: 467 evaluations so far.
+05:22:36: verbose- merit_function: maximum encountered fitness = 6.57516.
+05:22:36: quiet- duplicate_free: 12 generations so far.
+05:22:36: quiet- duplicate_free: 510 evaluations so far.
+05:22:41: verbose- merit_function: maximum encountered fitness = 6.57516.
+05:22:41: quiet- duplicate_free: 13 generations so far.
+05:22:41: quiet- duplicate_free: 553 evaluations so far.
+05:22:45: verbose- merit_function: maximum encountered fitness = 6.9832.
+05:22:45: quiet- duplicate_free: 14 generations so far.
+05:22:45: quiet- duplicate_free: 594 evaluations so far.
+05:22:50: verbose- merit_function: maximum encountered fitness = 7.43783.
+05:22:50: quiet- duplicate_free: 15 generations so far.
+05:22:50: quiet- duplicate_free: 635 evaluations so far.
+05:22:54: verbose- merit_function: maximum encountered fitness = 7.43783.
+05:22:54: quiet- duplicate_free: 16 generations so far.
+05:22:54: quiet- duplicate_free: 678 evaluations so far.
+05:22:59: verbose- merit_function: maximum encountered fitness = 7.47935.
+05:22:59: quiet- duplicate_free: 17 generations so far.
+05:22:59: quiet- duplicate_free: 717 evaluations so far.
+05:23:03: verbose- merit_function: maximum encountered fitness = 7.60051.
+05:23:03: quiet- duplicate_free: 18 generations so far.
+05:23:03: quiet- duplicate_free: 760 evaluations so far.
+05:23:08: verbose- merit_function: maximum encountered fitness = 7.72139.
+05:23:08: quiet- duplicate_free: 19 generations so far.
+05:23:08: quiet- duplicate_free: 803 evaluations so far.
+05:23:13: verbose- merit_function: maximum encountered fitness = 7.85553.
+05:23:13: quiet- duplicate_free: 20 generations so far.
+05:23:13: quiet- duplicate_free: 846 evaluations so far.
+05:23:13: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:23:13: quiet- NO_METHOD_ID: Final population size = 1
+05:23:13: quiet- JEGA Front End: NO_METHOD_ID execution took 91.378 seconds.
+05:23:13: quiet- JEGA Front End: Execution took 91.378 seconds.
+05:23:13: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:23:13 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:23:13: quiet- JEGA Front End: Random seed = 9
+05:23:13: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:23:13: quiet- : Assigning missing weights to 1.
+05:23:13: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:23:13: quiet- merit_function: Assigning missing weights to 1.
+05:23:18: verbose- merit_function: maximum encountered fitness = 2.93486.
+05:23:18: quiet- duplicate_free: 1 generation so far.
+05:23:18: quiet- duplicate_free: 50 evaluations so far.
+05:23:23: verbose- merit_function: maximum encountered fitness = 3.60169.
+05:23:23: quiet- duplicate_free: 2 generations so far.
+05:23:23: quiet- duplicate_free: 93 evaluations so far.
+05:23:27: verbose- merit_function: maximum encountered fitness = 3.60169.
+05:23:27: quiet- duplicate_free: 3 generations so far.
+05:23:27: quiet- duplicate_free: 134 evaluations so far.
+05:23:32: verbose- merit_function: maximum encountered fitness = 3.60169.
+05:23:32: quiet- duplicate_free: 4 generations so far.
+05:23:32: quiet- duplicate_free: 177 evaluations so far.
+05:23:36: verbose- merit_function: maximum encountered fitness = 3.60169.
+05:23:36: quiet- duplicate_free: 5 generations so far.
+05:23:36: quiet- duplicate_free: 216 evaluations so far.
+05:23:41: verbose- merit_function: maximum encountered fitness = 4.98682.
+05:23:41: quiet- duplicate_free: 6 generations so far.
+05:23:41: quiet- duplicate_free: 259 evaluations so far.
+05:23:45: verbose- merit_function: maximum encountered fitness = 4.98682.
+05:23:45: quiet- duplicate_free: 7 generations so far.
+05:23:45: quiet- duplicate_free: 302 evaluations so far.
+05:23:50: verbose- merit_function: maximum encountered fitness = 4.98682.
+05:23:50: quiet- duplicate_free: 8 generations so far.
+05:23:50: quiet- duplicate_free: 345 evaluations so far.
+05:23:54: verbose- merit_function: maximum encountered fitness = 5.38144.
+05:23:54: quiet- duplicate_free: 9 generations so far.
+05:23:54: quiet- duplicate_free: 386 evaluations so far.
+05:23:59: verbose- merit_function: maximum encountered fitness = 5.38144.
+05:23:59: quiet- duplicate_free: 10 generations so far.
+05:23:59: quiet- duplicate_free: 429 evaluations so far.
+05:24:04: verbose- merit_function: maximum encountered fitness = 5.80256.
+05:24:04: quiet- duplicate_free: 11 generations so far.
+05:24:04: quiet- duplicate_free: 472 evaluations so far.
+05:24:08: verbose- merit_function: maximum encountered fitness = 6.19159.
+05:24:08: quiet- duplicate_free: 12 generations so far.
+05:24:08: quiet- duplicate_free: 513 evaluations so far.
+05:24:13: verbose- merit_function: maximum encountered fitness = 6.85161.
+05:24:13: quiet- duplicate_free: 13 generations so far.
+05:24:13: quiet- duplicate_free: 556 evaluations so far.
+05:24:17: verbose- merit_function: maximum encountered fitness = 6.85161.
+05:24:17: quiet- duplicate_free: 14 generations so far.
+05:24:17: quiet- duplicate_free: 595 evaluations so far.
+05:24:22: verbose- merit_function: maximum encountered fitness = 6.85161.
+05:24:22: quiet- duplicate_free: 15 generations so far.
+05:24:22: quiet- duplicate_free: 638 evaluations so far.
+05:24:26: verbose- merit_function: maximum encountered fitness = 6.85161.
+05:24:26: quiet- duplicate_free: 16 generations so far.
+05:24:26: quiet- duplicate_free: 681 evaluations so far.
+05:24:31: verbose- merit_function: maximum encountered fitness = 6.85161.
+05:24:31: quiet- duplicate_free: 17 generations so far.
+05:24:31: quiet- duplicate_free: 724 evaluations so far.
+05:24:35: verbose- merit_function: maximum encountered fitness = 7.14607.
+05:24:35: quiet- duplicate_free: 18 generations so far.
+05:24:35: quiet- duplicate_free: 767 evaluations so far.
+05:24:40: verbose- merit_function: maximum encountered fitness = 7.14607.
+05:24:40: quiet- duplicate_free: 19 generations so far.
+05:24:40: quiet- duplicate_free: 810 evaluations so far.
+05:24:45: verbose- merit_function: maximum encountered fitness = 7.18184.
+05:24:45: quiet- duplicate_free: 20 generations so far.
+05:24:45: quiet- duplicate_free: 853 evaluations so far.
+05:24:45: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:24:45: quiet- NO_METHOD_ID: Final population size = 1
+05:24:45: quiet- JEGA Front End: NO_METHOD_ID execution took 92.195 seconds.
+05:24:45: quiet- JEGA Front End: Execution took 92.195 seconds.
+05:24:45: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
+JEGA Genetic Algorithm Optimization Software v2.7.0
+Run started Fri Aug  8 05:24:45 2025
+
+Global Log initialized using "normal" as default level.
+Global Log logging to file JEGAGlobal.log
+Global Log logging to console window
+05:24:45: quiet- JEGA Front End: Random seed = 10
+05:24:45: quiet- : Matched new set to a group that is not the current group.  Adopting the new group.
+05:24:45: quiet- : Assigning missing weights to 1.
+05:24:45: quiet- Error encountered while retrieving parameter named "method.max_time" of type "double" from parameter database reading: Parameter not found for tag: method.max_time
+05:24:45: quiet- merit_function: Assigning missing weights to 1.
+05:24:50: verbose- merit_function: maximum encountered fitness = 2.78807.
+05:24:50: quiet- duplicate_free: 1 generation so far.
+05:24:50: quiet- duplicate_free: 50 evaluations so far.
+05:24:55: verbose- merit_function: maximum encountered fitness = 3.36217.
+05:24:55: quiet- duplicate_free: 2 generations so far.
+05:24:55: quiet- duplicate_free: 93 evaluations so far.
+05:24:59: verbose- merit_function: maximum encountered fitness = 3.36217.
+05:24:59: quiet- duplicate_free: 3 generations so far.
+05:24:59: quiet- duplicate_free: 134 evaluations so far.
+05:25:04: verbose- merit_function: maximum encountered fitness = 4.01298.
+05:25:04: quiet- duplicate_free: 4 generations so far.
+05:25:04: quiet- duplicate_free: 177 evaluations so far.
+05:25:09: verbose- merit_function: maximum encountered fitness = 4.62974.
+05:25:09: quiet- duplicate_free: 5 generations so far.
+05:25:09: quiet- duplicate_free: 220 evaluations so far.
+05:25:13: verbose- merit_function: maximum encountered fitness = 4.62974.
+05:25:13: quiet- duplicate_free: 6 generations so far.
+05:25:13: quiet- duplicate_free: 263 evaluations so far.
+05:25:18: verbose- merit_function: maximum encountered fitness = 5.17366.
+05:25:18: quiet- duplicate_free: 7 generations so far.
+05:25:18: quiet- duplicate_free: 306 evaluations so far.
+05:25:22: verbose- merit_function: maximum encountered fitness = 5.17366.
+05:25:22: quiet- duplicate_free: 8 generations so far.
+05:25:22: quiet- duplicate_free: 343 evaluations so far.
+05:25:27: verbose- merit_function: maximum encountered fitness = 5.59871.
+05:25:27: quiet- duplicate_free: 9 generations so far.
+05:25:27: quiet- duplicate_free: 384 evaluations so far.
+05:25:31: verbose- merit_function: maximum encountered fitness = 5.59871.
+05:25:31: quiet- duplicate_free: 10 generations so far.
+05:25:31: quiet- duplicate_free: 427 evaluations so far.
+05:25:36: verbose- merit_function: maximum encountered fitness = 6.67645.
+05:25:36: quiet- duplicate_free: 11 generations so far.
+05:25:36: quiet- duplicate_free: 468 evaluations so far.
+05:25:40: verbose- merit_function: maximum encountered fitness = 6.79648.
+05:25:40: quiet- duplicate_free: 12 generations so far.
+05:25:40: quiet- duplicate_free: 511 evaluations so far.
+05:25:45: verbose- merit_function: maximum encountered fitness = 6.79648.
+05:25:45: quiet- duplicate_free: 13 generations so far.
+05:25:45: quiet- duplicate_free: 554 evaluations so far.
+05:25:50: verbose- merit_function: maximum encountered fitness = 6.80367.
+05:25:50: quiet- duplicate_free: 14 generations so far.
+05:25:50: quiet- duplicate_free: 597 evaluations so far.
+05:25:54: verbose- merit_function: maximum encountered fitness = 7.15253.
+05:25:54: quiet- duplicate_free: 15 generations so far.
+05:25:54: quiet- duplicate_free: 636 evaluations so far.
+05:25:58: verbose- merit_function: maximum encountered fitness = 7.19665.
+05:25:58: quiet- duplicate_free: 16 generations so far.
+05:25:58: quiet- duplicate_free: 679 evaluations so far.
+05:26:03: verbose- merit_function: maximum encountered fitness = 7.38126.
+05:26:03: quiet- duplicate_free: 17 generations so far.
+05:26:03: quiet- duplicate_free: 722 evaluations so far.
+05:26:08: verbose- merit_function: maximum encountered fitness = 7.39093.
+05:26:08: quiet- duplicate_free: 18 generations so far.
+05:26:08: quiet- duplicate_free: 765 evaluations so far.
+05:26:12: verbose- merit_function: maximum encountered fitness = 7.44063.
+05:26:12: quiet- duplicate_free: 19 generations so far.
+05:26:12: quiet- duplicate_free: 808 evaluations so far.
+05:26:17: verbose- merit_function: maximum encountered fitness = 7.44063.
+05:26:17: quiet- duplicate_free: 20 generations so far.
+05:26:17: quiet- duplicate_free: 851 evaluations so far.
+05:26:17: quiet- NO_METHOD_ID: Ran 20 total generations.
+05:26:17: quiet- NO_METHOD_ID: Final population size = 1
+05:26:17: quiet- JEGA Front End: NO_METHOD_ID execution took 92.223 seconds.
+05:26:17: quiet- JEGA Front End: Execution took 92.223 seconds.
+05:26:17: quiet- NO_METHOD_ID: find optimum completed and all results have been passed back to DAKOTA.
+
+
