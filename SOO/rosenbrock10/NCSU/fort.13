@@ -1,0 +1,41 @@
+--------------------------------- Log file --------------------------------
+DIRECT Version 2.0.4
+ Problem Dimension n                    :     10
+ Eps value                              :   0.1000E-03
+ Maximum number of f-evaluations (maxf) :   1000
+ Maximum number of iterations (MaxT)    :    100
+ Value of f_global                      :  -0.1798+309
+ Global percentage wanted               :   0.0000E+00
+ Volume percentage wanted               :   0.1000E-05
+ Measure percentage wanted              :   0.1000E-03
+ Epsilon is constant.
+ Our modification of the DIRECT algorithm is used.
+Bounds on variable x 1    :    -10.00000 <= xi <=     10.00000
+Bounds on variable x 2    :    -10.00000 <= xi <=     10.00000
+Bounds on variable x 3    :    -10.00000 <= xi <=     10.00000
+Bounds on variable x 4    :    -10.00000 <= xi <=     10.00000
+Bounds on variable x 5    :    -10.00000 <= xi <=     10.00000
+Bounds on variable x 6    :    -10.00000 <= xi <=     10.00000
+Bounds on variable x 7    :    -10.00000 <= xi <=     10.00000
+Bounds on variable x 8    :    -10.00000 <= xi <=     10.00000
+Bounds on variable x 9    :    -10.00000 <= xi <=     10.00000
+Bounds on variable x10    :    -10.00000 <= xi <=     10.00000
+---------------------------------------------------------------------------
+ Iteration   # of f-eval.   fmin
+    1          21           9.0000000000
+DIRECT stopped: Volume of S_min is 0.29D-07% < 0.10D-05% of the original volume.
+--------------------------------- Summary --------------------------------
+Final function value           :    9.0000000
+Number of function evaluations :           59
+Index  Final solution   x(i) - l(i)   u(i) - x(i) 
+    1    0.0000000      10.0000000     10.0000000
+    2    0.0000000      10.0000000     10.0000000
+    3    0.0000000      10.0000000     10.0000000
+    4    0.0000000      10.0000000     10.0000000
+    5    0.0000000      10.0000000     10.0000000
+    6    0.0000000      10.0000000     10.0000000
+    7    0.0000000      10.0000000     10.0000000
+    8    0.0000000      10.0000000     10.0000000
+    9    0.0000000      10.0000000     10.0000000
+   10    0.0000000      10.0000000     10.0000000
+---------------------------------------------------------------------------
