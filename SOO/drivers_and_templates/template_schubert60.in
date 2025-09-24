@@ -1,0 +1,35 @@
+# This .in file optimizes the schubert60 problem with {method}
+
+environment
+    tabular_data
+	tabular_data_file  =  'results_{method}1.dat'
+
+method 
+  soga                  max_iterations = 20 population_size = 50 		 # SOGA
+  coliny_direct         max_function_evaluations = 1000          		 # COLINY
+  coliny_ea             population_size  =  50 max_function_evaluations = 1000   # ea (coliny)
+  efficient_global 	max_iterations = 900 initial_samples = 100               # ego
+  
+  ncsu_direct           max_function_evaluations = 1000                          # NCSU #clear seed
+  genie_direct          max_function_evaluations = 1000                          # GENIE
+  genie_opt_darts       max_function_evaluations = 1000                          # genie_opt_darts
+     seed  =  1
+	
+model
+   single
+
+variables  # modify variables if needed
+  continuous_design = 60
+    upper_bounds     60*5.12
+    lower_bounds     60*-5.12
+
+interface
+   analysis_drivers = 'python schubert_driver.py' #SCHUBERT
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses
+   objective_functions = 1
+   no_gradients
+   no_hessians
