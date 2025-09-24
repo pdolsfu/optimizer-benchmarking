@@ -1,0 +1,30 @@
+# TEMPLATE for driver file, optimizes the gseven10d problem with soga (500 max function evaluations)
+
+environment
+    tabular_data
+tabular_data_file  =  'results_soga10.dat'
+
+method 
+  soga                  max_iterations = 10 population_size = 50 		 # SOGA
+seed  =  10
+	
+
+model
+   single
+
+variables  # modify variables if needed
+  continuous_design = 10
+    upper_bounds     10*10
+    lower_bounds     10*-10
+
+interface
+   analysis_drivers = 'python gseven_driver.py'
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses
+   objective_functions = 1
+   nonlinear_inequality_constraints = 8 # add nonlinear constraints if needed
+   no_gradients
+   no_hessians
