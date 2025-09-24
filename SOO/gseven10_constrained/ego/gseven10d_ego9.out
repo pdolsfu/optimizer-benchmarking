@@ -1,0 +1,3357 @@
+Dakota version 6.21 released Nov. 14 2024.
+Repository revision ab97f19b0 (2024-11-11) built Nov 11 2024 19:31:35.
+Running serial Dakota executable in serial mode.
+Start time: Fri Jul 18 12:43:24 2025
+
+-----------------------
+Begin DAKOTA input file
+gseven10d_ego.in
+-----------------------
+# TEMPLATE for driver file, optimizes the gseven10d problem with ego (500 max function evaluations)
+
+environment
+    tabular_data
+tabular_data_file  =  'results_ego9.dat'
+
+method 
+  efficient_global 	max_iterations = 400 initial_samples = 100               # EGO
+seed  =  9
+	
+
+model
+   single
+
+variables  # modify variables if needed
+  continuous_design = 10
+    upper_bounds     10*10
+    lower_bounds     10*-10
+
+interface
+   analysis_drivers = 'python gseven_driver.py'
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses
+   objective_functions = 1
+   nonlinear_inequality_constraints = 8 # add nonlinear constraints if needed
+   no_gradients
+   no_hessians---------------------
+End DAKOTA input file
+---------------------
+
+Using Dakota input file 'gseven10d_ego.in'
+Writing new restart file 'dakota.rst'.
+
+>>>>> Executing environment.
+
+>>>>> Running efficient_global iterator.
+
+>>>>> Building global_kriging approximations.
+
+NonD lhs Samples = 100 Seed (user-specified) = 9
+
+---------------------
+Begin Evaluation    1
+---------------------
+Parameters for evaluation 1:
+                     -3.3727986041e+00 cdv_1
+                     -6.5859828882e+00 cdv_2
+                      7.3407561387e+00 cdv_3
+                      5.7834057511e+00 cdv_4
+                     -6.5459795956e+00 cdv_5
+                     -1.9651934154e+00 cdv_6
+                     -1.4416897969e+00 cdv_7
+                     -5.4259627250e+00 cdv_8
+                     -6.7597809839e+00 cdv_9
+                      8.6833870439e-01 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 1:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.8736510870e+03 obj_fn
+                     -1.9592970400e+02 nln_ineq_con_1
+                      3.2616678000e+01 nln_ineq_con_2
+                     -3.3725159000e+01 nln_ineq_con_3
+                      4.0145472700e+02 nln_ineq_con_4
+                     -4.5578195000e+01 nln_ineq_con_5
+                      3.8931108100e+02 nln_ineq_con_6
+                      2.4709066000e+01 nln_ineq_con_7
+                      2.5787377440e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation    2
+---------------------
+Parameters for evaluation 2:
+                      6.4992563428e+00 cdv_1
+                     -3.1600733349e+00 cdv_2
+                      8.9771663216e+00 cdv_3
+                     -9.2513409011e+00 cdv_4
+                      9.3098009976e+00 cdv_5
+                      3.0307530321e+00 cdv_6
+                      8.3816454201e+00 cdv_7
+                      3.9725270208e+00 cdv_8
+                     -7.6799563343e+00 cdv_9
+                     -8.4473383645e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 2:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.1491582540e+03 obj_fn
+                     -8.4195534000e+01 nln_ineq_con_1
+                     -4.4269768000e+01 nln_ineq_con_2
+                     -9.1819302000e+01 nln_ineq_con_3
+                      3.1845435400e+02 nln_ineq_con_4
+                      1.7328727900e+02 nln_ineq_con_5
+                      3.3064584700e+02 nln_ineq_con_6
+                      2.6387576100e+02 nln_ineq_con_7
+                      2.9710055270e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation    3
+---------------------
+Parameters for evaluation 3:
+                      9.4633504979e+00 cdv_1
+                      3.0358940801e-01 cdv_2
+                      4.1787885488e+00 cdv_3
+                     -3.9046203690e+00 cdv_4
+                      1.7686979858e+00 cdv_5
+                     -5.7125749975e-01 cdv_6
+                      4.0572785063e+00 cdv_7
+                     -4.5537233737e+00 cdv_8
+                     -2.4186668624e+00 cdv_9
+                      5.8098252551e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 3:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.3812628250e+03 obj_fn
+                     -1.1878399700e+02 nln_ineq_con_1
+                      1.4123608000e+01 nln_ineq_con_2
+                     -1.1081261000e+02 nln_ineq_con_3
+                      1.3844421200e+02 nln_ineq_con_4
+                      4.2132978000e+02 nln_ineq_con_5
+                      8.3537350000e+00 nln_ineq_con_6
+                      1.1489770400e+02 nln_ineq_con_7
+                      1.2353461380e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation    4
+---------------------
+Parameters for evaluation 4:
+                     -2.8098385683e+00 cdv_1
+                     -2.7314389532e+00 cdv_2
+                     -3.8193956821e+00 cdv_3
+                      7.4688548426e+00 cdv_4
+                     -1.7587241882e+00 cdv_5
+                     -5.1458147725e+00 cdv_6
+                      8.9876522826e+00 cdv_7
+                     -2.3062845645e-02 cdv_8
+                      1.9116868050e+00 cdv_9
+                     -5.9771647326e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 4:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.6593579140e+03 obj_fn
+                     -1.5706707100e+02 nln_ineq_con_1
+                     -1.5908308900e+02 nln_ineq_con_2
+                      2.6528594000e+01 nln_ineq_con_3
+                      5.7694794000e+01 nln_ineq_con_4
+                      5.9107274000e+01 nln_ineq_con_5
+                      1.3347599300e+02 nln_ineq_con_6
+                      1.7842093000e+01 nln_ineq_con_7
+                      4.7869172600e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation    5
+---------------------
+Parameters for evaluation 5:
+                     -1.6740897948e+00 cdv_1
+                      4.7433065980e+00 cdv_2
+                      2.0676874886e-01 cdv_3
+                     -5.2893745833e+00 cdv_4
+                     -3.9934552011e+00 cdv_5
+                     -7.4528159916e+00 cdv_6
+                      1.4191355028e+00 cdv_7
+                     -1.6551909851e+00 cdv_8
+                     -6.9585372494e-01 cdv_9
+                     -9.7453900750e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 5:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.3584894240e+03 obj_fn
+                     -1.0713395200e+02 nln_ineq_con_1
+                     -8.2123036000e+01 nln_ineq_con_2
+                      2.6890843000e+01 nln_ineq_con_3
+                     -3.0235592000e+01 nln_ineq_con_4
+                      5.6099613000e+01 nln_ineq_con_5
+                      7.3194885000e+01 nln_ineq_con_6
+                     -1.4720076000e+01 nln_ineq_con_7
+                      1.0091143040e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation    6
+---------------------
+Parameters for evaluation 6:
+                     -5.4242881835e+00 cdv_1
+                     -3.6553609511e-02 cdv_2
+                      7.5837011314e-01 cdv_3
+                     -3.3574426811e+00 cdv_4
+                      9.4371752028e+00 cdv_5
+                      9.7655338323e+00 cdv_6
+                     -2.4765325674e+00 cdv_7
+                      3.0093048024e+00 cdv_8
+                     -8.0948267157e+00 cdv_9
+                      8.4362281249e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 6:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.8025329790e+03 obj_fn
+                     -9.2366580000e+01 nln_ineq_con_1
+                     -5.8307900000e+00 nln_ineq_con_2
+                     -2.6025392000e+01 nln_ineq_con_3
+                      1.0689514600e+02 nln_ineq_con_4
+                      1.4101165200e+02 nln_ineq_con_5
+                      3.5010858000e+02 nln_ineq_con_6
+                      1.5967636800e+02 nln_ineq_con_7
+                      3.0655213100e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation    7
+---------------------
+Parameters for evaluation 7:
+                     -2.0113386188e+00 cdv_1
+                      7.2981203095e+00 cdv_2
+                     -7.7862111560e+00 cdv_3
+                     -9.5075979121e+00 cdv_4
+                      4.4009902812e+00 cdv_5
+                      9.9885972656e+00 cdv_6
+                      9.7359967526e+00 cdv_7
+                      9.0445240677e+00 cdv_8
+                      8.0711125664e+00 cdv_9
+                      9.5631115261e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 7:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.4102592400e+03 obj_fn
+                     -2.4362027000e+01 nln_ineq_con_1
+                     -2.2592124500e+02 nln_ineq_con_2
+                      3.9916289000e+01 nln_ineq_con_3
+                      1.8997121900e+02 nln_ineq_con_4
+                      2.4768719200e+02 nln_ineq_con_5
+                      8.9986195000e+01 nln_ineq_con_6
+                      1.4116889000e+02 nln_ineq_con_7
+                     -1.7058359000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation    8
+---------------------
+Parameters for evaluation 8:
+                      1.0158631996e+00 cdv_1
+                      1.6860093624e+00 cdv_2
+                      1.7935437931e+00 cdv_3
+                     -1.3943076031e-01 cdv_4
+                     -2.0588588988e+00 cdv_5
+                     -2.1371257855e+00 cdv_6
+                     -1.7890347260e+00 cdv_7
+                     -6.4219370774e+00 cdv_8
+                      3.1025055982e-01 cdv_9
+                     -8.7885177053e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 8:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.7804470600e+03 obj_fn
+                     -1.4493683000e+02 nln_ineq_con_1
+                      1.4240273000e+01 nln_ineq_con_2
+                      2.3734010000e+00 nln_ineq_con_3
+                     -1.0277852500e+02 nln_ineq_con_4
+                     -3.3789000000e+00 nln_ineq_con_5
+                      1.9952014000e+01 nln_ineq_con_6
+                     -2.8883250000e+01 nln_ineq_con_7
+                      7.7817504800e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation    9
+---------------------
+Parameters for evaluation 9:
+                      5.8320140073e+00 cdv_1
+                      8.5000215836e+00 cdv_2
+                      7.8295899591e+00 cdv_3
+                     -9.0671901383e+00 cdv_4
+                      3.7554225612e+00 cdv_5
+                     -9.7658450573e+00 cdv_6
+                     -4.1093890741e+00 cdv_7
+                      5.1712011660e+00 cdv_8
+                     -2.6118126216e+00 cdv_9
+                      5.3448981942e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 9:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.5499503170e+03 obj_fn
+                      1.9697142000e+01 nln_ineq_con_1
+                      7.0521984000e+01 nln_ineq_con_2
+                     -6.5404928000e+01 nln_ineq_con_3
+                      2.3112923300e+02 nln_ineq_con_4
+                      2.1954388900e+02 nln_ineq_con_5
+                      6.4925911000e+01 nln_ineq_con_6
+                      8.1710220000e+01 nln_ineq_con_7
+                      1.3474166060e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   10
+---------------------
+Parameters for evaluation 10:
+                     -3.7729149709e+00 cdv_1
+                     -7.7520783670e+00 cdv_2
+                      4.9364305536e+00 cdv_3
+                     -1.2537740328e+00 cdv_4
+                      8.0666593733e+00 cdv_5
+                      6.9278181991e+00 cdv_6
+                     -8.3601022595e+00 cdv_7
+                     -9.7489152205e+00 cdv_8
+                      7.1281790766e+00 cdv_9
+                      9.2592948078e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 10:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.5968801830e+03 obj_fn
+                     -2.2151198200e+02 nln_ineq_con_1
+                      1.4691138500e+02 nln_ineq_con_2
+                      1.9801469000e+01 nln_ineq_con_3
+                      4.9992151000e+02 nln_ineq_con_4
+                     -2.7203462000e+01 nln_ineq_con_5
+                      5.0380861700e+02 nln_ineq_con_6
+                      2.5195050000e+02 nln_ineq_con_7
+                     -9.0887928000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   11
+---------------------
+Parameters for evaluation 11:
+                      9.3850400157e+00 cdv_1
+                      3.9113550299e+00 cdv_2
+                     -5.9372294787e+00 cdv_3
+                     -4.3687154196e+00 cdv_4
+                      4.1847771415e+00 cdv_5
+                     -6.7994016061e+00 cdv_6
+                     -2.0833693999e+00 cdv_7
+                     -3.6021333074e+00 cdv_8
+                     -2.8521771367e+00 cdv_9
+                      5.1127466924e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 11:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.5353231550e+03 obj_fn
+                     -7.4072156000e+01 nln_ineq_con_1
+                      9.0772573000e+01 nln_ineq_con_2
+                     -1.0374398900e+02 nln_ineq_con_3
+                      1.4802111600e+02 nln_ineq_con_4
+                      5.8292059900e+02 nln_ineq_con_5
+                      3.0311365000e+01 nln_ineq_con_6
+                      8.7355367000e+01 nln_ineq_con_7
+                      1.3727607670e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   12
+---------------------
+Parameters for evaluation 12:
+                     -8.9984913800e+00 cdv_1
+                     -9.3659771717e+00 cdv_2
+                      6.7950092752e+00 cdv_3
+                     -7.4840578434e+00 cdv_4
+                     -2.6902065316e+00 cdv_5
+                      4.2935318441e+00 cdv_6
+                     -1.9001517352e+00 cdv_7
+                     -8.4838142900e+00 cdv_8
+                     -5.8567510743e+00 cdv_9
+                      1.6931523657e-01 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 12:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      4.4589242150e+03 obj_fn
+                     -2.5847772500e+02 nln_ineq_con_1
+                      2.7785400000e-01 nln_ineq_con_2
+                      1.1633591000e+01 nln_ineq_con_3
+                      9.9930271100e+02 nln_ineq_con_4
+                      3.0553657400e+02 nln_ineq_con_5
+                      4.8919114800e+02 nln_ineq_con_6
+                      1.2882796800e+02 nln_ineq_con_7
+                      2.2737290080e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   13
+---------------------
+Parameters for evaluation 13:
+                      1.4135339125e+00 cdv_1
+                      2.8605261289e+00 cdv_2
+                      5.8535315031e+00 cdv_3
+                     -7.7027255761e+00 cdv_4
+                      7.5653726594e+00 cdv_5
+                      6.1421653857e+00 cdv_6
+                     -7.7315035436e+00 cdv_7
+                     -6.2704438251e+00 cdv_8
+                     -8.4157834987e+00 cdv_9
+                     -1.6435410651e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 13:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.5322358100e+03 obj_fn
+                     -1.1828271800e+02 nln_ineq_con_1
+                      1.1014580300e+02 nln_ineq_con_2
+                     -5.6379054000e+01 nln_ineq_con_3
+                      3.5563800000e+00 nln_ineq_con_4
+                      8.3015040000e+00 nln_ineq_con_5
+                      1.5984999400e+02 nln_ineq_con_6
+                      9.5165239000e+01 nln_ineq_con_7
+                      3.2581627170e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   14
+---------------------
+Parameters for evaluation 14:
+                      8.6785562250e+00 cdv_1
+                     -8.9440544338e+00 cdv_2
+                      1.5345082204e-01 cdv_3
+                     -4.1469658664e-01 cdv_4
+                     -7.5947297257e-01 cdv_5
+                      8.5122284178e+00 cdv_6
+                      1.4346701256e-01 cdv_7
+                      8.6681694216e+00 cdv_8
+                     -6.0546144751e+00 cdv_9
+                     -9.1183334356e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 14:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.2996094650e+03 obj_fn
+                     -3.7422924000e+01 nln_ineq_con_1
+                      1.7323539700e+02 nln_ineq_con_2
+                     -1.1135296400e+02 nln_ineq_con_3
+                      5.8740105500e+02 nln_ineq_con_4
+                      3.0004578600e+02 nln_ineq_con_5
+                      2.9854547900e+02 nln_ineq_con_6
+                      4.5096010200e+02 nln_ineq_con_7
+                      2.3545145950e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   15
+---------------------
+Parameters for evaluation 15:
+                     -6.5208228295e+00 cdv_1
+                      7.0390279284e-01 cdv_2
+                     -6.4479231394e+00 cdv_3
+                      1.9662992324e+00 cdv_4
+                     -5.2156591172e+00 cdv_5
+                      8.3183263220e+00 cdv_6
+                     -4.8650368277e+00 cdv_7
+                      9.3800651261e+00 cdv_8
+                     -9.3219280419e+00 cdv_9
+                      3.5450294568e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 15:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.3980708180e+03 obj_fn
+                     -2.8548081000e+01 nln_ineq_con_1
+                      3.0626306000e+01 nln_ineq_con_2
+                     -1.2125311000e+01 nln_ineq_con_3
+                      1.8828884600e+02 nln_ineq_con_4
+                      3.2925506600e+02 nln_ineq_con_5
+                      1.7044663500e+02 nln_ineq_con_6
+                     -2.6276637000e+01 nln_ineq_con_7
+                      3.5995609720e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   16
+---------------------
+Parameters for evaluation 16:
+                     -7.9562882652e+00 cdv_1
+                     -2.5990872308e+00 cdv_2
+                      8.2814397634e+00 cdv_3
+                     -6.9124753372e+00 cdv_4
+                     -5.1377602872e+00 cdv_5
+                     -6.5288723876e+00 cdv_6
+                      5.2301135948e-01 cdv_7
+                     -9.5247439118e-01 cdv_8
+                     -3.7563519831e+00 cdv_9
+                      3.7695496464e-01 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 16:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.4638687320e+03 obj_fn
+                     -1.5996189300e+02 nln_ineq_con_1
+                     -6.9566327000e+01 nln_ineq_con_2
+                      2.6916462000e+01 nln_ineq_con_3
+                      4.8833395600e+02 nln_ineq_con_4
+                      2.7474983500e+02 nln_ineq_con_5
+                      2.7011608700e+02 nln_ineq_con_6
+                     -1.1522160000e+00 nln_ineq_con_7
+                      1.6641774000e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   17
+---------------------
+Parameters for evaluation 17:
+                     -6.7831880692e+00 cdv_1
+                      4.8983857871e+00 cdv_2
+                     -7.9774913768e+00 cdv_3
+                      6.7231971439e+00 cdv_4
+                      6.0022415691e+00 cdv_5
+                     -7.2607390488e+00 cdv_6
+                      7.9771690499e-01 cdv_7
+                     -7.7259558510e+00 cdv_8
+                     -9.9090412174e+00 cdv_9
+                     -6.3834447167e-01 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 17:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.8886332080e+03 obj_fn
+                     -1.7956757700e+02 nln_ineq_con_1
+                     -1.3603206600e+02 nln_ineq_con_2
+                      3.7937590000e+00 nln_ineq_con_3
+                      2.0606701000e+02 nln_ineq_con_4
+                      4.1116915900e+02 nln_ineq_con_5
+                      1.9622696900e+02 nln_ineq_con_6
+                      2.2055838600e+02 nln_ineq_con_7
+                      3.9030133780e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   18
+---------------------
+Parameters for evaluation 18:
+                      1.8981959340e+00 cdv_1
+                      3.0293576459e+00 cdv_2
+                     -4.6069683639e+00 cdv_3
+                      7.9372610969e+00 cdv_4
+                      6.3340791558e+00 cdv_5
+                      8.6902878734e+00 cdv_6
+                     -6.2028822205e+00 cdv_7
+                      4.4407240055e+00 cdv_8
+                      1.4966126746e+00 cdv_9
+                      4.2228377365e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 18:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      7.8823880100e+02 obj_fn
+                     -2.3685265000e+01 nln_ineq_con_1
+                      1.0907754400e+02 nln_ineq_con_2
+                     -2.2089464000e+01 nln_ineq_con_3
+                     -1.3307797300e+02 nln_ineq_con_4
+                      9.8883856000e+01 nln_ineq_con_5
+                      1.0217168800e+02 nln_ineq_con_6
+                      7.4208494000e+01 nln_ineq_con_7
+                      4.9045025400e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   19
+---------------------
+Parameters for evaluation 19:
+                     -1.4611122651e+00 cdv_1
+                     -8.9022627207e-01 cdv_2
+                      1.3120371248e+00 cdv_3
+                     -5.8094977701e+00 cdv_4
+                      4.8545167634e+00 cdv_5
+                      2.8226615286e+00 cdv_6
+                     -5.9492870627e+00 cdv_7
+                      3.7956971489e-02 cdv_8
+                      5.8401810083e+00 cdv_9
+                      3.0406337265e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 19:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.4985754000e+03 obj_fn
+                     -9.7106106000e+01 nln_ineq_con_1
+                      9.3724482000e+01 nln_ineq_con_2
+                      2.1028083000e+01 nln_ineq_con_3
+                      2.0582703000e+01 nln_ineq_con_4
+                     -2.8515730000e+00 nln_ineq_con_5
+                      1.3046128600e+02 nln_ineq_con_6
+                      8.1380797000e+01 nln_ineq_con_7
+                      3.3735360000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   20
+---------------------
+Parameters for evaluation 20:
+                      5.6927069437e+00 cdv_1
+                      8.8167086868e+00 cdv_2
+                     -6.7477966844e+00 cdv_3
+                      1.5824664641e+00 cdv_4
+                     -5.8579491391e-01 cdv_5
+                     -8.5569306565e+00 cdv_6
+                      1.8693250125e+00 cdv_7
+                      4.8641586951e+00 cdv_8
+                     -7.2012619605e+00 cdv_9
+                     -1.3585873442e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 20:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.4418208480e+03 obj_fn
+                      2.3824000000e-02 nln_ineq_con_1
+                     -3.5656808000e+01 nln_ineq_con_2
+                     -7.3197373000e+01 nln_ineq_con_3
+                      1.3623290800e+02 nln_ineq_con_4
+                      3.5190961900e+02 nln_ineq_con_5
+                      2.8649563000e+01 nln_ineq_con_6
+                      2.5315871000e+01 nln_ineq_con_7
+                      2.8182726250e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   21
+---------------------
+Parameters for evaluation 21:
+                     -9.3001739269e+00 cdv_1
+                      1.1672703450e+00 cdv_2
+                     -5.3486981709e-02 cdv_3
+                      1.0889669799e+00 cdv_4
+                     -7.5421804332e+00 cdv_5
+                     -2.8393711309e+00 cdv_6
+                     -2.9725928739e+00 cdv_7
+                     -2.7617052821e-01 cdv_8
+                      7.7245650871e+00 cdv_9
+                      4.4697391905e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 21:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.4283610910e+03 obj_fn
+                     -1.2993210000e+02 nln_ineq_con_1
+                     -5.2358164000e+01 nln_ineq_con_2
+                      9.4419279000e+01 nln_ineq_con_3
+                      2.6890033700e+02 nln_ineq_con_4
+                      4.3627110900e+02 nln_ineq_con_5
+                      3.0918955200e+02 nln_ineq_con_6
+                      6.8405920000e+00 nln_ineq_con_7
+                      4.5263420000e+00 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   22
+---------------------
+Parameters for evaluation 22:
+                     -7.3724946361e+00 cdv_1
+                     -9.8705766571e+00 cdv_2
+                     -5.4416753630e+00 cdv_3
+                     -3.4530556309e+00 cdv_4
+                     -3.5346848771e+00 cdv_5
+                     -8.3500236666e+00 cdv_6
+                      2.4437287305e+00 cdv_7
+                     -6.9907233745e+00 cdv_8
+                     -1.2928695356e+00 cdv_9
+                     -4.4019973439e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 22:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.9354516980e+03 obj_fn
+                     -2.5409055800e+02 nln_ineq_con_1
+                     -5.0285168000e+01 nln_ineq_con_2
+                      2.9578451000e+01 nln_ineq_con_3
+                      8.8953299200e+02 nln_ineq_con_4
+                      2.9062181900e+02 nln_ineq_con_5
+                      5.1877460400e+02 nln_ineq_con_6
+                      1.4949774600e+02 nln_ineq_con_7
+                      1.0299970960e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   23
+---------------------
+Parameters for evaluation 23:
+                      8.9407058354e+00 cdv_1
+                     -5.4604527229e+00 cdv_2
+                      6.5657562398e+00 cdv_3
+                      9.8982984297e+00 cdv_4
+                      8.7292121754e+00 cdv_5
+                     -9.1757941188e+00 cdv_6
+                      6.6135330231e+00 cdv_7
+                      6.3892914768e+00 cdv_8
+                     -7.1973785758e-02 cdv_9
+                      7.9395823142e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 23:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      8.0146483300e+02 obj_fn
+                     -5.8876416000e+01 nln_ineq_con_1
+                      3.3439202000e+01 nln_ineq_con_2
+                     -1.1068558600e+02 nln_ineq_con_3
+                      3.2776745500e+02 nln_ineq_con_4
+                      2.9652096600e+02 nln_ineq_con_5
+                      3.8721602500e+02 nln_ineq_con_6
+                      4.2027829800e+02 nln_ineq_con_7
+                      6.6671922000e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   24
+---------------------
+Parameters for evaluation 24:
+                      5.9667185009e-01 cdv_1
+                      2.1469531631e+00 cdv_2
+                     -2.9971608694e+00 cdv_3
+                      9.7668664511e-01 cdv_4
+                      2.2857636278e+00 cdv_5
+                      2.5204184787e+00 cdv_6
+                      7.2121823987e+00 cdv_7
+                     -2.3700878995e+00 cdv_8
+                     -2.0788084892e+00 cdv_9
+                     -8.4558359301e-02 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 24:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.8767115270e+03 obj_fn
+                     -1.3484588500e+02 nln_ineq_con_1
+                     -1.3855618300e+02 nln_ineq_con_2
+                     -2.2704394000e+01 nln_ineq_con_3
+                     -1.0005211500e+02 nln_ineq_con_4
+                      5.7951242000e+01 nln_ineq_con_5
+                      1.7425927000e+01 nln_ineq_con_6
+                      2.7317427000e+01 nln_ineq_con_7
+                      1.2306721790e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   25
+---------------------
+Parameters for evaluation 25:
+                      2.5721663843e+00 cdv_1
+                     -4.7466451245e+00 cdv_2
+                      5.3578551314e-01 cdv_3
+                      6.6486857864e-01 cdv_4
+                      6.9298685220e+00 cdv_5
+                      1.5234242850e+00 cdv_6
+                     -5.8703618073e-01 cdv_7
+                     -3.0877949558e+00 cdv_8
+                      7.4634713364e+00 cdv_9
+                      2.2524939451e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 25:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.7043434930e+03 obj_fn
+                     -1.4447360600e+02 nln_ineq_con_1
+                      6.7498850000e+01 nln_ineq_con_2
+                     -9.2582530000e+00 nln_ineq_con_3
+                      1.1694421800e+02 nln_ineq_con_4
+                     -1.6365059000e+01 nln_ineq_con_5
+                      2.8028410000e+02 nln_ineq_con_6
+                      2.1756353800e+02 nln_ineq_con_7
+                     -4.8509471000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   26
+---------------------
+Parameters for evaluation 26:
+                     -9.1008453404e+00 cdv_1
+                     -3.2193467212e+00 cdv_2
+                     -9.2121258403e+00 cdv_3
+                     -8.0411822884e+00 cdv_4
+                     -7.1239353043e+00 cdv_5
+                      5.4861786674e+00 cdv_6
+                      9.8283742528e+00 cdv_7
+                     -9.0286582644e+00 cdv_8
+                     -4.5991750879e+00 cdv_9
+                     -4.0404822788e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 26:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      4.9438869330e+03 obj_fn
+                     -2.6824316200e+02 nln_ineq_con_1
+                     -2.5039335800e+02 nln_ineq_con_2
+                      3.9453158000e+01 nln_ineq_con_3
+                      6.3042219700e+02 nln_ineq_con_4
+                      5.9586329300e+02 nln_ineq_con_5
+                      3.6722257400e+02 nln_ineq_con_6
+                     -2.6510280000e+01 nln_ineq_con_7
+                      1.9411403860e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   27
+---------------------
+Parameters for evaluation 27:
+                      2.9941692013e+00 cdv_1
+                      2.6269855489e+00 cdv_2
+                      9.4410061785e+00 cdv_3
+                      1.3157499220e+00 cdv_4
+                      4.2409001951e+00 cdv_5
+                      7.3207523818e+00 cdv_6
+                      1.2809135957e+00 cdv_7
+                     -8.1508989994e+00 cdv_8
+                      9.0161338849e-01 cdv_9
+                      9.8451817400e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 27:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.8681919600e+03 obj_fn
+                     -1.5708922700e+02 nln_ineq_con_1
+                     -2.9151522000e+01 nln_ineq_con_2
+                     -4.5881679000e+01 nln_ineq_con_3
+                      5.2576622000e+01 nln_ineq_con_4
+                      3.5050154000e+01 nln_ineq_con_5
+                      3.2934459000e+01 nln_ineq_con_6
+                      4.6071843000e+01 nln_ineq_con_7
+                      5.4250824300e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   28
+---------------------
+Parameters for evaluation 28:
+                      9.9973788760e+00 cdv_1
+                      6.4578598562e+00 cdv_2
+                      1.4967296471e+00 cdv_3
+                      5.1686152685e-01 cdv_4
+                     -4.3841797910e+00 cdv_5
+                      1.7524780765e+00 cdv_6
+                     -9.9725372088e-01 cdv_7
+                     -1.8519510293e+00 cdv_8
+                     -9.4037327838e+00 cdv_9
+                      3.9360650955e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 28:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.1299020720e+03 obj_fn
+                     -4.6396983000e+01 nln_ineq_con_1
+                      6.1560321000e+01 nln_ineq_con_2
+                     -1.3395410500e+02 nln_ineq_con_3
+                      1.2056375400e+02 nln_ineq_con_4
+                      5.3064652200e+02 nln_ineq_con_5
+                      3.9987531000e+01 nln_ineq_con_6
+                     -5.2561725000e+01 nln_ineq_con_7
+                      3.6158815450e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   29
+---------------------
+Parameters for evaluation 29:
+                      3.2371083374e+00 cdv_1
+                     -2.8391515930e+00 cdv_2
+                      7.1372614533e+00 cdv_3
+                     -3.7592585894e+00 cdv_4
+                      3.2772061865e+00 cdv_5
+                      3.2444401573e+00 cdv_6
+                     -1.6765111517e-01 cdv_7
+                     -2.5507203136e+00 cdv_8
+                      7.3502730280e+00 cdv_9
+                     -1.1544909310e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 29:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.7447552220e+03 obj_fn
+                     -1.2870085400e+02 nln_ineq_con_1
+                      5.2832924000e+01 nln_ineq_con_2
+                     -4.5148230000e+00 nln_ineq_con_3
+                      1.4916988900e+02 nln_ineq_con_4
+                     -1.5069800000e+00 nln_ineq_con_5
+                      1.0386635900e+02 nln_ineq_con_6
+                      1.1833137600e+02 nln_ineq_con_7
+                     -1.3599056000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   30
+---------------------
+Parameters for evaluation 30:
+                     -8.5367551376e+00 cdv_1
+                      5.5575848799e+00 cdv_2
+                      6.8489439093e+00 cdv_3
+                     -1.1208725042e+00 cdv_4
+                      7.2577447071e+00 cdv_5
+                      2.1727065602e-01 cdv_6
+                     -6.7200505184e+00 cdv_7
+                      8.0058460309e+00 cdv_8
+                      6.8256278524e+00 cdv_9
+                     -3.0874491610e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 30:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      4.6211996700e+02 obj_fn
+                     -1.9146330000e+01 nln_ineq_con_1
+                      4.2432000000e-01 nln_ineq_con_2
+                      1.0771224800e+02 nln_ineq_con_3
+                      3.4089676100e+02 nln_ineq_con_4
+                      3.7180407100e+02 nln_ineq_con_5
+                      2.6939158100e+02 nln_ineq_con_6
+                      2.9446764600e+02 nln_ineq_con_7
+                      9.7117718000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   31
+---------------------
+Parameters for evaluation 31:
+                     -2.4893888626e+00 cdv_1
+                     -5.9031003091e+00 cdv_2
+                      4.5433298182e+00 cdv_3
+                      2.9486826266e+00 cdv_4
+                      7.8109377409e+00 cdv_5
+                      4.1010605612e+00 cdv_6
+                      5.9419200909e+00 cdv_7
+                      1.3603432990e+00 cdv_8
+                     -4.3190360849e+00 cdv_9
+                     -9.9086650019e-01 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 31:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.4731189540e+03 obj_fn
+                     -1.5005572800e+02 nln_ineq_con_1
+                     -7.5961041000e+01 nln_ineq_con_2
+                     -2.3504537000e+01 nln_ineq_con_3
+                      2.7816753100e+02 nln_ineq_con_4
+                     -6.0014995000e+01 nln_ineq_con_5
+                      4.0008761500e+02 nln_ineq_con_6
+                      2.0697688900e+02 nln_ineq_con_7
+                      1.8000894310e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   32
+---------------------
+Parameters for evaluation 32:
+                      8.3859475785e+00 cdv_1
+                     -2.3111775402e+00 cdv_2
+                     -4.1916659947e+00 cdv_3
+                      6.9413235518e+00 cdv_4
+                     -4.1673330347e+00 cdv_5
+                      7.5925929858e+00 cdv_6
+                     -9.4350356155e+00 cdv_7
+                     -1.1626504415e+00 cdv_8
+                      5.5471918724e+00 cdv_9
+                      4.1512869475e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 32:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.4117388280e+03 obj_fn
+                     -6.5170845000e+01 nln_ineq_con_1
+                      2.6041920100e+02 nln_ineq_con_2
+                     -6.4276550000e+01 nln_ineq_con_3
+                      1.0172627000e+02 nln_ineq_con_4
+                      3.8311857200e+02 nln_ineq_con_5
+                      9.4243803000e+01 nln_ineq_con_6
+                      8.0324192000e+01 nln_ineq_con_7
+                      4.1112960000e+00 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   33
+---------------------
+Parameters for evaluation 33:
+                      8.0374717286e+00 cdv_1
+                     -5.9264557571e-01 cdv_2
+                     -9.0165614585e+00 cdv_3
+                      3.4332214133e+00 cdv_4
+                     -5.5633785621e+00 cdv_5
+                     -3.4562025781e+00 cdv_6
+                     -3.4043263262e-01 cdv_7
+                     -5.3011828632e+00 cdv_8
+                     -6.2134633996e+00 cdv_9
+                     -4.9502618711e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 33:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.0136015850e+03 obj_fn
+                     -1.2250268900e+02 nln_ineq_con_1
+                      8.0300871000e+01 nln_ineq_con_2
+                     -9.8651858000e+01 nln_ineq_con_3
+                      1.7954581500e+02 nln_ineq_con_4
+                      4.9689427000e+02 nln_ineq_con_5
+                      1.0849523400e+02 nln_ineq_con_6
+                      1.3140221000e+01 nln_ineq_con_7
+                      2.4312540460e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   34
+---------------------
+Parameters for evaluation 34:
+                      6.8955948029e+00 cdv_1
+                     -3.9954266089e+00 cdv_2
+                      1.1150952957e+00 cdv_3
+                     -9.6426975991e+00 cdv_4
+                     -8.0265868075e+00 cdv_5
+                     -9.2856594360e+00 cdv_6
+                      3.9944489102e+00 cdv_7
+                      1.1047691752e+00 cdv_8
+                     -6.5789956185e+00 cdv_9
+                      9.7906002344e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 34:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.5809964540e+03 obj_fn
+                     -9.9435178000e+01 nln_ineq_con_1
+                      3.5223268000e+01 nln_ineq_con_2
+                     -1.2763179000e+02 nln_ineq_con_3
+                      2.1763027700e+02 nln_ineq_con_4
+                      2.0893041500e+02 nln_ineq_con_5
+                      3.0102749600e+02 nln_ineq_con_6
+                      7.1454638000e+01 nln_ineq_con_7
+                      2.4373718130e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   35
+---------------------
+Parameters for evaluation 35:
+                     -4.4064191843e+00 cdv_1
+                     -5.0397687124e+00 cdv_2
+                      5.5957538643e+00 cdv_3
+                     -2.3909061013e+00 cdv_4
+                     -6.2370750781e+00 cdv_5
+                     -5.3746754614e+00 cdv_6
+                      9.3163370477e+00 cdv_7
+                      5.5968532348e+00 cdv_8
+                     -7.5477565974e+00 cdv_9
+                     -3.1297889822e-01 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 35:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.5791120200e+03 obj_fn
+                     -1.2540185200e+02 nln_ineq_con_1
+                     -1.5093006500e+02 nln_ineq_con_2
+                     -2.3941009000e+01 nln_ineq_con_3
+                      3.4103940900e+02 nln_ineq_con_4
+                      2.1709728000e+01 nln_ineq_con_5
+                      3.3247244700e+02 nln_ineq_con_6
+                     -7.8258260000e+00 nln_ineq_con_7
+                      2.8859643200e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   36
+---------------------
+Parameters for evaluation 36:
+                     -5.0098071941e+00 cdv_1
+                      4.0277538310e+00 cdv_2
+                     -3.9270975008e-01 cdv_3
+                     -6.3047751092e+00 cdv_4
+                     -9.3939954347e+00 cdv_5
+                     -1.1012082180e+00 cdv_6
+                      9.6826460366e-01 cdv_7
+                     -4.3554458200e+00 cdv_8
+                      6.0946813800e+00 cdv_9
+                      1.0198675289e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 36:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.5751117390e+03 obj_fn
+                     -1.4700426600e+02 nln_ineq_con_1
+                     -1.0749149200e+02 nln_ineq_con_2
+                      6.4567637000e+01 nln_ineq_con_3
+                      7.6079170000e+01 nln_ineq_con_4
+                      1.7118915900e+02 nln_ineq_con_5
+                      3.2047174100e+02 nln_ineq_con_6
+                     -5.6736448000e+01 nln_ineq_con_7
+                      7.5619740000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   37
+---------------------
+Parameters for evaluation 37:
+                      7.7740816584e+00 cdv_1
+                      5.1136497173e+00 cdv_2
+                     -3.5500390874e+00 cdv_3
+                     -5.6162679737e+00 cdv_4
+                      2.9846630975e+00 cdv_5
+                      8.9499327003e+00 cdv_6
+                      4.4232143656e+00 cdv_7
+                     -5.7962585380e+00 cdv_8
+                     -5.0252296973e+00 cdv_9
+                     -4.3860467830e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 37:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.3195846820e+03 obj_fn
+                     -1.1377139500e+02 nln_ineq_con_1
+                     -4.9955542000e+01 nln_ineq_con_2
+                     -8.0319409000e+01 nln_ineq_con_3
+                      6.2409548000e+01 nln_ineq_con_4
+                      4.0552670800e+02 nln_ineq_con_5
+                     -9.7193400000e+00 nln_ineq_con_6
+                      3.3153464000e+01 nln_ineq_con_7
+                      2.0739412850e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   38
+---------------------
+Parameters for evaluation 38:
+                      4.6093400069e+00 cdv_1
+                     -9.7914296656e+00 cdv_2
+                      3.7450697845e+00 cdv_3
+                      2.6692015796e+00 cdv_4
+                     -7.3839124766e+00 cdv_5
+                     -4.1460736917e+00 cdv_6
+                      8.0571427829e+00 cdv_7
+                     -5.9371998224e+00 cdv_8
+                      4.4651588439e-01 cdv_9
+                     -2.0983407010e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 38:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.7444474200e+03 obj_fn
+                     -2.1312601500e+02 nln_ineq_con_1
+                     -2.4420990000e+01 nln_ineq_con_2
+                     -6.2028319000e+01 nln_ineq_con_3
+                      5.6427534200e+02 nln_ineq_con_4
+                     -1.2355054000e+01 nln_ineq_con_5
+                      5.2386791600e+02 nln_ineq_con_6
+                      2.9035699800e+02 nln_ineq_con_7
+                      6.2677325400e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   39
+---------------------
+Parameters for evaluation 39:
+                      2.1299080933e+00 cdv_1
+                      9.7516072055e+00 cdv_2
+                     -4.8156134157e+00 cdv_3
+                      5.0887087654e+00 cdv_4
+                     -5.7656645165e+00 cdv_5
+                      4.8393441095e+00 cdv_6
+                     -7.3419276996e+00 cdv_7
+                      3.3166026610e+00 cdv_8
+                     -8.2530567385e+00 cdv_9
+                     -5.7292733364e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 39:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.5103229130e+03 obj_fn
+                      4.1528750000e+00 nln_ineq_con_1
+                      7.4732200000e+01 nln_ineq_con_2
+                     -3.9342787000e+01 nln_ineq_con_3
+                      7.3146732000e+01 nln_ineq_con_4
+                      1.6749547600e+02 nln_ineq_con_5
+                      1.4828027800e+02 nln_ineq_con_6
+                     -2.3873650000e+00 nln_ineq_con_7
+                      3.2621670720e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   40
+---------------------
+Parameters for evaluation 40:
+                     -8.7732340934e+00 cdv_1
+                      6.8206108093e+00 cdv_2
+                      5.7290237997e+00 cdv_3
+                      5.4037740791e+00 cdv_4
+                      2.5441963406e+00 cdv_5
+                     -6.2163987171e+00 cdv_6
+                      7.8354069818e+00 cdv_7
+                     -6.8277713978e-01 cdv_8
+                      3.1999101936e+00 cdv_9
+                      1.2735090954e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 40:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.3654641550e+03 obj_fn
+                     -1.3564109800e+02 nln_ineq_con_1
+                     -2.7686470000e+02 nln_ineq_con_2
+                      8.5279627000e+01 nln_ineq_con_3
+                      3.1439299500e+02 nln_ineq_con_4
+                      3.8867894900e+02 nln_ineq_con_5
+                      1.5221758500e+02 nln_ineq_con_6
+                      2.8495899200e+02 nln_ineq_con_7
+                      3.3481914900e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   41
+---------------------
+Parameters for evaluation 41:
+                      3.5339261220e+00 cdv_1
+                     -6.3294166101e+00 cdv_2
+                      8.0761619036e+00 cdv_3
+                      9.2064849927e+00 cdv_4
+                      5.6398383501e+00 cdv_5
+                     -3.0653422452e+00 cdv_6
+                     -4.4394709791e+00 cdv_7
+                     -2.6915215003e+00 cdv_8
+                     -8.6658491054e+00 cdv_9
+                     -7.2793062600e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 41:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.4322135410e+03 obj_fn
+                     -1.3341665900e+02 nln_ineq_con_1
+                      1.5606255800e+02 nln_ineq_con_2
+                     -8.1700875000e+01 nln_ineq_con_3
+                      3.0121423200e+02 nln_ineq_con_4
+                     -4.2294685000e+01 nln_ineq_con_5
+                      2.9185527500e+02 nln_ineq_con_6
+                      2.7800545700e+02 nln_ineq_con_7
+                      3.3353831830e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   42
+---------------------
+Parameters for evaluation 42:
+                     -4.4699632153e-01 cdv_1
+                     -1.5171307345e+00 cdv_2
+                      2.0616768698e+00 cdv_3
+                     -4.0924888557e+00 cdv_4
+                      5.2073038237e+00 cdv_5
+                     -7.8509533785e+00 cdv_6
+                     -8.9859979412e+00 cdv_7
+                      4.2333987263e+00 cdv_8
+                      7.9678852682e+00 cdv_9
+                     -4.6069156436e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 42:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.0525307450e+03 obj_fn
+                     -4.9315057000e+01 nln_ineq_con_1
+                      1.6889584500e+02 nln_ineq_con_2
+                      3.7594967000e+01 nln_ineq_con_3
+                      1.6729698000e+01 nln_ineq_con_4
+                     -2.7442651000e+01 nln_ineq_con_5
+                      1.5575232900e+02 nln_ineq_con_6
+                      1.0433712600e+02 nln_ineq_con_7
+                      2.4498990000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   43
+---------------------
+Parameters for evaluation 43:
+                      9.0578678899e+00 cdv_1
+                      4.5229864941e+00 cdv_2
+                     -7.4316717704e+00 cdv_3
+                     -7.1072731236e+00 cdv_4
+                     -2.4449489838e-01 cdv_5
+                      5.1650968695e+00 cdv_6
+                      2.2996980245e+00 cdv_7
+                     -4.9887768687e-01 cdv_8
+                     -1.1932676852e+00 cdv_9
+                      4.7495394375e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 43:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.1174341610e+03 obj_fn
+                     -5.7542589000e+01 nln_ineq_con_1
+                      1.4302165000e+01 nln_ineq_con_2
+                     -9.0882387000e+01 nln_ineq_con_3
+                      1.9892885100e+02 nln_ineq_con_4
+                      6.0103309800e+02 nln_ineq_con_5
+                     -3.3879192000e+01 nln_ineq_con_6
+                      4.2506390000e+00 nln_ineq_con_7
+                      9.8091158800e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   44
+---------------------
+Parameters for evaluation 44:
+                      7.9957439048e+00 cdv_1
+                     -4.2181047580e+00 cdv_2
+                     -4.2959376110e+00 cdv_3
+                      8.0285925047e+00 cdv_4
+                     -8.3261920006e+00 cdv_5
+                      6.3942767194e+00 cdv_6
+                     -4.7369540135e+00 cdv_7
+                      1.8180404669e+00 cdv_8
+                     -1.8957300767e+00 cdv_9
+                     -6.5218556701e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 44:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.5084203600e+03 obj_fn
+                     -6.3534322000e+01 nln_ineq_con_1
+                      1.9786657600e+02 nln_ineq_con_2
+                     -8.0837100000e+01 nln_ineq_con_3
+                      1.7696099200e+02 nln_ineq_con_4
+                      3.3586391100e+02 nln_ineq_con_5
+                      3.0665664400e+02 nln_ineq_con_6
+                      8.5754380000e+01 nln_ineq_con_7
+                      1.1714628140e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   45
+---------------------
+Parameters for evaluation 45:
+                     -7.0686630565e-01 cdv_1
+                     -8.3922858160e+00 cdv_2
+                     -8.0199400845e+00 cdv_3
+                     -5.0202985791e+00 cdv_4
+                     -1.9339745647e+00 cdv_5
+                     -3.6599051112e+00 cdv_6
+                     -3.9100278847e+00 cdv_7
+                      8.3561325404e+00 cdv_8
+                     -1.7678388065e+00 cdv_9
+                      2.6052304290e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 45:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.3858105250e+03 obj_fn
+                     -6.2853618000e+01 nln_ineq_con_1
+                      1.4325236300e+02 nln_ineq_con_2
+                     -3.7179296000e+01 nln_ineq_con_3
+                      5.8489904800e+02 nln_ineq_con_4
+                      1.0195933000e+02 nln_ineq_con_5
+                      3.2992293400e+02 nln_ineq_con_6
+                      1.8121868200e+02 nln_ineq_con_7
+                      1.0784583700e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   46
+---------------------
+Parameters for evaluation 46:
+                     -2.1189511754e-01 cdv_1
+                      7.4298478417e+00 cdv_2
+                      3.8600275705e+00 cdv_3
+                      1.4769256660e-01 cdv_4
+                     -9.8475295834e+00 cdv_5
+                      3.6144525050e+00 cdv_6
+                     -6.5461261533e+00 cdv_7
+                      2.2565602598e+00 cdv_8
+                      9.8033275962e+00 cdv_9
+                      5.8963034097e-01 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 46:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      8.3694444500e+02 obj_fn
+                     -2.8750920000e+01 nln_ineq_con_1
+                      5.4239531000e+01 nln_ineq_con_2
+                      5.2392234000e+01 nln_ineq_con_3
+                      1.9374250000e+00 nln_ineq_con_4
+                      2.3947377000e+01 nln_ineq_con_5
+                      3.1455238700e+02 nln_ineq_con_6
+                     -7.9319775000e+01 nln_ineq_con_7
+                      8.0111245000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   47
+---------------------
+Parameters for evaluation 47:
+                     -1.2870260587e+00 cdv_1
+                      1.2988673220e+00 cdv_2
+                      9.8914138916e+00 cdv_3
+                     -2.0529247836e+00 cdv_4
+                     -8.5096053745e+00 cdv_5
+                     -5.9354249874e+00 cdv_6
+                      6.0246931531e+00 cdv_7
+                      9.6071611990e+00 cdv_8
+                     -2.3225880299e+00 cdv_9
+                      8.7012525167e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 47:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      8.2185641900e+02 obj_fn
+                     -3.5263396000e+01 nln_ineq_con_1
+                     -1.0646666000e+02 nln_ineq_con_2
+                     -2.8121502000e+01 nln_ineq_con_3
+                      1.3403964200e+02 nln_ineq_con_4
+                     -2.0779290000e+00 nln_ineq_con_5
+                      2.5089223800e+02 nln_ineq_con_6
+                     -1.0721608800e+02 nln_ineq_con_7
+                      1.2294153980e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   48
+---------------------
+Parameters for evaluation 48:
+                     -7.1503797653e+00 cdv_1
+                     -7.1674787901e+00 cdv_2
+                     -4.4910770736e+00 cdv_3
+                     -7.7266539908e-01 cdv_4
+                     -4.6650591915e+00 cdv_5
+                     -6.0649277486e+00 cdv_6
+                     -4.2458968162e+00 cdv_7
+                      2.5263543834e+00 cdv_8
+                      4.4889022871e+00 cdv_9
+                      1.8509960234e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 48:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.4840472180e+03 obj_fn
+                     -1.3396403300e+02 nln_ineq_con_1
+                      6.3068987000e+01 nln_ineq_con_2
+                      4.9610600000e+01 nln_ineq_con_3
+                      5.9044705400e+02 nln_ineq_con_4
+                      2.6990785300e+02 nln_ineq_con_5
+                      4.0554542800e+02 nln_ineq_con_6
+                      5.7466974000e+01 nln_ineq_con_7
+                      1.1342298000e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   49
+---------------------
+Parameters for evaluation 49:
+                      7.5797845975e+00 cdv_1
+                      6.1079151053e+00 cdv_2
+                      6.2065536304e+00 cdv_3
+                      3.6258233096e-01 cdv_4
+                      2.7918570256e-02 cdv_5
+                      3.5094233994e+00 cdv_6
+                      7.6083648858e+00 cdv_7
+                     -4.6860982990e+00 cdv_8
+                      9.6275116819e+00 cdv_9
+                     -5.4358584506e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 49:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.0193989560e+03 obj_fn
+                     -1.0914126500e+02 nln_ineq_con_1
+                     -1.1177987500e+02 nln_ineq_con_2
+                     -1.4131710000e+00 nln_ineq_con_3
+                      8.6543073000e+01 nln_ineq_con_4
+                      2.9544649300e+02 nln_ineq_con_5
+                     -2.4532182000e+01 nln_ineq_con_6
+                     -4.5088580000e+00 nln_ineq_con_7
+                      8.3744677000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   50
+---------------------
+Parameters for evaluation 50:
+                     -4.7922503252e+00 cdv_1
+                      9.0708914714e+00 cdv_2
+                      9.2160466986e+00 cdv_3
+                      7.3489627201e+00 cdv_4
+                      8.8262773390e+00 cdv_5
+                      5.3172885682e-01 cdv_6
+                      6.9820335517e+00 cdv_7
+                     -1.5686968991e+00 cdv_8
+                      5.2811220363e+00 cdv_9
+                      6.4303991778e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 50:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.2713783670e+03 obj_fn
+                     -1.1387891700e+02 nln_ineq_con_1
+                     -2.4232159900e+02 nln_ineq_con_2
+                      5.8024597000e+01 nln_ineq_con_3
+                      2.8425518100e+02 nln_ineq_con_4
+                      1.4304047900e+02 nln_ineq_con_5
+                      3.3642650100e+02 nln_ineq_con_6
+                      3.3293679500e+02 nln_ineq_con_7
+                      1.1249687400e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   51
+---------------------
+Parameters for evaluation 51:
+                     -8.3715777816e+00 cdv_1
+                     -8.0652571361e+00 cdv_2
+                      8.6874144995e+00 cdv_3
+                     -2.8977153299e+00 cdv_4
+                     -9.5916266494e+00 cdv_5
+                     -3.9473523038e+00 cdv_6
+                      9.0276722503e+00 cdv_7
+                      3.4806133063e+00 cdv_8
+                      2.0854606651e+00 cdv_9
+                      8.0182824472e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 51:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.5198603390e+03 obj_fn
+                     -1.7457009400e+02 nln_ineq_con_1
+                     -1.6570292200e+02 nln_ineq_con_2
+                      3.3232846000e+01 nln_ineq_con_3
+                      8.6369488800e+02 nln_ineq_con_4
+                      2.5891214300e+02 nln_ineq_con_5
+                      6.7510039700e+02 nln_ineq_con_6
+                      7.3288410000e+00 nln_ineq_con_7
+                      3.4037652000e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   52
+---------------------
+Parameters for evaluation 52:
+                      4.1746801674e+00 cdv_1
+                     -6.7722522601e+00 cdv_2
+                     -7.2537103511e+00 cdv_3
+                      9.1967978237e+00 cdv_4
+                      5.5363089229e+00 cdv_5
+                      8.0651108614e+00 cdv_6
+                      2.9058684980e+00 cdv_7
+                      6.1399962618e+00 cdv_8
+                      5.1854199426e+00 cdv_9
+                      3.6296179793e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 52:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      8.4192393100e+02 obj_fn
+                     -7.5620180000e+01 nln_ineq_con_1
+                      5.8805048000e+01 nln_ineq_con_2
+                     -4.0274082000e+01 nln_ineq_con_3
+                      3.1703040100e+02 nln_ineq_con_4
+                      1.5022899700e+02 nln_ineq_con_5
+                      2.9328641200e+02 nln_ineq_con_6
+                      2.9731996200e+02 nln_ineq_con_7
+                      1.6497451000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   53
+---------------------
+Parameters for evaluation 53:
+                      3.9163502780e+00 cdv_1
+                      3.6449685221e+00 cdv_2
+                     -1.9853611552e+00 cdv_3
+                     -2.5721363832e+00 cdv_4
+                     -9.1442027055e+00 cdv_5
+                      5.7052813441e+00 cdv_6
+                      4.6913630524e+00 cdv_7
+                     -7.4027928649e+00 cdv_8
+                     -4.8795140485e+00 cdv_9
+                      7.1926901202e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 53:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.3764423700e+03 obj_fn
+                     -1.5180898100e+02 nln_ineq_con_1
+                     -8.4555003000e+01 nln_ineq_con_2
+                     -7.4823816000e+01 nln_ineq_con_3
+                     -8.1430595000e+01 nln_ineq_con_4
+                      1.3475901100e+02 nln_ineq_con_5
+                      2.2373424000e+02 nln_ineq_con_6
+                     -1.4152442400e+02 nln_ineq_con_7
+                      1.9503545150e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   54
+---------------------
+Parameters for evaluation 54:
+                     -5.9666447298e+00 cdv_1
+                     -7.3645079292e+00 cdv_2
+                     -5.6382779690e+00 cdv_3
+                     -4.7948861798e+00 cdv_4
+                      4.9024074166e-01 cdv_5
+                     -2.5739633233e+00 cdv_6
+                     -2.6352326179e+00 cdv_7
+                      5.8381344066e+00 cdv_8
+                     -6.8952722354e+00 cdv_9
+                      5.7715276330e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 54:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.7860510440e+03 obj_fn
+                     -1.0524021100e+02 nln_ineq_con_1
+                      5.5724839000e+01 nln_ineq_con_2
+                     -2.5015274000e+01 nln_ineq_con_3
+                      5.9723894300e+02 nln_ineq_con_4
+                      2.2412747000e+02 nln_ineq_con_5
+                      3.2913263500e+02 nln_ineq_con_6
+                      1.3254339600e+02 nln_ineq_con_7
+                      2.5957418130e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   55
+---------------------
+Parameters for evaluation 55:
+                     -1.9227045669e+00 cdv_1
+                     -7.5667205653e-01 cdv_2
+                     -5.3272012319e+00 cdv_3
+                     -8.8813613157e+00 cdv_4
+                     -9.1966514140e-01 cdv_5
+                      7.6342904307e-01 cdv_6
+                     -2.2566451772e+00 cdv_7
+                      4.7881013161e+00 cdv_8
+                      2.5363633979e+00 cdv_9
+                     -6.3417579088e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 55:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.6591612090e+03 obj_fn
+                     -6.6611331000e+01 nln_ineq_con_1
+                      3.4765501000e+01 nln_ineq_con_2
+                      2.7233625000e+01 nln_ineq_con_3
+                      1.0154084800e+02 nln_ineq_con_4
+                      1.1849879800e+02 nln_ineq_con_5
+                      6.6255814000e+01 nln_ineq_con_6
+                      2.3468200000e+00 nln_ineq_con_7
+                      4.0383628600e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   56
+---------------------
+Parameters for evaluation 56:
+                      9.6078909630e+00 cdv_1
+                     -8.5193165949e+00 cdv_2
+                     -2.2373857048e+00 cdv_3
+                     -2.6871092725e+00 cdv_4
+                     -3.7667632097e+00 cdv_5
+                     -8.9645706594e+00 cdv_6
+                     -9.3696488765e+00 cdv_7
+                      7.4986762032e+00 cdv_8
+                      1.3630934696e+00 cdv_9
+                      8.3790938045e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 56:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      9.5039172000e+02 obj_fn
+                     -1.3567987000e+01 nln_ineq_con_1
+                      3.3851482600e+02 nln_ineq_con_2
+                     -1.1584448100e+02 nln_ineq_con_3
+                      6.1324018800e+02 nln_ineq_con_4
+                      4.2663205300e+02 nln_ineq_con_5
+                      3.3628931900e+02 nln_ineq_con_6
+                      4.3355882800e+02 nln_ineq_con_7
+                      3.8998911000e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   57
+---------------------
+Parameters for evaluation 57:
+                      1.7891034832e+00 cdv_1
+                     -7.4410904220e+00 cdv_2
+                     -4.3760577324e-01 cdv_3
+                     -6.5955439295e+00 cdv_4
+                      4.7945223892e+00 cdv_5
+                     -2.2634453947e+00 cdv_6
+                     -7.4349620480e+00 cdv_7
+                      2.1046610713e+00 cdv_8
+                      1.7388885311e+00 cdv_9
+                      6.9183023660e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 57:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.5087716400e+03 obj_fn
+                     -9.3802202000e+01 nln_ineq_con_1
+                      2.0802343500e+02 nln_ineq_con_2
+                     -4.6337171000e+01 nln_ineq_con_3
+                      3.6275071400e+02 nln_ineq_con_4
+                     -2.8890411000e+01 nln_ineq_con_5
+                      3.2231049800e+02 nln_ineq_con_6
+                      2.7748178800e+02 nln_ineq_con_7
+                      3.7197623200e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   58
+---------------------
+Parameters for evaluation 58:
+                      4.3588634883e+00 cdv_1
+                      3.3941596397e+00 cdv_2
+                     -8.4856340904e-01 cdv_3
+                      4.8272159408e+00 cdv_4
+                     -1.2547173512e+00 cdv_5
+                     -4.8030911115e+00 cdv_6
+                     -8.6404957693e+00 cdv_7
+                     -3.2644821123e+00 cdv_8
+                      3.6620118978e+00 cdv_9
+                      6.1954133994e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 58:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.6403623610e+03 obj_fn
+                     -7.4052600000e+01 nln_ineq_con_1
+                      1.5679482200e+02 nln_ineq_con_2
+                     -3.4163356000e+01 nln_ineq_con_3
+                     -1.3503623400e+02 nln_ineq_con_4
+                      1.1940012100e+02 nln_ineq_con_5
+                     -1.3110939000e+01 nln_ineq_con_6
+                     -1.9465256000e+01 nln_ineq_con_7
+                      1.8973816300e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   59
+---------------------
+Parameters for evaluation 59:
+                     -6.3309002715e+00 cdv_1
+                      7.9624964850e+00 cdv_2
+                      3.3402739820e+00 cdv_3
+                      2.1183503376e+00 cdv_4
+                     -3.2848060545e+00 cdv_5
+                      1.2738628076e+00 cdv_6
+                     -5.4489321366e+00 cdv_7
+                      2.8037479684e+00 cdv_8
+                      6.2545002408e+00 cdv_9
+                      5.4369354957e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 59:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      6.5002677400e+02 obj_fn
+                     -4.8930591000e+01 nln_ineq_con_1
+                     -2.8769632000e+01 nln_ineq_con_2
+                      7.4970825000e+01 nln_ineq_con_3
+                      1.9420359200e+02 nln_ineq_con_4
+                      2.2693890500e+02 nln_ineq_con_5
+                      1.3518609800e+02 nln_ineq_con_6
+                      1.6474142200e+02 nln_ineq_con_7
+                      6.5270364000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   60
+---------------------
+Parameters for evaluation 60:
+                      5.4149022574e+00 cdv_1
+                      9.3582636462e+00 cdv_2
+                     -5.1013818566e+00 cdv_3
+                     -5.4293484743e+00 cdv_4
+                     -6.8966181526e+00 cdv_5
+                     -6.8647460714e+00 cdv_6
+                     -6.4252221501e-01 cdv_7
+                      4.1335591658e+00 cdv_8
+                      9.5676558416e+00 cdv_9
+                     -3.4513787379e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 60:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.3082486000e+03 obj_fn
+                      2.5805260000e+00 nln_ineq_con_1
+                     -1.5270910000e+00 nln_ineq_con_2
+                      1.8138346000e+01 nln_ineq_con_3
+                      1.6674837200e+02 nln_ineq_con_4
+                      3.1557131800e+02 nln_ineq_con_5
+                      1.8031811600e+02 nln_ineq_con_6
+                     -5.3426820000e+01 nln_ineq_con_7
+                      9.3555064000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   61
+---------------------
+Parameters for evaluation 61:
+                      2.7850446903e+00 cdv_1
+                     -1.1571488075e+00 cdv_2
+                     -3.6234842911e+00 cdv_3
+                     -1.8719117390e+00 cdv_4
+                     -1.5148697800e+00 cdv_5
+                      1.1838848788e+00 cdv_6
+                      7.4206942229e+00 cdv_7
+                     -4.0953573887e+00 cdv_8
+                      7.9500538614e-01 cdv_9
+                     -2.9740638318e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 61:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.3264781710e+03 obj_fn
+                     -1.5876586400e+02 nln_ineq_con_1
+                     -9.7234879000e+01 nln_ineq_con_2
+                     -2.6671501000e+01 nln_ineq_con_3
+                     -9.6609110000e+00 nln_ineq_con_4
+                      8.5880453000e+01 nln_ineq_con_5
+                      4.2490854000e+01 nln_ineq_con_6
+                      1.1745012000e+01 nln_ineq_con_7
+                      6.2846378900e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   62
+---------------------
+Parameters for evaluation 62:
+                      3.6685916670e-01 cdv_1
+                      6.2079258658e+00 cdv_2
+                      2.9461763625e+00 cdv_3
+                      9.4618043639e+00 cdv_4
+                      3.8380609845e+00 cdv_5
+                     -7.7754256226e+00 cdv_6
+                      5.2867438217e+00 cdv_7
+                     -2.8065857465e+00 cdv_8
+                     -3.8760693210e+00 cdv_9
+                      6.3564014619e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 62:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.0118844860e+03 obj_fn
+                     -1.1361243700e+02 nln_ineq_con_1
+                     -1.4148263200e+02 nln_ineq_con_2
+                     -3.4612171000e+01 nln_ineq_con_3
+                     -1.1970812000e+02 nln_ineq_con_4
+                      7.3856500000e-01 nln_ineq_con_5
+                      6.0849855000e+01 nln_ineq_con_6
+                      9.2501276000e+01 nln_ineq_con_7
+                      1.6841444380e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   63
+---------------------
+Parameters for evaluation 63:
+                     -6.1010690972e+00 cdv_1
+                     -6.9743287459e+00 cdv_2
+                     -1.0391528740e+00 cdv_3
+                     -7.9643040894e+00 cdv_4
+                      3.5302512888e+00 cdv_5
+                     -1.5070963862e+00 cdv_6
+                      1.6906722699e+00 cdv_7
+                      6.4530610469e+00 cdv_8
+                     -3.8001131718e-01 cdv_9
+                     -3.3602781399e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 63:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.6534278150e+03 obj_fn
+                     -1.1127038800e+02 nln_ineq_con_1
+                     -2.1051367000e+01 nln_ineq_con_2
+                      2.7680395000e+01 nln_ineq_con_3
+                      5.3274070300e+02 nln_ineq_con_4
+                      1.5579887200e+02 nln_ineq_con_5
+                      3.4918697700e+02 nln_ineq_con_6
+                      1.6412908800e+02 nln_ineq_con_7
+                      8.4267425800e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   64
+---------------------
+Parameters for evaluation 64:
+                     -9.9979251684e+00 cdv_1
+                     -6.0728854339e+00 cdv_2
+                     -3.2863837394e+00 cdv_3
+                     -8.4984847119e+00 cdv_4
+                      2.0229550123e+00 cdv_5
+                     -8.4998335247e-01 cdv_6
+                     -9.8892545274e+00 cdv_7
+                     -5.0020415513e+00 cdv_8
+                      6.5874535695e+00 cdv_9
+                      3.3605351849e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 64:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.1724033780e+03 obj_fn
+                     -1.9070673800e+02 nln_ineq_con_1
+                      1.0671707600e+02 nln_ineq_con_2
+                      8.2053828000e+01 nln_ineq_con_3
+                      7.2220965500e+02 nln_ineq_con_4
+                      5.1444334700e+02 nln_ineq_con_5
+                      3.4801572100e+02 nln_ineq_con_6
+                      1.3804031100e+02 nln_ineq_con_7
+                     -6.0238340000e+00 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   65
+---------------------
+Parameters for evaluation 65:
+                      7.2871110917e+00 cdv_1
+                      1.8674127149e+00 cdv_2
+                     -3.0957025393e+00 cdv_3
+                     -4.4087467397e+00 cdv_4
+                     -8.6284079172e+00 cdv_5
+                      5.8672519457e+00 cdv_6
+                      8.5159287114e+00 cdv_7
+                     -7.1200413358e+00 cdv_8
+                     -5.3455267870e-01 cdv_9
+                      9.0034922093e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 65:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.2583932540e+03 obj_fn
+                     -1.5614265000e+02 nln_ineq_con_1
+                     -1.0107906200e+02 nln_ineq_con_2
+                     -8.7241811000e+01 nln_ineq_con_3
+                      1.9019623000e+01 nln_ineq_con_4
+                      3.3199854000e+02 nln_ineq_con_5
+                      1.9683098000e+02 nln_ineq_con_6
+                     -1.0074390400e+02 nln_ineq_con_7
+                      8.0038177100e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   66
+---------------------
+Parameters for evaluation 66:
+                      2.2418933659e+00 cdv_1
+                     -9.4723892020e+00 cdv_2
+                      2.4677779929e+00 cdv_3
+                      2.4107755484e+00 cdv_4
+                     -2.4389087819e+00 cdv_5
+                      2.2620897276e+00 cdv_6
+                     -3.1555599114e+00 cdv_7
+                      5.8703019689e-01 cdv_8
+                      4.1231057915e+00 cdv_9
+                     -8.3552047792e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 66:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.4030959140e+03 obj_fn
+                     -1.2864442100e+02 nln_ineq_con_1
+                      1.5301662600e+02 nln_ineq_con_2
+                     -1.1553987000e+01 nln_ineq_con_3
+                      4.9772193400e+02 nln_ineq_con_4
+                     -8.2993643000e+01 nln_ineq_con_5
+                      3.6517117600e+02 nln_ineq_con_6
+                      2.7432287400e+02 nln_ineq_con_7
+                      1.7529012300e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   67
+---------------------
+Parameters for evaluation 67:
+                     -1.0350259078e+00 cdv_1
+                      7.7264183369e+00 cdv_2
+                     -2.4859172578e+00 cdv_3
+                     -6.6653556343e+00 cdv_4
+                      5.0338839194e+00 cdv_5
+                     -3.5635233321e-01 cdv_6
+                     -5.2134411324e+00 cdv_7
+                     -6.6891099579e+00 cdv_8
+                      3.3819081628e+00 cdv_9
+                     -9.8820844390e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 67:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.2335438560e+03 obj_fn
+                     -1.1506967800e+02 nln_ineq_con_1
+                      3.0886740000e+00 nln_ineq_con_2
+                      4.8406754000e+01 nln_ineq_con_3
+                      5.6007327000e+01 nln_ineq_con_4
+                      1.1250924300e+02 nln_ineq_con_5
+                      1.1496454800e+02 nln_ineq_con_6
+                      1.5347982600e+02 nln_ineq_con_7
+                      3.7455944500e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   68
+---------------------
+Parameters for evaluation 68:
+                     -4.8530683907e+00 cdv_1
+                      8.0075938444e+00 cdv_2
+                     -7.0907850522e+00 cdv_3
+                      4.3879489404e+00 cdv_4
+                     -7.7999316794e+00 cdv_5
+                      2.1199330317e+00 cdv_6
+                      5.0793134864e+00 cdv_7
+                      3.8270209464e-01 cdv_8
+                      1.0242774206e+00 cdv_9
+                     -7.8864854146e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 68:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.6435945820e+03 obj_fn
+                     -9.6167926000e+01 nln_ineq_con_1
+                     -1.9817436000e+02 nln_ineq_con_2
+                      6.3734093000e+01 nln_ineq_con_3
+                      1.9104044600e+02 nln_ineq_con_4
+                      3.0441487000e+02 nln_ineq_con_5
+                      2.6511917000e+02 nln_ineq_con_6
+                      6.2138465000e+01 nln_ineq_con_7
+                      7.0173863200e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   69
+---------------------
+Parameters for evaluation 69:
+                     -8.7208635253e-01 cdv_1
+                      5.9983831096e+00 cdv_2
+                     -8.3732920660e+00 cdv_3
+                     -8.2276850455e+00 cdv_4
+                      6.5595706515e-01 cdv_5
+                      3.9483651614e+00 cdv_6
+                      1.1147490940e+00 cdv_7
+                      2.7937377629e+00 cdv_8
+                      1.3546073958e-01 cdv_9
+                     -9.4336583016e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 69:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.9947461450e+03 obj_fn
+                     -5.6697037000e+01 nln_ineq_con_1
+                     -7.0071187000e+01 nln_ineq_con_2
+                      2.6518077000e+01 nln_ineq_con_3
+                      1.3852568000e+02 nln_ineq_con_4
+                      2.3483663300e+02 nln_ineq_con_5
+                      1.4686502000e+01 nln_ineq_con_6
+                      4.8431919000e+01 nln_ineq_con_7
+                      8.4685389900e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   70
+---------------------
+Parameters for evaluation 70:
+                      5.2693803909e+00 cdv_1
+                      1.4581712410e-01 cdv_2
+                     -2.0310113227e+00 cdv_3
+                      7.7429190317e+00 cdv_4
+                     -3.1226775607e+00 cdv_5
+                     -9.8387693596e+00 cdv_6
+                     -1.0160589353e+00 cdv_7
+                     -1.2983584218e+00 cdv_8
+                      8.8259637123e+00 cdv_9
+                     -2.4456812347e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 70:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.5903809350e+03 obj_fn
+                     -9.1830442000e+01 nln_ineq_con_1
+                      6.6203552000e+01 nln_ineq_con_2
+                     -4.8422280000e+00 nln_ineq_con_3
+                     -1.0129843500e+02 nln_ineq_con_4
+                      1.4900969000e+02 nln_ineq_con_5
+                      4.2529708000e+01 nln_ineq_con_6
+                     -7.7309000000e-01 nln_ineq_con_7
+                      1.0373123000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   71
+---------------------
+Parameters for evaluation 71:
+                     -6.9722773440e+00 cdv_1
+                      1.4016290088e+00 cdv_2
+                     -9.6377170912e+00 cdv_3
+                     -7.3994712612e+00 cdv_4
+                      7.7688820469e+00 cdv_5
+                     -9.5324646792e+00 cdv_6
+                      4.2430636957e+00 cdv_7
+                      6.7587891129e+00 cdv_8
+                     -1.5613570733e+00 cdv_9
+                     -6.8705655058e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 71:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.0130787800e+03 obj_fn
+                     -7.7781053000e+01 nln_ineq_con_1
+                     -1.3955031000e+02 nln_ineq_con_2
+                      5.2515822000e+01 nln_ineq_con_3
+                      3.6929192200e+02 nln_ineq_con_4
+                      4.7361342700e+02 nln_ineq_con_5
+                      2.8618665800e+02 nln_ineq_con_6
+                      1.8717065300e+02 nln_ineq_con_7
+                      1.1744551540e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   72
+---------------------
+Parameters for evaluation 72:
+                      3.6486231351e+00 cdv_1
+                      4.3925863160e+00 cdv_2
+                     -7.1873574611e-01 cdv_3
+                     -8.7434667476e+00 cdv_4
+                      3.0438450898e+00 cdv_5
+                      4.6063215909e+00 cdv_6
+                     -3.3889177509e+00 cdv_7
+                      5.3946964906e+00 cdv_8
+                      2.2472956170e+00 cdv_9
+                      7.5933753675e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 72:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.1922602430e+03 obj_fn
+                     -9.7235540000e+00 nln_ineq_con_1
+                      6.9746536000e+01 nln_ineq_con_2
+                     -3.6354085000e+01 nln_ineq_con_3
+                     -4.1851509000e+01 nln_ineq_con_4
+                      1.2433128800e+02 nln_ineq_con_5
+                      2.9641460000e+00 nln_ineq_con_6
+                      3.0715115000e+01 nln_ineq_con_7
+                      3.5937931400e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   73
+---------------------
+Parameters for evaluation 73:
+                      6.2089159167e-01 cdv_1
+                      5.2366305456e+00 cdv_2
+                      3.4524154121e+00 cdv_3
+                     -9.9580292152e-01 cdv_4
+                      2.7864216833e+00 cdv_5
+                      9.9573249719e-01 cdv_6
+                     -7.8628318083e+00 cdv_7
+                      9.5452866679e+00 cdv_8
+                     -3.0928868180e+00 cdv_9
+                     -8.9930475768e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 73:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      7.4441986000e+02 obj_fn
+                      3.3162795000e+01 nln_ineq_con_1
+                      1.1707458600e+02 nln_ineq_con_2
+                     -3.9722110000e+00 nln_ineq_con_3
+                     -6.3475150000e+01 nln_ineq_con_4
+                      1.2302369000e+01 nln_ineq_con_5
+                      2.2580836000e+01 nln_ineq_con_6
+                      5.2848472000e+01 nln_ineq_con_7
+                      1.5691340970e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   74
+---------------------
+Parameters for evaluation 74:
+                     -4.2601785216e+00 cdv_1
+                      3.4108726914e+00 cdv_2
+                     -9.5798282823e+00 cdv_3
+                      5.3615391206e+00 cdv_4
+                      2.2283102809e-01 cdv_5
+                     -7.9451774540e-01 cdv_6
+                      5.4669347118e+00 cdv_7
+                     -9.2517528261e+00 cdv_8
+                     -9.1927189710e+00 cdv_9
+                      8.8156630723e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 74:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      4.1016532330e+03 obj_fn
+                     -2.0465293000e+02 nln_ineq_con_1
+                     -1.8133016200e+02 nln_ineq_con_2
+                     -3.4691747000e+01 nln_ineq_con_3
+                      1.4426021700e+02 nln_ineq_con_4
+                      3.1004055800e+02 nln_ineq_con_5
+                      4.6793609000e+01 nln_ineq_con_6
+                      5.5106250000e+01 nln_ineq_con_7
+                      3.5186111580e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   75
+---------------------
+Parameters for evaluation 75:
+                      6.2869777460e+00 cdv_1
+                     -4.4441577479e+00 cdv_2
+                      4.6566450923e+00 cdv_3
+                     -4.9289397251e+00 cdv_4
+                      9.6588868996e+00 cdv_5
+                     -7.1979590285e+00 cdv_6
+                      6.5450050875e+00 cdv_7
+                     -8.2355654337e+00 cdv_8
+                      3.5850194813e+00 cdv_9
+                     -7.0103417864e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 75:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.5624332940e+03 obj_fn
+                     -1.9582798200e+02 nln_ineq_con_1
+                     -2.9313178000e+01 nln_ineq_con_2
+                     -3.9238356000e+01 nln_ineq_con_3
+                      2.3466773800e+02 nln_ineq_con_4
+                      1.3373966600e+02 nln_ineq_con_5
+                      4.0115507000e+02 nln_ineq_con_6
+                      3.2088344500e+02 nln_ineq_con_7
+                      2.3745114900e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   76
+---------------------
+Parameters for evaluation 76:
+                     -9.4996250809e+00 cdv_1
+                      7.1399961791e+00 cdv_2
+                      7.7071776484e+00 cdv_3
+                      5.8679712845e+00 cdv_4
+                     -2.9323431622e+00 cdv_5
+                      9.3838381661e+00 cdv_6
+                     -5.6646114152e+00 cdv_7
+                      7.0708059863e+00 cdv_8
+                     -4.7423591009e+00 cdv_9
+                      7.7767580042e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 76:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      8.3621521800e+02 obj_fn
+                     -2.6667431000e+01 nln_ineq_con_1
+                     -4.1676214000e+01 nln_ineq_con_2
+                      3.9011681000e+01 nln_ineq_con_3
+                      4.2300778000e+02 nln_ineq_con_4
+                      4.5951286600e+02 nln_ineq_con_5
+                      1.5924966200e+02 nln_ineq_con_6
+                      2.2829992900e+02 nln_ineq_con_7
+                      1.9653141320e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   77
+---------------------
+Parameters for evaluation 77:
+                     -8.1973355978e+00 cdv_1
+                      4.8318373319e-01 cdv_2
+                      2.3904265121e+00 cdv_3
+                      9.6369628747e+00 cdv_4
+                      1.9662553127e+00 cdv_5
+                      5.2749394338e+00 cdv_6
+                      4.8374503230e+00 cdv_7
+                      1.7561510585e+00 cdv_8
+                      9.1590953527e+00 cdv_9
+                     -5.2000473751e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 77:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.1696147180e+03 obj_fn
+                     -1.3408041500e+02 nln_ineq_con_1
+                     -1.6456317900e+02 nln_ineq_con_2
+                      1.1074062400e+02 nln_ineq_con_3
+                      1.6126395400e+02 nln_ineq_con_4
+                      2.9360211900e+02 nln_ineq_con_5
+                      1.3223637400e+02 nln_ineq_con_6
+                      1.0197204700e+02 nln_ineq_con_7
+                      8.0013465000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   78
+---------------------
+Parameters for evaluation 78:
+                      1.6074795420e-01 cdv_1
+                     -5.3291507150e+00 cdv_2
+                     -6.9089376451e+00 cdv_3
+                     -3.1670844899e-01 cdv_4
+                      9.1932393034e+00 cdv_5
+                     -4.4943966095e+00 cdv_6
+                      2.7349006092e+00 cdv_7
+                      9.8396165394e+00 cdv_8
+                      8.7509098032e+00 cdv_9
+                     -5.7908037626e-01 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 78:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      7.3696254900e+02 obj_fn
+                     -5.0650915000e+01 nln_ineq_con_1
+                      1.7426608000e+01 nln_ineq_con_2
+                      2.0968425000e+01 nln_ineq_con_3
+                      2.6533134900e+02 nln_ineq_con_4
+                      8.4770082000e+01 nln_ineq_con_5
+                      4.3283438600e+02 nln_ineq_con_6
+                      2.4237178700e+02 nln_ineq_con_7
+                     -2.1637199000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   79
+---------------------
+Parameters for evaluation 79:
+                     -7.5162983628e+00 cdv_1
+                     -1.3360489443e+00 cdv_2
+                     -1.2444691913e+00 cdv_3
+                      7.1927835451e+00 cdv_4
+                      6.6530157569e+00 cdv_5
+                     -2.6898932410e+00 cdv_6
+                      3.7426152894e+00 cdv_7
+                      8.8787220256e+00 cdv_8
+                     -7.1049754817e+00 cdv_9
+                      6.9068344105e-01 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 79:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.1013529710e+03 obj_fn
+                     -7.3064786000e+01 nln_ineq_con_1
+                     -1.1034160800e+02 nln_ineq_con_2
+                      8.5520450000e+00 nln_ineq_con_3
+                      1.7963300800e+02 nln_ineq_con_4
+                      2.6988208100e+02 nln_ineq_con_5
+                      2.8280234300e+02 nln_ineq_con_6
+                      1.5450101500e+02 nln_ineq_con_7
+                      2.7476212290e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   80
+---------------------
+Parameters for evaluation 80:
+                      6.7187528369e+00 cdv_1
+                      2.3149316768e+00 cdv_2
+                      5.1922623708e+00 cdv_3
+                      8.9820714778e+00 cdv_4
+                      7.0681345276e+00 cdv_5
+                      2.6050045146e+00 cdv_6
+                      9.4741547528e+00 cdv_7
+                      9.4162385776e-01 cdv_8
+                      4.8103990133e+00 cdv_9
+                     -6.0735657212e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 80:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.0685455930e+03 obj_fn
+                     -8.6498180000e+01 nln_ineq_con_1
+                     -1.1050930800e+02 nln_ineq_con_2
+                     -2.4921033000e+01 nln_ineq_con_3
+                     -6.0278164000e+01 nln_ineq_con_4
+                      1.8691594900e+02 nln_ineq_con_5
+                      1.2377028000e+02 nln_ineq_con_6
+                      1.1058197500e+02 nln_ineq_con_7
+                      1.5833094500e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   81
+---------------------
+Parameters for evaluation 81:
+                      4.9516555967e+00 cdv_1
+                     -1.6540869853e+00 cdv_2
+                     -9.9475453563e+00 cdv_3
+                      3.8088441916e+00 cdv_4
+                      8.2818091189e+00 cdv_5
+                     -4.7508552117e+00 cdv_6
+                     -9.7070994472e+00 cdv_7
+                     -7.9477566229e+00 cdv_8
+                     -4.0512977296e+00 cdv_9
+                      7.2544678678e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 81:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.3783583540e+03 obj_fn
+                     -1.3587232400e+02 nln_ineq_con_1
+                      2.1187442900e+02 nln_ineq_con_2
+                     -8.9686843000e+01 nln_ineq_con_3
+                      1.6402432300e+02 nln_ineq_con_4
+                      3.1606828400e+02 nln_ineq_con_5
+                      2.4909954300e+02 nln_ineq_con_6
+                      1.8830071800e+02 nln_ineq_con_7
+                      1.6672445600e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   82
+---------------------
+Parameters for evaluation 82:
+                      1.3042169428e+00 cdv_1
+                      8.2059748278e+00 cdv_2
+                     -1.7847337232e+00 cdv_3
+                      3.1320268020e+00 cdv_4
+                     -1.1496286279e+00 cdv_5
+                     -3.2210233836e+00 cdv_6
+                     -5.1187880853e+00 cdv_7
+                      7.3744284550e+00 cdv_8
+                     -8.0875169104e-01 cdv_9
+                      4.8086159954e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 82:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      4.8575731300e+02 obj_fn
+                      2.2972962000e+01 nln_ineq_con_1
+                      4.9162625000e+01 nln_ineq_con_2
+                     -1.9682776000e+01 nln_ineq_con_3
+                     -2.5692601000e+01 nln_ineq_con_4
+                      8.8490733000e+01 nln_ineq_con_5
+                      3.4983165000e+01 nln_ineq_con_6
+                      4.4450709000e+01 nln_ineq_con_7
+                      9.4279216200e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   83
+---------------------
+Parameters for evaluation 83:
+                     -3.0666202063e+00 cdv_1
+                      8.7672995369e+00 cdv_2
+                     -8.6965079531e+00 cdv_3
+                      6.1389176988e+00 cdv_4
+                     -5.8133029107e+00 cdv_5
+                     -5.5407241909e+00 cdv_6
+                     -6.9805095595e+00 cdv_7
+                     -9.8700042514e+00 cdv_8
+                      2.8642146155e+00 cdv_9
+                      6.6775453420e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 83:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.6409638480e+03 obj_fn
+                     -1.4131849300e+02 nln_ineq_con_1
+                     -1.8759440000e+00 nln_ineq_con_2
+                      3.1033543000e+01 nln_ineq_con_3
+                      1.9834497400e+02 nln_ineq_con_4
+                      2.8086870400e+02 nln_ineq_con_5
+                      1.8361352800e+02 nln_ineq_con_6
+                      7.8923285000e+01 nln_ineq_con_7
+                      3.3157633900e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   84
+---------------------
+Parameters for evaluation 84:
+                     -5.3252097638e+00 cdv_1
+                     -3.5249754488e+00 cdv_2
+                     -1.4327586010e+00 cdv_3
+                      4.0947135752e+00 cdv_4
+                      1.0500373357e+00 cdv_5
+                     -8.0921304544e+00 cdv_6
+                      7.0514541891e+00 cdv_7
+                     -3.9428394758e+00 cdv_8
+                      2.7419768324e+00 cdv_9
+                      2.4033686825e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 84:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.2633925110e+03 obj_fn
+                     -2.0056563400e+02 nln_ineq_con_1
+                     -1.5281269400e+02 nln_ineq_con_2
+                      3.2454874000e+01 nln_ineq_con_3
+                      1.8671991200e+02 nln_ineq_con_4
+                      1.2064596500e+02 nln_ineq_con_5
+                      1.8343098400e+02 nln_ineq_con_6
+                      7.4658752000e+01 nln_ineq_con_7
+                      3.0976388700e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   85
+---------------------
+Parameters for evaluation 85:
+                     -4.0596903102e+00 cdv_1
+                     -8.7893881151e+00 cdv_2
+                      4.2141485763e+00 cdv_3
+                      8.5332715893e+00 cdv_4
+                     -9.6594654560e+00 cdv_5
+                      7.0110858006e+00 cdv_6
+                     -9.1943535891e+00 cdv_7
+                      8.4848722108e+00 cdv_8
+                     -5.5797817401e+00 cdv_9
+                     -7.4770950205e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 85:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.3811777620e+03 obj_fn
+                     -6.1238791000e+01 nln_ineq_con_1
+                      2.0299195700e+02 nln_ineq_con_2
+                     -1.0045972000e+01 nln_ineq_con_3
+                      5.2190342400e+02 nln_ineq_con_4
+                     -4.1786956000e+01 nln_ineq_con_5
+                      6.4275969500e+02 nln_ineq_con_6
+                      3.5694887000e+01 nln_ineq_con_7
+                      2.2247080730e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   86
+---------------------
+Parameters for evaluation 86:
+                      6.1221075489e+00 cdv_1
+                      9.5184721608e+00 cdv_2
+                      2.6587999146e+00 cdv_3
+                      4.4883306357e+00 cdv_4
+                      8.2450452521e-01 cdv_5
+                     -1.5761375660e-02 cdv_6
+                      3.3102266206e-01 cdv_7
+                     -4.9129592593e+00 cdv_8
+                      8.2570295265e+00 cdv_9
+                     -6.6204706295e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 86:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.0208904590e+03 obj_fn
+                     -7.8128910000e+01 nln_ineq_con_1
+                     -3.0380006000e+01 nln_ineq_con_2
+                      1.2586173000e+01 nln_ineq_con_3
+                      8.3657349000e+01 nln_ineq_con_4
+                      2.2573573800e+02 nln_ineq_con_5
+                      3.4725495000e+01 nln_ineq_con_6
+                      4.5547652000e+01 nln_ineq_con_7
+                      8.5880575000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   87
+---------------------
+Parameters for evaluation 87:
+                     -9.7271077948e+00 cdv_1
+                      9.8014571514e+00 cdv_2
+                      6.0605397779e+00 cdv_3
+                     -1.4637587246e+00 cdv_4
+                      1.4198589400e+00 cdv_5
+                     -5.7816306287e+00 cdv_6
+                      3.0976406945e+00 cdv_7
+                     -3.4363754429e+00 cdv_8
+                     -3.3965144100e+00 cdv_9
+                     -1.9286634603e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 87:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.3098244640e+03 obj_fn
+                     -1.3512144600e+02 nln_ineq_con_1
+                     -2.3521537800e+02 nln_ineq_con_2
+                      7.2294532000e+01 nln_ineq_con_3
+                      5.6132104500e+02 nln_ineq_con_4
+                      5.1442597000e+02 nln_ineq_con_5
+                      2.0626861400e+02 nln_ineq_con_6
+                      4.3268141000e+02 nln_ineq_con_7
+                      1.6600571990e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   88
+---------------------
+Parameters for evaluation 88:
+                     -7.6245557582e+00 cdv_1
+                     -2.1564644823e+00 cdv_2
+                      1.8233824430e+00 cdv_3
+                      8.7592207184e+00 cdv_4
+                      9.9638144439e+00 cdv_5
+                     -1.6391760448e+00 cdv_6
+                      3.5693088104e+00 cdv_7
+                      3.7219470182e+00 cdv_8
+                     -7.9790226008e+00 cdv_9
+                      2.1497589630e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 88:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.5099350100e+03 obj_fn
+                     -1.2349094900e+02 nln_ineq_con_1
+                     -1.1222819700e+02 nln_ineq_con_2
+                      4.8888600000e-01 nln_ineq_con_3
+                      2.0958762600e+02 nln_ineq_con_4
+                      2.3334322900e+02 nln_ineq_con_5
+                      4.6733945200e+02 nln_ineq_con_6
+                      2.0093465500e+02 nln_ineq_con_7
+                      3.0588365270e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   89
+---------------------
+Parameters for evaluation 89:
+                     -5.7368582265e+00 cdv_1
+                     -3.5353857470e-01 cdv_2
+                      7.5247432625e+00 cdv_3
+                      6.5335088917e+00 cdv_4
+                     -4.4478836140e+00 cdv_5
+                      7.9692449128e+00 cdv_6
+                     -8.0465472232e+00 cdv_7
+                     -9.4108990830e+00 cdv_8
+                     -9.6692116305e+00 cdv_9
+                     -9.3172311225e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 89:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      4.2501912560e+03 obj_fn
+                     -1.9027357600e+02 nln_ineq_con_1
+                      6.3429231000e+01 nln_ineq_con_2
+                      3.4761930000e+00 nln_ineq_con_3
+                      1.7207077000e+02 nln_ineq_con_4
+                      1.1098722700e+02 nln_ineq_con_5
+                      1.5363899400e+02 nln_ineq_con_6
+                     -3.0306187000e+01 nln_ineq_con_7
+                      3.8267224370e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   90
+---------------------
+Parameters for evaluation 90:
+                      5.1160520426e+00 cdv_1
+                      6.6562875231e+00 cdv_2
+                      9.0675198983e+00 cdv_3
+                     -1.6090127121e+00 cdv_4
+                     -2.2894137661e+00 cdv_5
+                     -8.7088804920e+00 cdv_6
+                     -7.1370073826e+00 cdv_7
+                      1.4230762658e+00 cdv_8
+                     -8.8231315086e+00 cdv_9
+                     -7.6847079280e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 90:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.8940955180e+03 obj_fn
+                     -1.7035646000e+01 nln_ineq_con_1
+                      1.2208549800e+02 nln_ineq_con_2
+                     -6.8362083000e+01 nln_ineq_con_3
+                      1.3830601800e+02 nln_ineq_con_4
+                      1.5674794600e+02 nln_ineq_con_5
+                      1.2703431000e+01 nln_ineq_con_6
+                     -2.1914723000e+01 nln_ineq_con_7
+                      3.4745955700e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   91
+---------------------
+Parameters for evaluation 91:
+                      4.5812554564e+00 cdv_1
+                     -4.1046610160e+00 cdv_2
+                      5.3686233683e+00 cdv_3
+                      2.3567384573e+00 cdv_4
+                     -7.8202016246e+00 cdv_5
+                      7.6747149799e+00 cdv_6
+                      2.0187529170e+00 cdv_7
+                     -8.7277984146e+00 cdv_8
+                      4.2866257868e+00 cdv_9
+                     -2.2508125300e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 91:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.2064048210e+03 obj_fn
+                     -1.9180472800e+02 nln_ineq_con_1
+                      2.6875446000e+01 nln_ineq_con_2
+                     -3.0924612000e+01 nln_ineq_con_3
+                      1.4304053600e+02 nln_ineq_con_4
+                      2.7787379000e+01 nln_ineq_con_5
+                      2.8300691300e+02 nln_ineq_con_6
+                      1.5973137000e+01 nln_ineq_con_7
+                      1.4285373200e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   92
+---------------------
+Parameters for evaluation 92:
+                      3.1961221101e+00 cdv_1
+                      9.1677963505e-01 cdv_2
+                      9.7607177294e+00 cdv_3
+                     -6.0967365168e+00 cdv_4
+                     -6.7781253207e+00 cdv_5
+                      1.9198433988e+00 cdv_6
+                     -3.4579828063e+00 cdv_7
+                      6.4573219609e-01 cdv_8
+                     -5.3621521502e+00 cdv_9
+                     -2.6367350012e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 92:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.8875273140e+03 obj_fn
+                     -7.1446075000e+01 nln_ineq_con_1
+                      8.4704156000e+01 nln_ineq_con_2
+                     -5.7272708000e+01 nln_ineq_con_3
+                      1.3487172900e+02 nln_ineq_con_4
+                      4.4746691000e+01 nln_ineq_con_5
+                      1.3646022200e+02 nln_ineq_con_6
+                     -9.0111948000e+01 nln_ineq_con_7
+                      2.1569347780e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   93
+---------------------
+Parameters for evaluation 93:
+                     -3.8854480357e+00 cdv_1
+                     -1.9003720780e+00 cdv_2
+                     -6.0547588683e+00 cdv_3
+                      3.2402075334e+00 cdv_4
+                     -4.8802134915e+00 cdv_5
+                     -1.2157719092e+00 cdv_6
+                     -6.0748474465e+00 cdv_7
+                      7.7634165327e+00 cdv_8
+                     -5.6102498158e+00 cdv_9
+                      1.6956290619e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 93:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.0564041790e+03 obj_fn
+                     -4.1948361000e+01 nln_ineq_con_1
+                      9.5147736000e+01 nln_ineq_con_2
+                     -1.6159667000e+01 nln_ineq_con_3
+                      1.3060883900e+02 nln_ineq_con_4
+                      1.5911735200e+02 nln_ineq_con_5
+                      1.8292594200e+02 nln_ineq_con_6
+                     -3.6352300000e+01 nln_ineq_con_7
+                      2.2112515090e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   94
+---------------------
+Parameters for evaluation 94:
+                      8.5375348187e+00 cdv_1
+                     -4.9930435684e+00 cdv_2
+                      3.0337872563e+00 cdv_3
+                      3.7809350693e+00 cdv_4
+                     -8.8894305291e+00 cdv_5
+                      4.4690198349e+00 cdv_6
+                      5.6371084743e+00 cdv_7
+                      6.9145394911e+00 cdv_8
+                      4.6013117007e+00 cdv_9
+                     -5.0952636514e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 94:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      6.3006379300e+02 obj_fn
+                     -5.0495549000e+01 nln_ineq_con_1
+                      4.3317932000e+01 nln_ineq_con_2
+                     -5.7089280000e+01 nln_ineq_con_3
+                      2.5571425100e+02 nln_ineq_con_4
+                      2.8573970300e+02 nln_ineq_con_5
+                      3.6449104300e+02 nln_ineq_con_6
+                      1.2703033700e+02 nln_ineq_con_7
+                      1.1870896600e+02 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   95
+---------------------
+Parameters for evaluation 95:
+                      7.0280316323e+00 cdv_1
+                     -5.6259761997e+00 cdv_2
+                      8.4357235868e+00 cdv_3
+                     -9.8633059307e+00 cdv_4
+                      8.5842613991e+00 cdv_5
+                      6.5179942673e+00 cdv_6
+                      3.3057732655e+00 cdv_7
+                     -2.0599275216e+00 cdv_8
+                      6.7823263774e+00 cdv_9
+                     -8.1452290043e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 95:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.5168730080e+03 obj_fn
+                     -1.3347442200e+02 nln_ineq_con_1
+                      5.4970125000e+01 nln_ineq_con_2
+                     -2.9274116000e+01 nln_ineq_con_3
+                      4.6483917400e+02 nln_ineq_con_4
+                      1.8761769500e+02 nln_ineq_con_5
+                      3.7034183400e+02 nln_ineq_con_6
+                      3.5844499700e+02 nln_ineq_con_7
+                      1.9969400000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   96
+---------------------
+Parameters for evaluation 96:
+                     -2.2595145165e+00 cdv_1
+                     -7.9660937167e+00 cdv_2
+                     -8.4038913746e+00 cdv_3
+                      6.2597682684e+00 cdv_4
+                     -3.4851852339e-02 cdv_5
+                      1.8668176499e-01 cdv_6
+                     -1.3670992813e+00 cdv_7
+                     -6.1107488593e+00 cdv_8
+                      5.7178801288e+00 cdv_9
+                     -1.5236414309e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 96:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      2.7981729970e+03 obj_fn
+                     -2.0476396900e+02 nln_ineq_con_1
+                      5.2152795000e+01 nln_ineq_con_2
+                      2.1780612000e+01 nln_ineq_con_3
+                      5.1288364000e+02 nln_ineq_con_4
+                      1.1675083000e+02 nln_ineq_con_5
+                      3.0882057900e+02 nln_ineq_con_6
+                      1.6707783700e+02 nln_ineq_con_7
+                      3.2144325000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   97
+---------------------
+Parameters for evaluation 97:
+                     -3.4203985753e+00 cdv_1
+                     -9.1076604678e+00 cdv_2
+                     -2.6988508635e+00 cdv_3
+                      4.7884090460e+00 cdv_4
+                      6.4097799074e+00 cdv_5
+                     -4.2449261374e+00 cdv_6
+                     -3.6931167470e+00 cdv_7
+                     -8.8850005438e+00 cdv_8
+                      9.3186299394e+00 cdv_9
+                      1.4295173773e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 97:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.3738795270e+03 obj_fn
+                     -2.3310555100e+02 nln_ineq_con_1
+                      8.3670282000e+01 nln_ineq_con_2
+                      4.0881983000e+01 nln_ineq_con_3
+                      5.3557265900e+02 nln_ineq_con_4
+                      1.1727537000e+01 nln_ineq_con_5
+                      5.0633503900e+02 nln_ineq_con_6
+                      2.9013755600e+02 nln_ineq_con_7
+                     -3.3525970000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   98
+---------------------
+Parameters for evaluation 98:
+                      8.3392725261e-01 cdv_1
+                     -3.7857560605e+00 cdv_2
+                     -8.9681950029e+00 cdv_3
+                      1.6355940911e+00 cdv_4
+                      5.9551842838e+00 cdv_5
+                      9.1097552218e+00 cdv_6
+                      6.3801196915e+00 cdv_7
+                      5.6547617874e+00 cdv_8
+                     -3.5010505857e+00 cdv_9
+                      2.8858642011e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 98:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.2644906040e+03 obj_fn
+                     -8.8840574000e+01 nln_ineq_con_1
+                     -5.8527190000e+01 nln_ineq_con_2
+                     -4.9519911000e+01 nln_ineq_con_3
+                      2.1767300300e+02 nln_ineq_con_4
+                      1.5396679800e+02 nln_ineq_con_5
+                      2.1419519900e+02 nln_ineq_con_6
+                      1.4822229600e+02 nln_ineq_con_7
+                      1.5418726070e+03 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation   99
+---------------------
+Parameters for evaluation 99:
+                     -1.2495813142e-01 cdv_1
+                      2.5112432979e+00 cdv_2
+                     -6.2848348972e+00 cdv_3
+                      8.2341050747e+00 cdv_4
+                     -6.1026496652e+00 cdv_5
+                      6.6062628659e+00 cdv_6
+                      8.7688230081e+00 cdv_7
+                      7.8446599238e+00 cdv_8
+                      8.5105958949e+00 cdv_9
+                     -3.9295846906e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 99:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      7.0275964900e+02 obj_fn
+                     -4.8648146000e+01 nln_ineq_con_1
+                     -1.5472019900e+02 nln_ineq_con_2
+                      4.4434301000e+01 nln_ineq_con_3
+                     -8.4138563000e+01 nln_ineq_con_4
+                      1.1461697700e+02 nln_ineq_con_5
+                      1.1256100100e+02 nln_ineq_con_6
+                     -9.0877404000e+01 nln_ineq_con_7
+                      4.6077925000e+01 nln_ineq_con_8
+
+
+
+---------------------
+Begin Evaluation  100
+---------------------
+Parameters for evaluation 100:
+                     -2.6904324432e+00 cdv_1
+                      5.6218621027e+00 cdv_2
+                      9.8378577777e-01 cdv_3
+                     -3.1287381043e+00 cdv_4
+                      1.3632571810e+00 cdv_5
+                      9.4987544252e+00 cdv_6
+                     -8.5288395788e+00 cdv_7
+                     -7.3429412377e+00 cdv_8
+                      3.8013067367e+00 cdv_9
+                     -3.7183533588e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 100:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      3.0134999630e+03 obj_fn
+                     -1.2815237200e+02 nln_ineq_con_1
+                      5.8425169000e+01 nln_ineq_con_2
+                      4.7210424000e+01 nln_ineq_con_3
+                     -2.6660510000e+00 nln_ineq_con_4
+                      7.2586912000e+01 nln_ineq_con_5
+                      2.8480202000e+01 nln_ineq_con_6
+                      7.3311523000e+01 nln_ineq_con_7
+                      2.7937924500e+02 nln_ineq_con_8
+
+
+
+>>>>> Appending 100 points to global_kriging approximations.
+
+<<<<< global_kriging approximation updates completed.
+Constructing global approximations with no anchor, 100 DACE samples, and 0 reused points.
+
+<<<<< global_kriging approximation builds completed.
+
+>>>>> Initiating global iteration 1 (acquisition batch 1)
+Beginning Approximate Fn Evaluations...
+NCSU DIRECT succeeded with code 4
+(volume of best hyperrectangle is less than the prescribed percentage of the original)
+
+Results of EGO iteration:
+Final point =
+                      2.2222222222e+00 cdv_1
+                      2.9629629630e+00 cdv_2
+                      7.4074074074e+00 cdv_3
+                      5.1851851852e+00 cdv_4
+                      2.4691358025e-01 cdv_5
+                      3.4567901235e+00 cdv_6
+                      1.2345679012e+00 cdv_7
+                      3.2098765432e+00 cdv_8
+                      8.3950617284e+00 cdv_9
+                      8.8888888889e+00 cdv_10
+Expected Improvement    =
+                      1.4365323534e+05
+
+---------------------
+Begin Evaluation  101
+---------------------
+Parameters for evaluation 101:
+                      2.2222222222e+00 cdv_1
+                      2.9629629630e+00 cdv_2
+                      7.4074074074e+00 cdv_3
+                      5.1851851852e+00 cdv_4
+                      2.4691358025e-01 cdv_5
+                      3.4567901235e+00 cdv_6
+                      1.2345679012e+00 cdv_7
+                      3.2098765432e+00 cdv_8
+                      8.3950617284e+00 cdv_9
+                      8.8888888889e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 101:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      4.5298765400e+02 obj_fn
+                     -5.6111111000e+01 nln_ineq_con_1
+                     -1.6049383000e+01 nln_ineq_con_2
+                      3.4567900000e-01 nln_ineq_con_3
+                     -4.6403292000e+01 nln_ineq_con_4
+                      5.4870000000e-03 nln_ineq_con_5
+                     -1.4431642000e+01 nln_ineq_con_6
+                     -6.3758570000e+00 nln_ineq_con_7
+                     -4.9238226000e+01 nln_ineq_con_8
+
+
+
+>>>>> Appending to global_kriging approximations.
+
+<<<<< global_kriging approximation updates completed.
+
+>>>>> Initiating global iteration 2 (acquisition batch 1)
+NCSU DIRECT succeeded with code 2
+(maximum iterations reached)
+
+Results of EGO iteration:
+Final point =
+                      0.0000000000e+00 cdv_1
+                      0.0000000000e+00 cdv_2
+                      0.0000000000e+00 cdv_3
+                      0.0000000000e+00 cdv_4
+                      0.0000000000e+00 cdv_5
+                      0.0000000000e+00 cdv_6
+                      0.0000000000e+00 cdv_7
+                      0.0000000000e+00 cdv_8
+                      0.0000000000e+00 cdv_9
+                      0.0000000000e+00 cdv_10
+Expected Improvement    =
+                      0.0000000000e+00
+
+---------------------
+Begin Evaluation  102
+---------------------
+Parameters for evaluation 102:
+                      0.0000000000e+00 cdv_1
+                      0.0000000000e+00 cdv_2
+                      0.0000000000e+00 cdv_3
+                      0.0000000000e+00 cdv_4
+                      0.0000000000e+00 cdv_5
+                      0.0000000000e+00 cdv_6
+                      0.0000000000e+00 cdv_7
+                      0.0000000000e+00 cdv_8
+                      0.0000000000e+00 cdv_9
+                      0.0000000000e+00 cdv_10
+
+blocking fork: python gseven_driver.py params.in results.out
+
+Active response data for evaluation 102:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.3520000000e+03 obj_fn
+                     -1.0500000000e+02 nln_ineq_con_1
+                      0.0000000000e+00 nln_ineq_con_2
+                     -1.2000000000e+01 nln_ineq_con_3
+                     -7.2000000000e+01 nln_ineq_con_4
+                     -4.0000000000e+00 nln_ineq_con_5
+                      3.4000000000e+01 nln_ineq_con_6
+                      8.0000000000e+00 nln_ineq_con_7
+                      7.6800000000e+02 nln_ineq_con_8
+
+
+
+>>>>> Appending to global_kriging approximations.
+
+<<<<< global_kriging approximation updates completed.
+
+>>>>> Initiating global iteration 3 (acquisition batch 1)
+NCSU DIRECT succeeded with code 2
+(maximum iterations reached)
+
+Results of EGO iteration:
+Final point =
+                      0.0000000000e+00 cdv_1
+                      0.0000000000e+00 cdv_2
+                      0.0000000000e+00 cdv_3
+                      0.0000000000e+00 cdv_4
+                      0.0000000000e+00 cdv_5
+                      0.0000000000e+00 cdv_6
+                      0.0000000000e+00 cdv_7
+                      0.0000000000e+00 cdv_8
+                      0.0000000000e+00 cdv_9
+                      0.0000000000e+00 cdv_10
+Expected Improvement    =
+                      0.0000000000e+00
+
+---------------------
+Begin Evaluation  103
+---------------------
+Parameters for evaluation 103:
+                      0.0000000000e+00 cdv_1
+                      0.0000000000e+00 cdv_2
+                      0.0000000000e+00 cdv_3
+                      0.0000000000e+00 cdv_4
+                      0.0000000000e+00 cdv_5
+                      0.0000000000e+00 cdv_6
+                      0.0000000000e+00 cdv_7
+                      0.0000000000e+00 cdv_8
+                      0.0000000000e+00 cdv_9
+                      0.0000000000e+00 cdv_10
+
+Duplication detected: analysis_drivers not invoked.
+
+Active response data retrieved from database:
+Active set vector = { 1 1 1 1 1 1 1 1 1 }
+                      1.3520000000e+03 obj_fn
+                     -1.0500000000e+02 nln_ineq_con_1
+                      0.0000000000e+00 nln_ineq_con_2
+                     -1.2000000000e+01 nln_ineq_con_3
+                     -7.2000000000e+01 nln_ineq_con_4
+                     -4.0000000000e+00 nln_ineq_con_5
+                      3.4000000000e+01 nln_ineq_con_6
+                      8.0000000000e+00 nln_ineq_con_7
+                      7.6800000000e+02 nln_ineq_con_8
+
+
+
+>>>>> Appending to global_kriging approximations.
+
+<<<<< global_kriging approximation updates completed.
+
+Stopping criteria met:     distConvergenceCntr (1) >= distConvergenceLimit (1)
+Stopping criteria met:     eifConvergenceCntr (2) >= eifConvergenceLimit (2)
+Stopping criteria not met: globalIterCount (3) < maxIterations (400)
+<<<<< Function evaluation summary: 103 total (102 new, 1 duplicate)
+<<<<< Best parameters          =
+                      2.2222222222e+00 cdv_1
+                      2.9629629630e+00 cdv_2
+                      7.4074074074e+00 cdv_3
+                      5.1851851852e+00 cdv_4
+                      2.4691358025e-01 cdv_5
+                      3.4567901235e+00 cdv_6
+                      1.2345679012e+00 cdv_7
+                      3.2098765432e+00 cdv_8
+                      8.3950617284e+00 cdv_9
+                      8.8888888889e+00 cdv_10
+<<<<< Best objective function  =
+                      4.5298765400e+02
+<<<<< Best constraint values   =
+                     -5.6111111000e+01
+                     -1.6049383000e+01
+                      3.4567900000e-01
+                     -4.6403292000e+01
+                      5.4870000000e-03
+                     -1.4431642000e+01
+                     -6.3758570000e+00
+                     -4.9238226000e+01
+<<<<< Best evaluation ID: 101
+
+
+<<<<< Iterator efficient_global completed.
+<<<<< Environment execution completed.
+DAKOTA execution time in seconds:
+  Total CPU        =     40.741 [parent =     40.741, child =          0]
+  Total wall clock =     40.744
