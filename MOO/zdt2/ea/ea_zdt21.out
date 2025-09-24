@@ -1,0 +1,82 @@
+Dakota version 6.21 released Nov. 14 2024.
+Repository revision ab97f19b0 (2024-11-11) built Nov 11 2024 19:31:35.
+Running serial Dakota executable in serial mode.
+Start time: Mon Aug 11 15:33:21 2025
+
+-----------------------
+Begin DAKOTA input file
+ea_zdt2.in
+-----------------------
+# optimizes zdt2 with ea
+
+environment
+  tabular_data
+    tabular_data_file = 'results_ea1.dat'
+
+method
+  coliny_ea max_function_evaluations   = 250   #COLINY_EA
+    seed  =  1
+
+variables # adjust number of variables
+  continuous_design = 30
+    lower_bounds = 30*0
+    upper_bounds = 30*1
+
+interface
+  fork
+    analysis_driver = 'python zdt2_driver.py'
+ 
+
+responses
+  num_objective_functions = 2
+  no_gradients
+  no_hessians
+---------------------
+End DAKOTA input file
+---------------------
+
+Using Dakota input file 'ea_zdt2.in'
+Writing new restart file 'dakota.rst'.
+
+Seed (user-specified) = 1
+
+>>>>> Executing environment.
+
+>>>>> Running coliny_ea iterator.
+
+---------------------
+Begin Evaluation    1
+---------------------
+Parameters for evaluation 1:
+                      5.0000000000e-01 cdv_1
+                      5.0000000000e-01 cdv_2
+                      5.0000000000e-01 cdv_3
+                      5.0000000000e-01 cdv_4
+                      5.0000000000e-01 cdv_5
+                      5.0000000000e-01 cdv_6
+                      5.0000000000e-01 cdv_7
+                      5.0000000000e-01 cdv_8
+                      5.0000000000e-01 cdv_9
+                      5.0000000000e-01 cdv_10
+                      5.0000000000e-01 cdv_11
+                      5.0000000000e-01 cdv_12
+                      5.0000000000e-01 cdv_13
+                      5.0000000000e-01 cdv_14
+                      5.0000000000e-01 cdv_15
+                      5.0000000000e-01 cdv_16
+                      5.0000000000e-01 cdv_17
+                      5.0000000000e-01 cdv_18
+                      5.0000000000e-01 cdv_19
+                      5.0000000000e-01 cdv_20
+                      5.0000000000e-01 cdv_21
+                      5.0000000000e-01 cdv_22
+                      5.0000000000e-01 cdv_23
+                      5.0000000000e-01 cdv_24
+                      5.0000000000e-01 cdv_25
+                      5.0000000000e-01 cdv_26
+                      5.0000000000e-01 cdv_27
+                      5.0000000000e-01 cdv_28
+                      5.0000000000e-01 cdv_29
+                      5.0000000000e-01 cdv_30
+
+blocking fork: python zdt2_driver.py C:\Users\cca465\AppData\Local\Temp\dakota_params_3d74be8a C:\Users\cca465\AppData\Local\Temp\dakota_results_e14aa976
