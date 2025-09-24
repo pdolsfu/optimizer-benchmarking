@@ -1,0 +1,76 @@
+1
+
+                                             * * * * * * * * *  L H S  * * * * * * * * *
+
+                                             LATIN HYPERCUBE AND RANDOM SAMPLING PROGRAM
+
+                                             * * * * * * * * * * * * * * * * * * * * * *
+
+
+    Run on  8/12/25 at 20:20:38.68 with LHS Version: 2.30 Release 1, Compiled May 31, 2001        
+
+
+0    Pecos::LHSDriver
+
+    Random Seed =          10
+
+    Number of Variables =  50
+
+    Number of Observations =  100
+0   The sample was written to the file: LHS_samples.out
+0   Input was read from the file: 
+1
+
+    Pecos::LHSDriver                                                                                                             
+
+    VARIABLE  DISTRIBUTION          RANGE            LABEL
+0       1        UNIFORM    -10.0     TO   10.0                                                        
+0       2        UNIFORM    -10.0     TO   10.0                                                        
+0       3        UNIFORM    -10.0     TO   10.0                                                        
+0       4        UNIFORM    -10.0     TO   10.0                                                        
+0       5        UNIFORM    -10.0     TO   10.0                                                        
+0       6        UNIFORM    -10.0     TO   10.0                                                        
+0       7        UNIFORM    -10.0     TO   10.0                                                        
+0       8        UNIFORM    -10.0     TO   10.0                                                        
+0       9        UNIFORM    -10.0     TO   10.0                                                        
+0      10        UNIFORM    -10.0     TO   10.0                                                        
+0      11        UNIFORM    -10.0     TO   10.0                                                        
+0      12        UNIFORM    -10.0     TO   10.0                                                        
+0      13        UNIFORM    -10.0     TO   10.0                                                        
+0      14        UNIFORM    -10.0     TO   10.0                                                        
+0      15        UNIFORM    -10.0     TO   10.0                                                        
+0      16        UNIFORM    -10.0     TO   10.0                                                        
+0      17        UNIFORM    -10.0     TO   10.0                                                        
+0      18        UNIFORM    -10.0     TO   10.0                                                        
+0      19        UNIFORM    -10.0     TO   10.0                                                        
+0      20        UNIFORM    -10.0     TO   10.0                                                        
+0      21        UNIFORM    -10.0     TO   10.0                                                        
+0      22        UNIFORM    -10.0     TO   10.0                                                        
+0      23        UNIFORM    -10.0     TO   10.0                                                        
+0      24        UNIFORM    -10.0     TO   10.0                                                        
+0      25        UNIFORM    -10.0     TO   10.0                                                        
+0      26        UNIFORM    -10.0     TO   10.0                                                        
+0      27        UNIFORM    -10.0     TO   10.0                                                        
+0      28        UNIFORM    -10.0     TO   10.0                                                        
+0      29        UNIFORM    -10.0     TO   10.0                                                        
+0      30        UNIFORM    -10.0     TO   10.0                                                        
+0      31        UNIFORM    -10.0     TO   10.0                                                        
+0      32        UNIFORM    -10.0     TO   10.0                                                        
+0      33        UNIFORM    -10.0     TO   10.0                                                        
+0      34        UNIFORM    -10.0     TO   10.0                                                        
+0      35        UNIFORM    -10.0     TO   10.0                                                        
+0      36        UNIFORM    -10.0     TO   10.0                                                        
+0      37        UNIFORM    -10.0     TO   10.0                                                        
+0      38        UNIFORM    -10.0     TO   10.0                                                        
+0      39        UNIFORM    -10.0     TO   10.0                                                        
+0      40        UNIFORM    -10.0     TO   10.0                                                        
+0      41        UNIFORM    -10.0     TO   10.0                                                        
+0      42        UNIFORM    -10.0     TO   10.0                                                        
+0      43        UNIFORM    -10.0     TO   10.0                                                        
+0      44        UNIFORM    -10.0     TO   10.0                                                        
+0      45        UNIFORM    -10.0     TO   10.0                                                        
+0      46        UNIFORM    -10.0     TO   10.0                                                        
+0      47        UNIFORM    -10.0     TO   10.0                                                        
+0      48        UNIFORM    -10.0     TO   10.0                                                        
+0      49        UNIFORM    -10.0     TO   10.0                                                        
+0      50        UNIFORM    -10.0     TO   10.0                                                        
