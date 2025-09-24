@@ -1,0 +1,24 @@
+# optimizes zdt3 with moga
+
+environment
+  tabular_data
+    tabular_data_file = 'results_moga1.dat'
+
+method
+  moga max_function_evaluations = 250 # MOGA
+    seed  =  1
+
+variables # adjust number of variables
+  continuous_design = 30
+    lower_bounds = 30*0
+    upper_bounds = 30*1
+
+interface
+  fork
+    analysis_driver = 'python zdt3_driver.py'
+ 
+
+responses
+  num_objective_functions = 2
+  no_gradients
+  no_hessians
