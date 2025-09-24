@@ -1,0 +1,61 @@
+# optimizes michalewicz60 with surrogate_based_global
+
+environment
+  tabular_data
+tabular_data_file  =  'results_sbo1.dat'
+
+method
+   surrogate_based_global
+   model_pointer = 'SURROGATE'
+   method_pointer = 'OPT'
+   max_iterations = 900 # modify, along with the samples section lower down, 
+
+model
+  id_model = 'SURROGATE'
+  surrogate global
+    gaussian_process dakota
+    dace_method_pointer = 'SAMPLING'
+    responses_pointer = 'SURROGATE_RESP'
+
+method
+  id_method = 'SAMPLING'
+  sampling
+    samples = 100   # 10xndim
+seed  =  1
+    sample_type lhs
+    model_pointer = 'TRUTH'
+
+method
+  id_method = 'OPT'
+  conmin_frcg
+    max_iterations = 50 # performs optimization on the surrogate model, so no need to modify
+
+model
+  id_model = 'TRUTH'
+  single
+  responses_pointer = 'TRUE_RESP'
+
+variables # modify
+  continuous_design = 60
+    upper_bounds     60*3.1415926
+    lower_bounds     60*0
+
+interface
+   analysis_drivers = 'python michalewicz_driver.py' #MICHALEWICZ
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses # modify
+  id_responses = 'SURROGATE_RESP'
+  objective_functions = 1
+  numerical_gradients 
+    method_source dakota    #default specification for which algorithm to use for computing gradients
+    fd_step_size = 1.e-6    #default specification
+  no_hessians
+
+responses
+   id_responses = 'TRUE_RESP'
+   objective_functions = 1
+   no_hessians
+   no_gradients

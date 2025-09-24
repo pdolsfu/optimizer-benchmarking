@@ -1,0 +1,153 @@
+Dakota version 6.21 released Nov. 14 2024.
+Repository revision ab97f19b0 (2024-11-11) built Nov 11 2024 19:31:35.
+Running serial Dakota executable in serial mode.
+Start time: Fri Aug  8 14:02:27 2025
+
+-----------------------
+Begin DAKOTA input file
+michalewicz60_sbo.in
+-----------------------
+# optimizes michalewicz60 with surrogate_based_global
+
+environment
+  tabular_data
+tabular_data_file  =  'results_sbo1.dat'
+
+method
+   surrogate_based_global
+   model_pointer = 'SURROGATE'
+   method_pointer = 'OPT'
+   max_iterations = 900 # modify, along with the samples section lower down, 
+
+model
+  id_model = 'SURROGATE'
+  surrogate global
+    gaussian_process dakota
+    dace_method_pointer = 'SAMPLING'
+    responses_pointer = 'SURROGATE_RESP'
+
+method
+  id_method = 'SAMPLING'
+  sampling
+    samples = 100   # 10xndim
+seed  =  1
+    sample_type lhs
+    model_pointer = 'TRUTH'
+
+method
+  id_method = 'OPT'
+  conmin_frcg
+    max_iterations = 50 # performs optimization on the surrogate model, so no need to modify
+
+model
+  id_model = 'TRUTH'
+  single
+  responses_pointer = 'TRUE_RESP'
+
+variables # modify
+  continuous_design = 60
+    upper_bounds     60*3.1415926
+    lower_bounds     60*0
+
+interface
+   analysis_drivers = 'python michalewicz_driver.py' #MICHALEWICZ
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses # modify
+  id_responses = 'SURROGATE_RESP'
+  objective_functions = 1
+  numerical_gradients 
+    method_source dakota    #default specification for which algorithm to use for computing gradients
+    fd_step_size = 1.e-6    #default specification
+  no_hessians
+
+responses
+   id_responses = 'TRUE_RESP'
+   objective_functions = 1
+   no_hessians
+   no_gradients---------------------
+End DAKOTA input file
+---------------------
+
+Using Dakota input file 'michalewicz60_sbo.in'
+Writing new restart file 'dakota.rst'.
+Using NCSU DIRECT to optimize correlation coefficients.
+
+>>>>> Executing environment.
+
+>>>>> Running surrogate_based_global iterator.
+
+>>>>> Building global_gaussian approximations.
+
+NonD lhs Samples = 100 Seed (user-specified) = 1
+
+---------------------
+Begin Evaluation    1
+---------------------
+Parameters for evaluation 1:
+                      1.2000287295e+00 cdv_1
+                      1.2529653185e+00 cdv_2
+                      2.3696062174e+00 cdv_3
+                      1.1500217374e+00 cdv_4
+                      2.4901364739e-01 cdv_5
+                      2.9438507760e+00 cdv_6
+                      9.6545014540e-02 cdv_7
+                      1.7429575514e+00 cdv_8
+                      1.0024707931e+00 cdv_9
+                      8.6857884669e-01 cdv_10
+                      1.5590757075e+00 cdv_11
+                      9.6405449634e-01 cdv_12
+                      4.7342181058e-01 cdv_13
+                      7.9360588636e-01 cdv_14
+                      2.9173209532e+00 cdv_15
+                      2.8528261423e+00 cdv_16
+                      1.1173032490e+00 cdv_17
+                      9.0634851923e-01 cdv_18
+                      2.2426894448e+00 cdv_19
+                      1.2091853245e+00 cdv_20
+                      7.7810302567e-01 cdv_21
+                      8.4328029115e-01 cdv_22
+                      1.7505375902e+00 cdv_23
+                      1.1186914912e+00 cdv_24
+                      3.5029334994e-01 cdv_25
+                      8.6583268204e-03 cdv_26
+                      2.8568303613e+00 cdv_27
+                      9.0852462549e-01 cdv_28
+                      2.6046126220e+00 cdv_29
+                      3.5874646818e-01 cdv_30
+                      2.7021057551e+00 cdv_31
+                      3.0399994130e+00 cdv_32
+                      6.5915043840e-01 cdv_33
+                      2.5559470500e+00 cdv_34
+                      1.4290301871e+00 cdv_35
+                      1.4344795148e+00 cdv_36
+                      2.2801988247e+00 cdv_37
+                      1.0247250300e+00 cdv_38
+                      1.1095446277e+00 cdv_39
+                      1.2533785798e+00 cdv_40
+                      5.7628708975e-01 cdv_41
+                      9.4350687757e-01 cdv_42
+                      2.9331556412e+00 cdv_43
+                      1.9721330389e+00 cdv_44
+                      7.1331683393e-01 cdv_45
+                      2.9120425410e+00 cdv_46
+                      9.5463719559e-01 cdv_47
+                      9.6302357368e-01 cdv_48
+                      1.8183272307e+00 cdv_49
+                      7.7116153483e-01 cdv_50
+                      6.9831765270e-01 cdv_51
+                      6.5714383825e-02 cdv_52
+                      1.2759647990e+00 cdv_53
+                      2.4090429691e+00 cdv_54
+                      2.2226996444e+00 cdv_55
+                      1.7714719717e+00 cdv_56
+                      1.6000572653e+00 cdv_57
+                      2.9056027282e+00 cdv_58
+                      2.6795447314e-01 cdv_59
+                      2.0661060616e+00 cdv_60
+
+blocking fork: python michalewicz_driver.py params.in results.out
+
+Dakota caught signal 2
