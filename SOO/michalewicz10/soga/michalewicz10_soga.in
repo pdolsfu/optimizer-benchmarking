@@ -1,0 +1,28 @@
+# This .in file optimizes the michalewicz10 problem with {method}
+
+environment
+    tabular_data
+tabular_data_file  =  'results_soga10.dat'
+
+method 
+  soga                  max_iterations = 20 population_size = 50 		 # SOGA
+seed  =  10
+	
+model
+   single
+
+variables  # modify variables if needed
+  continuous_design = 10
+    upper_bounds     10*3.141593
+    lower_bounds     10*0
+
+interface
+   analysis_drivers = 'python michalewicz_driver.py' #MICHALEWICZ
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses
+   objective_functions = 1
+   no_gradients
+   no_hessians
