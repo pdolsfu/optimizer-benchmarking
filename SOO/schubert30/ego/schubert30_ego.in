@@ -1,0 +1,28 @@
+# This .in file optimizes the schubert30 problem with ego
+
+environment
+    tabular_data
+tabular_data_file  =  'results_ego10.dat'
+
+method 
+  efficient_global 	max_iterations = 900 initial_samples = 100               # ego
+seed  =  10
+	
+model
+   single
+
+variables  # modify variables if needed
+  continuous_design = 30
+    upper_bounds     30*5.12
+    lower_bounds     30*-5.12
+
+interface
+   analysis_drivers = 'python schubert_driver.py' #SCHUBERT
+   fork
+        parameters_file = 'params.in'
+        results_file    = 'results.out'
+
+responses
+   objective_functions = 1
+   no_gradients
+   no_hessians

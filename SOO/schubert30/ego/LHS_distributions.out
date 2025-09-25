@@ -1,0 +1,56 @@
+1
+
+                                             * * * * * * * * *  L H S  * * * * * * * * *
+
+                                             LATIN HYPERCUBE AND RANDOM SAMPLING PROGRAM
+
+                                             * * * * * * * * * * * * * * * * * * * * * *
+
+
+    Run on  8/ 5/25 at  6:59:58.85 with LHS Version: 2.30 Release 1, Compiled May 31, 2001        
+
+
+0    Pecos::LHSDriver
+
+    Random Seed =          10
+
+    Number of Variables =  30
+
+    Number of Observations =  100
+0   The sample was written to the file: LHS_samples.out
+0   Input was read from the file: 
+1
+
+    Pecos::LHSDriver                                                                                                             
+
+    VARIABLE  DISTRIBUTION          RANGE            LABEL
+0       1        UNIFORM    -5.12     TO   5.12                                                        
+0       2        UNIFORM    -5.12     TO   5.12                                                        
+0       3        UNIFORM    -5.12     TO   5.12                                                        
+0       4        UNIFORM    -5.12     TO   5.12                                                        
+0       5        UNIFORM    -5.12     TO   5.12                                                        
+0       6        UNIFORM    -5.12     TO   5.12                                                        
+0       7        UNIFORM    -5.12     TO   5.12                                                        
+0       8        UNIFORM    -5.12     TO   5.12                                                        
+0       9        UNIFORM    -5.12     TO   5.12                                                        
+0      10        UNIFORM    -5.12     TO   5.12                                                        
+0      11        UNIFORM    -5.12     TO   5.12                                                        
+0      12        UNIFORM    -5.12     TO   5.12                                                        
+0      13        UNIFORM    -5.12     TO   5.12                                                        
+0      14        UNIFORM    -5.12     TO   5.12                                                        
+0      15        UNIFORM    -5.12     TO   5.12                                                        
+0      16        UNIFORM    -5.12     TO   5.12                                                        
+0      17        UNIFORM    -5.12     TO   5.12                                                        
+0      18        UNIFORM    -5.12     TO   5.12                                                        
+0      19        UNIFORM    -5.12     TO   5.12                                                        
+0      20        UNIFORM    -5.12     TO   5.12                                                        
+0      21        UNIFORM    -5.12     TO   5.12                                                        
+0      22        UNIFORM    -5.12     TO   5.12                                                        
+0      23        UNIFORM    -5.12     TO   5.12                                                        
+0      24        UNIFORM    -5.12     TO   5.12                                                        
+0      25        UNIFORM    -5.12     TO   5.12                                                        
+0      26        UNIFORM    -5.12     TO   5.12                                                        
+0      27        UNIFORM    -5.12     TO   5.12                                                        
+0      28        UNIFORM    -5.12     TO   5.12                                                        
+0      29        UNIFORM    -5.12     TO   5.12                                                        
+0      30        UNIFORM    -5.12     TO   5.12                                                        
