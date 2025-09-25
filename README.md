@@ -1,10 +1,9 @@
-# optimizer-benchmarking
-Benchmark OASIS.AI against Dakota and Python open-source optimizers
-
 # Optimization Solver Benchmark Test
 Author: Connor Chai
 Date: August 22 2025
-Supervisor: Gary Wang 
+
+# Scope
+Benchmark OASIS.AI against Dakota and Python open-source optimizers
 
 ## A Brief Note On How Dakota Works
 Dakota is a framework that is used for engineering analysis and can perform a number of tasks, such as uncertainty quantification and optimization. When using it to run optimization problems, there are a few things the user should be aware of, including the files types and the 6 types of blocks in a Dakota `.in` file. Version 22.0 was used for this benchmark test.
