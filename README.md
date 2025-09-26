@@ -24,7 +24,7 @@ Several helper functions are included in `python_solvers.py` to help the Nevergr
 ### Oasis (`oasis_processor.py`)
 This simple script is called when running `grapher.py` and is used to post-processes OASIS.AI data from the `oasis_raw_results` folder to create the three data files used by `grapher.py` (summary of best minima per instance, average running minima per function evaluation, and runtime per instance). The results using OASIS.AI were genereated independent of the author of this report, and the raw data can be found in the respective MOO and SOO folders under `oasis_raw_results`
 
-## GRAPHER (`grapher.py`)
+## Grapher (`grapher.py`)
 For all problems listed in `problem_folders`, this script traverses all the solvers listed in `solver_names` to create a boxplot, convergence chart, and table outlining the runtime for each instance for each of the solvers, using files from each solver subfolder. 
 
 ### Other comments on SOO unconstrained solver results:
@@ -48,10 +48,10 @@ The code for Dakota constrained SO was set up in the same way as for the batch a
 ## Bi-Objective Optimization (MOO) Benchmark (Python/Dakota/Oasis)
 The structure of the code for running the MOO problems is very similar to that of SOO.
 
-### DAKOTA (`dakota_batch_optimization.py`)
+### Dakota (`dakota_batch_optimization.py`)
 The script that modifies and runs the Dakota .in files for each instance of each solver in order to raw .dat files which are then used to generate .tsv files with f1 f2 pairs of non-dominated solutions. The accompanying files for running the Dakota code are found in  `drivers_and_templates`, similarly to the SOO folder of the same name. The output for each solver includes the raw data from each instance, a .tsv file with the non-dominated solutions, and a .tsv file with instance runtimes. When the setup flag is set to true, the drivers and Dakota files for each problem are copied into the respective problem folders. Setting the setup flag to false allows for the script to run the optimization process as normal.
 
-### PYTHON (`python_batch_optimization.py`, `python_definitions`, `python_problems_and_constraints.py`, `python_solvers`, and `python_OMADS_MOO`)
+### Python (`python_batch_optimization.py`, `python_definitions`, `python_problems_and_constraints.py`, `python_solvers`, and `python_OMADS_MOO`)
 A series of scripts that creates the same output as the Dakota script for each of the solvers defined in Python. `graphy.py` iterates through the data from each solver for each problem to create Pareto Frontier graphs instead of boxplots and convergence charts. `python_batch_optimizer.py' runs the Python solvers on the suite of problems, with the help of `python_solvers.py`, `python_definitions`, and `python_problems_and_constraints` to define the raw functions (with constraints when necessary), presets for solving functions (dimensionality, budget, bounds), and solvers (with the help of wrapper classes). Additionally, an extra file was created for implementing OMADS on this suite of problems, `python_OMADS_MOO.py`, which runs and post-processes the data from OMADS independen of other scripts. OMADS required a different format of definitions for the functions and problems. ` 
 
 A Pareto Frontier is the set of non-dominated solutions which can be used to visually compare bi-objective solvers. These are created by iterating through the {solver}_pareto.tsv files for each solver. If it is a constrained problem, only non-dominating solutions that satisfy the constraints are recorded and plotted as the Pareto Frontier. The Pareto Froniter filtering is done inside the main batch optimization script for the three Pymoo implementations and OASIS.AI. The comparison of hypervolume calculations for each solver was alos implemented. The hypervolume of a solver for a given problem gives a relative value to the rest of the solvers for how close the set of non-dominated solutions are to the origin. A higher hypervolume indicates higher performance.
